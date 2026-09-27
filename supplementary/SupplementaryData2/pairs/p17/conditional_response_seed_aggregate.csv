@@ -1,0 +1,5 @@
+zone,zone_label,feature_a,feature_b,condition,feature_a_value,predicted_pwp_mean,predicted_pwp_sd,b_lower_quartile_cut,b_upper_quartile_cut,n_condition,n_seeds
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,B <= Q1 threshold,0.0,31.719560128144916,0.0025818520066295766,0.30312213020739814,0.4056590584966622,428,3
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,B <= Q1 threshold,54.03781094527363,31.422033291031827,0.01431590740919804,0.30312213020739814,0.4056590584966622,428,3
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,B >= Q3 threshold,0.0,31.47797006982623,0.0009901991552328283,0.30312213020739814,0.4056590584966622,428,3
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,B >= Q3 threshold,54.03781094527363,31.285679006101557,0.002823746600694706,0.30312213020739814,0.4056590584966622,428,3

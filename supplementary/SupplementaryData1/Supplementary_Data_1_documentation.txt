@@ -1,0 +1,35 @@
+SUPPLEMENTARY DATA 1: MODEL PERFORMANCE
+
+Data file: Supplementary_Data_1_model_performance.csv
+Encoding: UTF-8, comma-separated, one header row; decimal point notation.
+The CSV is preserved byte-for-byte from the approved submission data.
+
+There are 156 records: 13 model algorithms by four urban-form types by three
+random seeds. Twelve algorithms are global candidates. GWRF is the additional
+geographically weighted comparator, not a thirteenth global candidate.
+Figure 5 ranks the nine global algorithms retained after model screening.
+
+Field definitions
+Experiment_ID: identifier of the archived modelling run; the same run label
+can cover multiple seeds and algorithms. It is not an observation identifier.
+Seed: training/test split and model-fitting seed (42, 142 or 242).
+Zone: urban-form identifier. Zone1 = Compact; Zone2 = Open mid-/high-rise;
+Zone3 = Open low-rise; Zone4 = Green-space-dominated.
+Zone_Label: English label corresponding to Zone.
+Code: archived modelling-module identifier; retained for traceability.
+Model: algorithm name.
+Train_R2: coefficient of determination for the 70% training split.
+Train_RMSE: training root mean squared error, degrees Celsius.
+Train_MAE: training mean absolute error, degrees Celsius.
+Test_R2: coefficient of determination for the 30% held-out split.
+Test_RMSE: held-out root mean squared error, degrees Celsius.
+Test_MAE: held-out mean absolute error, degrees Celsius.
+Overfitting_Score: Train_R2 minus Test_R2, dimensionless.
+
+The response is daytime land-surface temperature weighted by residents aged
+65 years and older (PWP), in degrees Celsius. Type sample sizes are 646, 1,059,
+660 and 1,710, respectively, totalling 4,075 analytical one-kilometre grids.
+Seed values do not denote independent samples. Performance values are rounded
+to three decimal places in this ledger, so displayed differences can contain
+small rounding discrepancies. These are held-out performance records, not the
+performance of explanatory models refitted to all observations.

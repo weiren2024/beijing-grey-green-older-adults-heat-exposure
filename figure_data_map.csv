@@ -1,0 +1,10 @@
+figure,relative_files_or_directories,content
+Figure 1,data/Figure1/workflow_map_values.csv;data/Figure1/workflow_geometry.json,Workflow map inputs and spatial geometry
+Figure 2,data/Figure2/spatial_layers.json,Study-area and grid geometry
+Figure 3,data/Figure3/grid_data.csv;data/Figure3/grid_geometry.json;data/Figure3/density_curves.csv;data/Figure3/type_summary.csv,PWP distribution and composition
+Figure 4,data/Figure2/spatial_layers.json;data/Figure4/class_counts.csv;data/Figure4/structural_profiles.csv,Morphology types and structural profiles
+Figure 5,data/Figure5/candidate_ranking.csv;data/Figure5/seed_aggregate.csv;supplementary/SupplementaryData1/Supplementary_Data_1_model_performance.csv,Model selection and held-out performance
+Figure 6,data/Figure6_Figure7/shap_all_models.csv,Primary-model variable importance
+Figure 7,data/Figure6_Figure7/shap_all_models.csv,Cross-model variable importance
+Figure 8,data/Figure8/gbdt_pdp_points.csv;data/Figure8/gbdt_pdp_deciles.csv,Partial-dependence curves and observed predictor distributions
+Figure 9,supplementary/SupplementaryData2/05_qualified_pairs.csv;supplementary/SupplementaryData2/pairs/p01; supplementary/SupplementaryData2/pairs/p03;supplementary/SupplementaryData2/pairs/p16,Conditional curves and observed support; shared with complete supplementary screen

@@ -1,0 +1,5 @@
+zone,zone_label,feature_a,feature_b,condition,feature_a_value,predicted_pwp_mean,predicted_pwp_sd,b_lower_quartile_cut,b_upper_quartile_cut,n_condition,n_seeds
+Zone2,Open mid-/high-rise,GCORE_Pct,BCORE_Pct,B <= Q1 threshold,0.0,32.29433317584548,0.015523676706250438,19.81417127348741,94.24834789894487,265,3
+Zone2,Open mid-/high-rise,GCORE_Pct,BCORE_Pct,B <= Q1 threshold,0.2744739249771272,32.09324846842197,0.0032799013547391634,19.81417127348741,94.24834789894487,265,3
+Zone2,Open mid-/high-rise,GCORE_Pct,BCORE_Pct,B >= Q3 threshold,0.0,34.22541227383801,0.0025427386767742865,19.81417127348741,94.24834789894487,265,3
+Zone2,Open mid-/high-rise,GCORE_Pct,BCORE_Pct,B >= Q3 threshold,0.2744739249771272,33.95001675865366,0.03342258570225185,19.81417127348741,94.24834789894487,265,3

@@ -1,0 +1,104 @@
+SUPPLEMENTARY DATA 2: CONDITIONAL ANALYSIS
+
+Scope
+This dataset contains the pair rankings, complete screening records, conditional
+prediction curves and observed two-dimensional support for Figure 9. Values are
+the archived analytical outputs. No models were fitted when assembling this
+release. All CSV files are UTF-8 encoded, with a header row and decimal points.
+data_dictionary.csv defines every column in the analytical CSV files.
+
+Study types and predictors
+Zone1 = Compact (646 analytical grids).
+Zone2 = Open mid-/high-rise (1,059 analytical grids).
+Zone3 = Open low-rise (660 analytical grids).
+Zone4 = Green-space-dominated (1,710 analytical grids).
+The total is 4,075 one-kilometre grids. PWP is daytime land-surface temperature
+weighted by residents aged 65 years and older, expressed in degrees Celsius.
+
+BuildHeight_Mean: mean building height, metres.
+CanopyHeight_Mean: mean canopy height, centimetres.
+G2_score: green-space fragmentation-extension, dimensionless composite score.
+G3_score: green-space connectivity-interspersion, dimensionless composite score.
+B2_score: grey-space fragmentation-boundary, dimensionless composite score.
+B3_score: grey-space connectivity-interspersion, dimensionless composite score.
+GCORE_Pct, GEDGE_Pct, GBRDG_Pct, GISLET_Pct: green Core, Edge, Bridge and Islet,
+respectively, expressed as percentages of the green foreground area.
+BCORE_Pct, BEDGE_Pct, BBRDG_Pct, BISLET_Pct: grey Core, Edge, Bridge and Islet,
+respectively, expressed as percentages of the grey foreground area.
+MSPA percentages do not use the whole grid as their denominator. For example,
+BCORE_Pct = 100 means all grey foreground is Core, not that the whole grid is
+built-up. The four landscape scores are composites, not individual FRAGSTATS
+metrics. Their components and weights are provided in main-text Table 2.
+
+Files and relationships
+01_pair_ranking_by_seed.csv: 1,092 rows; 91 predictor pairs for each of four
+types and each of three seeds. Each row is a type-seed-pair ranking.
+02_pair_ranking_summary.csv: 364 rows; pair-rank and attribution summaries over
+the three seeds. Key: zone, feature_a, feature_b.
+03_stable_candidates.csv: 17 rows; pairs in the top five in at least two seeds,
+excluding pairs from the same grey or green MSPA composition.
+04_complete_conditional_screen.csv: all 17 candidates, including reasons for
+failure of group geometry, common range, support or curve-resolution criteria.
+05_qualified_pairs.csv: the three pairs passing the conditional-curve criteria.
+06_curves_seed_aggregate_all_pairs.csv: 444 nodes, summarised over seeds, for
+the 15 pairs with calculable curves, including curves not selected for Figure 9.
+07_model_metrics.csv: 12 GBDT records (four types by three seeds), reporting
+held-out model performance before explanatory full-sample refitting.
+08_geometry_rejections.json: the two candidates for which non-overlapping
+conditions or a common observed range could not be constructed.
+09_pair_map.csv: maps all 17 pair identifiers to their predictors, availability,
+screening outcome and relative pair-data directory.
+data_dictionary.csv: file-specific field definitions.
+
+The 15 directories pairs/p01, pairs/p02, pairs/p03, pairs/p05, pairs/p06,
+pairs/p07, pairs/p09, pairs/p10, pairs/p11, pairs/p12, pairs/p13, pairs/p14,
+pairs/p15, pairs/p16 and pairs/p17 each contain:
+  conditional_response_by_seed.csv: conditional mean predictions for each seed.
+  conditional_response_seed_aggregate.csv: across-seed means and sample SDs.
+  observed_joint_support.csv: counts and exact edges of occupied A-by-B bins.
+There are no pairs/p04 or pairs/p08 directories because their curves could not
+be calculated. Their failure reasons remain in files 04, 08 and 09.
+
+Figure 9 uses p01 for panels a-b (Zone1, GISLET_Pct under BCORE_Pct conditions),
+p03 for panels c-d (Zone1, G3_score under GISLET_Pct conditions), and p16 for
+panels e-f (Zone4, BuildHeight_Mean under B2_score conditions).
+
+How to read the curves and support
+In the conditional files, A is the varied predictor and B defines the observed
+condition group: B <= Q1 or B >= Q3. All ties at a quartile cut are included;
+group sizes therefore need not equal exactly one quarter of the type total.
+The curves vary A over common observed support while the other predictors retain
+their group-specific observed values. They show model predictions, not measured
+changes following an intervention. The same A-B key links rankings, screening,
+curves and support. The ordered A and B roles must not be swapped when joining.
+
+Seeds 42, 142 and 242 index different model-fitting/split runs, not independent
+population samples. predicted_pwp_sd and sd_abs_shap_interaction are sample
+standard deviations across three seeds (divisor n-1). The curves' SD bands are
+not confidence intervals. Train/Test RMSE and MAE are in degrees Celsius; R2
+and Overfitting_Score are dimensionless. Overfitting_Score is Train_R2 minus
+Test_R2. Curve changes and their between-condition differences are degrees
+Celsius. File 07 retains more numerical precision than Supplementary Data 1.
+
+observed_joint_support.csv lists occupied bins only. Bin labels are zero-based
+ascending marginal-quantile indices, and tied cut points may reduce the number
+of bins. The a_lower, a_upper, b_lower and b_upper fields retain the actual
+numeric boundaries; displayed cells in Figure 9 have equal widths. Counts n
+refer only to observed records with finite values of both A and B, before model
+imputation. Unlisted bins are unoccupied, not missing output rows.
+
+n_analytical is the number of outcome-eligible grids in the type.
+n_complete_observed_pairs counts finite observed A-B pairs for support.
+n_condition/n_lower_condition/n_upper_condition are B-defined group sizes,
+which can include records whose original A was missing. These denominators
+therefore can differ. For p16, n_analytical is 1,710 and complete observed
+pairs number 1,640; both B-defined quartile groups contain 428 records.
+
+Blank values and flags
+The response/range/curve-criterion fields for p04 and p08 are blank because no
+curve could be calculated; they are not zero. Their pair_data_dir is blank for
+the same reason. The available ranking-screen fields in files 04 and 05 are
+joined from file 02 using their exact type-A-B key. Scientifically_eligible is
+a retained source-field name for the initial rank/composition screen, whereas
+figure_qualified refers to the subsequent curve-support screen. Neither flag
+is a statistical significance test.

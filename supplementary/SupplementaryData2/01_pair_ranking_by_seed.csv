@@ -1,0 +1,1093 @@
+zone,zone_label,seed,interaction_rank,feature_a,feature_b,mean_abs_shap_interaction,mspa_group_a,mspa_group_b,same_mspa_composition,share_of_all_pair_strength_pct
+Zone1,Compact,42,1,GISLET_Pct,BCORE_Pct,0.030823756599232553,green_mspa,grey_mspa,False,14.298872770990043
+Zone1,Compact,42,2,BuildHeight_Mean,BCORE_Pct,0.021401811676506767,not_mspa_component,grey_mspa,False,9.928114415446645
+Zone1,Compact,42,3,G3_score,GISLET_Pct,0.015763808618833315,not_mspa_component,green_mspa,False,7.312693801655115
+Zone1,Compact,42,4,BuildHeight_Mean,BEDGE_Pct,0.012517273440125386,not_mspa_component,grey_mspa,False,5.806654350641415
+Zone1,Compact,42,5,BCORE_Pct,BBRDG_Pct,0.010856440138754572,grey_mspa,grey_mspa,True,5.036208217845392
+Zone1,Compact,42,6,GISLET_Pct,BBRDG_Pct,0.009018368942300735,green_mspa,grey_mspa,False,4.183542966045121
+Zone1,Compact,42,7,GISLET_Pct,BEDGE_Pct,0.008875466986436998,green_mspa,grey_mspa,False,4.117251990801952
+Zone1,Compact,42,8,B3_score,BCORE_Pct,0.007273811878767965,not_mspa_component,grey_mspa,False,3.374258107696346
+Zone1,Compact,42,9,BEDGE_Pct,BBRDG_Pct,0.006960856168262468,grey_mspa,grey_mspa,True,3.2290806737561777
+Zone1,Compact,42,10,BCORE_Pct,BEDGE_Pct,0.00657028989895197,grey_mspa,grey_mspa,True,3.0479003761655172
+Zone1,Compact,42,11,B3_score,BEDGE_Pct,0.006439740769537517,not_mspa_component,grey_mspa,False,2.987339769743286
+Zone1,Compact,42,12,BuildHeight_Mean,GISLET_Pct,0.006123952142767717,not_mspa_component,green_mspa,False,2.8408481705713844
+Zone1,Compact,42,13,B2_score,BCORE_Pct,0.0053027262796732045,not_mspa_component,grey_mspa,False,2.4598886306518635
+Zone1,Compact,42,14,G3_score,BCORE_Pct,0.00481741191066155,not_mspa_component,grey_mspa,False,2.234755513145877
+Zone1,Compact,42,15,GBRDG_Pct,BCORE_Pct,0.004794764780649303,green_mspa,grey_mspa,False,2.2242497063785978
+Zone1,Compact,42,16,BuildHeight_Mean,BBRDG_Pct,0.00473627931802159,not_mspa_component,grey_mspa,False,2.197118808612328
+Zone1,Compact,42,17,BuildHeight_Mean,B3_score,0.0044126448569804,not_mspa_component,not_mspa_component,False,2.046987595116724
+Zone1,Compact,42,18,B3_score,GISLET_Pct,0.00397975894125441,not_mspa_component,green_mspa,False,1.8461755813898326
+Zone1,Compact,42,19,G3_score,BEDGE_Pct,0.003676623007952967,not_mspa_component,grey_mspa,False,1.7055534567426185
+Zone1,Compact,42,20,B2_score,GISLET_Pct,0.0033873376573558493,not_mspa_component,green_mspa,False,1.571356497024788
+Zone1,Compact,42,21,BuildHeight_Mean,B2_score,0.0025706384532617017,not_mspa_component,not_mspa_component,False,1.1924968348705065
+Zone1,Compact,42,22,CanopyHeight_Mean,GBRDG_Pct,0.0019711558399383875,not_mspa_component,green_mspa,False,0.9144020611613177
+Zone1,Compact,42,23,G2_score,BEDGE_Pct,0.0019043195615058167,not_mspa_component,grey_mspa,False,0.8833972925271925
+Zone1,Compact,42,24,BuildHeight_Mean,G3_score,0.0018695634429097918,not_mspa_component,not_mspa_component,False,0.8672742312053816
+Zone1,Compact,42,25,GBRDG_Pct,BEDGE_Pct,0.0018689125169482207,green_mspa,grey_mspa,False,0.866972272309558
+Zone1,Compact,42,26,BuildHeight_Mean,GCORE_Pct,0.0018583566717748831,not_mspa_component,green_mspa,False,0.8620755074834439
+Zone1,Compact,42,27,GBRDG_Pct,BBRDG_Pct,0.0017898312686238354,green_mspa,grey_mspa,False,0.8302871685740318
+Zone1,Compact,42,28,CanopyHeight_Mean,BCORE_Pct,0.0017635337667438167,not_mspa_component,grey_mspa,False,0.8180879860257689
+Zone1,Compact,42,29,G3_score,BBRDG_Pct,0.001576053487900601,not_mspa_component,grey_mspa,False,0.7311175142204076
+Zone1,Compact,42,30,B2_score,BEDGE_Pct,0.0015488610282536409,not_mspa_component,grey_mspa,False,0.7185031685428971
+Zone1,Compact,42,31,G3_score,B3_score,0.0014104373371594053,not_mspa_component,not_mspa_component,False,0.6542896214019045
+Zone1,Compact,42,32,G2_score,G3_score,0.0011510394750122422,not_mspa_component,not_mspa_component,False,0.5339572077985136
+Zone1,Compact,42,33,BuildHeight_Mean,G2_score,0.0010469926088728459,not_mspa_component,not_mspa_component,False,0.4856907709559485
+Zone1,Compact,42,34,GEDGE_Pct,BEDGE_Pct,0.001024074905743244,green_mspa,grey_mspa,False,0.47505944767130837
+Zone1,Compact,42,35,BuildHeight_Mean,CanopyHeight_Mean,0.0009665652431495755,not_mspa_component,not_mspa_component,False,0.4483812150593268
+Zone1,Compact,42,36,GCORE_Pct,BCORE_Pct,0.0009643008320367433,green_mspa,grey_mspa,False,0.44733077442600017
+Zone1,Compact,42,37,GEDGE_Pct,BCORE_Pct,0.0008405000432958595,green_mspa,grey_mspa,False,0.38990066458668915
+Zone1,Compact,42,38,B3_score,BBRDG_Pct,0.0007878323266869555,not_mspa_component,grey_mspa,False,0.3654685686315833
+Zone1,Compact,42,39,G2_score,GBRDG_Pct,0.0007154887321512763,not_mspa_component,green_mspa,False,0.3319090039259781
+Zone1,Compact,42,40,G2_score,BBRDG_Pct,0.0006509302227003929,not_mspa_component,grey_mspa,False,0.301960872524437
+Zone1,Compact,42,41,B2_score,BBRDG_Pct,0.0006401357658752605,not_mspa_component,grey_mspa,False,0.29695341782703133
+Zone1,Compact,42,42,CanopyHeight_Mean,GISLET_Pct,0.0006176879556983044,not_mspa_component,green_mspa,False,0.28654007379888574
+Zone1,Compact,42,43,G3_score,GBRDG_Pct,0.0005961166129157028,not_mspa_component,green_mspa,False,0.2765333153768603
+Zone1,Compact,42,44,CanopyHeight_Mean,BBRDG_Pct,0.0005828966925440271,not_mspa_component,grey_mspa,False,0.2704007092219727
+Zone1,Compact,42,45,G2_score,BCORE_Pct,0.000547480303414385,not_mspa_component,grey_mspa,False,0.25397135413858757
+Zone1,Compact,42,46,G2_score,GISLET_Pct,0.000513972650322149,not_mspa_component,green_mspa,False,0.23842744511251246
+Zone1,Compact,42,47,G2_score,B3_score,0.0005136693833270969,not_mspa_component,not_mspa_component,False,0.23828676218945827
+Zone1,Compact,42,48,G2_score,B2_score,0.0004960097680770435,not_mspa_component,not_mspa_component,False,0.23009462016964244
+Zone1,Compact,42,49,CanopyHeight_Mean,BEDGE_Pct,0.0004811890306401007,not_mspa_component,grey_mspa,False,0.22321940889223532
+Zone1,Compact,42,50,BuildHeight_Mean,GBRDG_Pct,0.00045901186010083696,not_mspa_component,green_mspa,False,0.2129316122396568
+Zone1,Compact,42,51,GCORE_Pct,BEDGE_Pct,0.00043651963137912987,green_mspa,grey_mspa,False,0.2024976628346805
+Zone1,Compact,42,52,BuildHeight_Mean,GEDGE_Pct,0.0004214232092071918,not_mspa_component,green_mspa,False,0.19549456380491878
+Zone1,Compact,42,53,G3_score,B2_score,0.00035780952076560203,not_mspa_component,not_mspa_component,False,0.16598472665734867
+Zone1,Compact,42,54,B2_score,B3_score,0.00032986279543859313,not_mspa_component,not_mspa_component,False,0.15302048368682591
+Zone1,Compact,42,55,GEDGE_Pct,BBRDG_Pct,0.00032095544445588555,green_mspa,grey_mspa,False,0.14888844098728488
+Zone1,Compact,42,56,GCORE_Pct,BBRDG_Pct,0.00026859057838717873,green_mspa,grey_mspa,False,0.12459683476544575
+Zone1,Compact,42,57,G3_score,GEDGE_Pct,0.00020434836568761523,not_mspa_component,green_mspa,False,0.09479543067763868
+Zone1,Compact,42,58,GBRDG_Pct,GISLET_Pct,0.00015540540900671647,green_mspa,green_mspa,True,0.07209121847808891
+Zone1,Compact,42,59,BEDGE_Pct,BISLET_Pct,0.00014665983322707628,grey_mspa,grey_mspa,True,0.06803422188912543
+Zone1,Compact,42,60,CanopyHeight_Mean,B3_score,0.00012135901523813767,not_mspa_component,not_mspa_component,False,0.0562973923349102
+Zone1,Compact,42,61,B3_score,BISLET_Pct,0.00012126335275259915,not_mspa_component,grey_mspa,False,0.056253015339352626
+Zone1,Compact,42,62,G2_score,GCORE_Pct,0.00010860985965894202,not_mspa_component,green_mspa,False,0.05038316987543829
+Zone1,Compact,42,63,GCORE_Pct,GBRDG_Pct,0.00010825371866051293,green_mspa,green_mspa,True,0.05021795916179032
+Zone1,Compact,42,64,CanopyHeight_Mean,G2_score,9.835617143011703e-05,not_mspa_component,not_mspa_component,False,0.04562657302958151
+Zone1,Compact,42,65,G2_score,GEDGE_Pct,9.768683574368735e-05,not_mspa_component,green_mspa,False,0.045316074022410543
+Zone1,Compact,42,66,GEDGE_Pct,GBRDG_Pct,9.74051927247985e-05,green_mspa,green_mspa,True,0.0451854222739462
+Zone1,Compact,42,67,G3_score,BISLET_Pct,9.291646626199905e-05,not_mspa_component,grey_mspa,False,0.04310314108317974
+Zone1,Compact,42,68,BuildHeight_Mean,BISLET_Pct,9.235792181956013e-05,not_mspa_component,grey_mspa,False,0.042844037171115484
+Zone1,Compact,42,69,GEDGE_Pct,GISLET_Pct,8.692492206341038e-05,green_mspa,green_mspa,True,0.04032371580704334
+Zone1,Compact,42,70,BCORE_Pct,BISLET_Pct,7.751494347687503e-05,grey_mspa,grey_mspa,True,0.035958508530849115
+Zone1,Compact,42,71,B3_score,GBRDG_Pct,6.655454906428847e-05,not_mspa_component,green_mspa,False,0.030874076828927774
+Zone1,Compact,42,72,BBRDG_Pct,BISLET_Pct,6.322269458294826e-05,grey_mspa,grey_mspa,True,0.029328458495005327
+Zone1,Compact,42,73,CanopyHeight_Mean,B2_score,5.748292715921439e-05,not_mspa_component,not_mspa_component,False,0.026665830276318726
+Zone1,Compact,42,74,GCORE_Pct,GISLET_Pct,4.844559985867268e-05,green_mspa,green_mspa,True,0.022473492692668778
+Zone1,Compact,42,75,GEDGE_Pct,BISLET_Pct,4.4347620998173566e-05,green_mspa,grey_mspa,False,0.020572475918290846
+Zone1,Compact,42,76,B2_score,GEDGE_Pct,4.084064030997826e-05,not_mspa_component,green_mspa,False,0.01894561805917862
+Zone1,Compact,42,77,CanopyHeight_Mean,GEDGE_Pct,4.0359655967923817e-05,not_mspa_component,green_mspa,False,0.01872249360354215
+Zone1,Compact,42,78,CanopyHeight_Mean,GCORE_Pct,1.579375194510484e-06,not_mspa_component,green_mspa,False,0.0007326584250449648
+Zone1,Compact,42,79,B2_score,BISLET_Pct,0.0,not_mspa_component,grey_mspa,False,0.0
+Zone1,Compact,42,80,GISLET_Pct,BISLET_Pct,0.0,green_mspa,grey_mspa,False,0.0
+Zone1,Compact,42,81,GCORE_Pct,BISLET_Pct,0.0,green_mspa,grey_mspa,False,0.0
+Zone1,Compact,42,82,CanopyHeight_Mean,G3_score,0.0,not_mspa_component,not_mspa_component,False,0.0
+Zone1,Compact,42,83,B3_score,GEDGE_Pct,0.0,not_mspa_component,green_mspa,False,0.0
+Zone1,Compact,42,84,B3_score,GCORE_Pct,0.0,not_mspa_component,green_mspa,False,0.0
+Zone1,Compact,42,85,CanopyHeight_Mean,BISLET_Pct,0.0,not_mspa_component,grey_mspa,False,0.0
+Zone1,Compact,42,86,G2_score,BISLET_Pct,0.0,not_mspa_component,grey_mspa,False,0.0
+Zone1,Compact,42,87,GBRDG_Pct,BISLET_Pct,0.0,green_mspa,grey_mspa,False,0.0
+Zone1,Compact,42,88,GCORE_Pct,GEDGE_Pct,0.0,green_mspa,green_mspa,True,0.0
+Zone1,Compact,42,89,B2_score,GCORE_Pct,0.0,not_mspa_component,green_mspa,False,0.0
+Zone1,Compact,42,90,B2_score,GBRDG_Pct,0.0,not_mspa_component,green_mspa,False,0.0
+Zone1,Compact,42,91,G3_score,GCORE_Pct,0.0,not_mspa_component,green_mspa,False,0.0
+Zone1,Compact,142,1,GISLET_Pct,BCORE_Pct,0.04175764149931787,green_mspa,grey_mspa,False,13.985131770815737
+Zone1,Compact,142,2,BuildHeight_Mean,BCORE_Pct,0.025775094360546577,not_mspa_component,grey_mspa,False,8.632386267393523
+Zone1,Compact,142,3,G3_score,GISLET_Pct,0.020686287910902493,not_mspa_component,green_mspa,False,6.928084343262773
+Zone1,Compact,142,4,GISLET_Pct,BBRDG_Pct,0.018910752227790355,green_mspa,grey_mspa,False,6.333436283637226
+Zone1,Compact,142,5,BCORE_Pct,BBRDG_Pct,0.017727384353069756,grey_mspa,grey_mspa,True,5.93711228000335
+Zone1,Compact,142,6,B3_score,BEDGE_Pct,0.015474304334448997,not_mspa_component,grey_mspa,False,5.182528931441435
+Zone1,Compact,142,7,BuildHeight_Mean,BEDGE_Pct,0.013363696186131466,not_mspa_component,grey_mspa,False,4.475661110104824
+Zone1,Compact,142,8,BuildHeight_Mean,B3_score,0.010063163491705556,not_mspa_component,not_mspa_component,False,3.3702733777496356
+Zone1,Compact,142,9,BuildHeight_Mean,BBRDG_Pct,0.008645680845992371,not_mspa_component,grey_mspa,False,2.8955415473260415
+Zone1,Compact,142,10,G3_score,BCORE_Pct,0.008298551747713562,not_mspa_component,grey_mspa,False,2.779283875517808
+Zone1,Compact,142,11,G3_score,BEDGE_Pct,0.008258213482665484,not_mspa_component,grey_mspa,False,2.765774109835455
+Zone1,Compact,142,12,G3_score,B2_score,0.007727215027901302,not_mspa_component,not_mspa_component,False,2.5879363993388522
+Zone1,Compact,142,13,B2_score,BCORE_Pct,0.007183202407177317,not_mspa_component,grey_mspa,False,2.405740089570351
+Zone1,Compact,142,14,BuildHeight_Mean,GISLET_Pct,0.00587703142771521,not_mspa_component,green_mspa,False,1.9682878626937106
+Zone1,Compact,142,15,B2_score,GISLET_Pct,0.005771819357053954,not_mspa_component,green_mspa,False,1.933051086399674
+Zone1,Compact,142,16,GBRDG_Pct,BEDGE_Pct,0.0056839315040329175,green_mspa,grey_mspa,False,1.9036163970489028
+Zone1,Compact,142,17,CanopyHeight_Mean,GBRDG_Pct,0.005475943065306064,not_mspa_component,green_mspa,False,1.833958590286785
+Zone1,Compact,142,18,BuildHeight_Mean,G3_score,0.004476308185728226,not_mspa_component,not_mspa_component,False,1.4991689563025967
+Zone1,Compact,142,19,BuildHeight_Mean,B2_score,0.004217688313893521,not_mspa_component,not_mspa_component,False,1.4125540792095284
+Zone1,Compact,142,20,G3_score,GEDGE_Pct,0.004037996766290867,not_mspa_component,green_mspa,False,1.352373238503619
+Zone1,Compact,142,21,B3_score,BBRDG_Pct,0.0036446274211557107,not_mspa_component,grey_mspa,False,1.2206291569705532
+Zone1,Compact,142,22,GBRDG_Pct,BCORE_Pct,0.0035876067838783877,green_mspa,grey_mspa,False,1.201532266022048
+Zone1,Compact,142,23,BEDGE_Pct,BBRDG_Pct,0.00347848833899613,grey_mspa,grey_mspa,True,1.1649871984484925
+Zone1,Compact,142,24,GBRDG_Pct,BBRDG_Pct,0.0032368995114827955,green_mspa,grey_mspa,False,1.0840762210604127
+Zone1,Compact,142,25,B2_score,BEDGE_Pct,0.002979716019149183,not_mspa_component,grey_mspa,False,0.9979424045798314
+Zone1,Compact,142,26,G2_score,GISLET_Pct,0.002568711989415898,not_mspa_component,green_mspa,False,0.8602922570194107
+Zone1,Compact,142,27,GISLET_Pct,BEDGE_Pct,0.0024781812835000497,green_mspa,grey_mspa,False,0.8299724447388538
+Zone1,Compact,142,28,B2_score,GEDGE_Pct,0.0024580333209212168,not_mspa_component,green_mspa,False,0.8232246519646128
+Zone1,Compact,142,29,B3_score,BCORE_Pct,0.0020390563384505224,not_mspa_component,grey_mspa,False,0.682904267517442
+Zone1,Compact,142,30,B2_score,BBRDG_Pct,0.002005395912341166,not_mspa_component,grey_mspa,False,0.6716309896765743
+Zone1,Compact,142,31,BuildHeight_Mean,GEDGE_Pct,0.0019988188494436993,not_mspa_component,green_mspa,False,0.6694282529322705
+Zone1,Compact,142,32,CanopyHeight_Mean,BEDGE_Pct,0.0019223279328095956,not_mspa_component,grey_mspa,False,0.6438105333966521
+Zone1,Compact,142,33,B3_score,GISLET_Pct,0.0018609956775862612,not_mspa_component,green_mspa,False,0.6232696302157662
+Zone1,Compact,142,34,GEDGE_Pct,BCORE_Pct,0.0018119477611596554,green_mspa,grey_mspa,False,0.6068428984923943
+Zone1,Compact,142,35,BCORE_Pct,BEDGE_Pct,0.0018065745309024585,grey_mspa,grey_mspa,True,0.6050433396455887
+Zone1,Compact,142,36,G2_score,BCORE_Pct,0.001659427027949355,not_mspa_component,grey_mspa,False,0.555761887325556
+Zone1,Compact,142,37,CanopyHeight_Mean,BBRDG_Pct,0.0015437949163590436,not_mspa_component,grey_mspa,False,0.5170353151470342
+Zone1,Compact,142,38,G2_score,BBRDG_Pct,0.0013103738485852113,not_mspa_component,grey_mspa,False,0.43885981783225203
+Zone1,Compact,142,39,GEDGE_Pct,GBRDG_Pct,0.00129518192064199,green_mspa,green_mspa,True,0.4337718601193588
+Zone1,Compact,142,40,BuildHeight_Mean,GCORE_Pct,0.0011702003554700698,not_mspa_component,green_mspa,False,0.3919140445173772
+Zone1,Compact,142,41,G3_score,GBRDG_Pct,0.0010348197856453942,not_mspa_component,green_mspa,False,0.34657347833053603
+Zone1,Compact,142,42,B3_score,GEDGE_Pct,0.0007826590755284194,not_mspa_component,green_mspa,False,0.26212185147163
+Zone1,Compact,142,43,GCORE_Pct,BEDGE_Pct,0.0007715193443025678,green_mspa,grey_mspa,False,0.2583910227300798
+Zone1,Compact,142,44,G3_score,BBRDG_Pct,0.000734439774150206,not_mspa_component,grey_mspa,False,0.24597263280270668
+Zone1,Compact,142,45,GEDGE_Pct,BEDGE_Pct,0.0006599514964658323,green_mspa,grey_mspa,False,0.2210256209171313
+Zone1,Compact,142,46,GEDGE_Pct,GISLET_Pct,0.0006494967940657471,green_mspa,green_mspa,True,0.21752421649293163
+Zone1,Compact,142,47,G3_score,B3_score,0.0006326215989223608,not_mspa_component,not_mspa_component,False,0.21187251253493047
+Zone1,Compact,142,48,GEDGE_Pct,BBRDG_Pct,0.0006210040359713802,green_mspa,grey_mspa,False,0.20798165225423515
+Zone1,Compact,142,49,GCORE_Pct,GBRDG_Pct,0.0006076496915734808,green_mspa,green_mspa,True,0.20350912316945607
+Zone1,Compact,142,50,G3_score,GCORE_Pct,0.0005418628404832543,not_mspa_component,green_mspa,False,0.18147632274659503
+Zone1,Compact,142,51,BEDGE_Pct,BISLET_Pct,0.0005034288825742248,grey_mspa,grey_mspa,True,0.16860433221905188
+Zone1,Compact,142,52,CanopyHeight_Mean,B3_score,0.00048651980112272885,not_mspa_component,not_mspa_component,False,0.16294127933263608
+Zone1,Compact,142,53,BuildHeight_Mean,CanopyHeight_Mean,0.00046114638923016205,not_mspa_component,not_mspa_component,False,0.15444342131068514
+Zone1,Compact,142,54,BuildHeight_Mean,G2_score,0.0004473569953341496,not_mspa_component,not_mspa_component,False,0.14982518896443142
+Zone1,Compact,142,55,CanopyHeight_Mean,G3_score,0.00039968013411751464,not_mspa_component,not_mspa_component,False,0.1338576399699695
+Zone1,Compact,142,56,G2_score,B3_score,0.00039416997558782514,not_mspa_component,not_mspa_component,False,0.1320122222129094
+Zone1,Compact,142,57,G2_score,B2_score,0.00039269566635345677,not_mspa_component,not_mspa_component,False,0.13151845848073335
+Zone1,Compact,142,58,GCORE_Pct,BCORE_Pct,0.00036898274641099433,green_mspa,grey_mspa,False,0.12357671900122852
+Zone1,Compact,142,59,GBRDG_Pct,BISLET_Pct,0.0003675026451126958,green_mspa,grey_mspa,False,0.1230810154378173
+Zone1,Compact,142,60,BuildHeight_Mean,GBRDG_Pct,0.0003591849130155559,not_mspa_component,green_mspa,False,0.12029530783470123
+Zone1,Compact,142,61,B2_score,B3_score,0.00027770887044017804,not_mspa_component,not_mspa_component,False,0.09300801021278295
+Zone1,Compact,142,62,G2_score,G3_score,0.00026427725770111695,not_mspa_component,not_mspa_component,False,0.08850960303972924
+Zone1,Compact,142,63,GBRDG_Pct,GISLET_Pct,0.0002444564455887525,green_mspa,green_mspa,True,0.08187137685541455
+Zone1,Compact,142,64,G2_score,GEDGE_Pct,0.00024293482136462368,not_mspa_component,green_mspa,False,0.0813617667693072
+Zone1,Compact,142,65,G3_score,BISLET_Pct,0.00023064218857554177,not_mspa_component,grey_mspa,False,0.07724481755491328
+Zone1,Compact,142,66,G2_score,GBRDG_Pct,0.0001964658304505878,not_mspa_component,green_mspa,False,0.06579874793357514
+Zone1,Compact,142,67,CanopyHeight_Mean,G2_score,0.00019606453837207524,not_mspa_component,not_mspa_component,False,0.06566435043421746
+Zone1,Compact,142,68,G2_score,BEDGE_Pct,0.00018526397772379458,not_mspa_component,grey_mspa,False,0.062047113961047416
+Zone1,Compact,142,69,CanopyHeight_Mean,BISLET_Pct,0.00017496696820131272,not_mspa_component,grey_mspa,False,0.05859852276080911
+Zone1,Compact,142,70,B3_score,GCORE_Pct,0.00015486886399809592,not_mspa_component,green_mspa,False,0.05186742815073244
+Zone1,Compact,142,71,G2_score,GCORE_Pct,0.0001490869465003839,not_mspa_component,green_mspa,False,0.04993099507668517
+Zone1,Compact,142,72,CanopyHeight_Mean,GEDGE_Pct,0.00013254438888334936,not_mspa_component,green_mspa,False,0.04439069539035545
+Zone1,Compact,142,73,B3_score,BISLET_Pct,0.00012999464578711538,not_mspa_component,grey_mspa,False,0.04353675604171809
+Zone1,Compact,142,74,CanopyHeight_Mean,B2_score,0.00012972183172292034,not_mspa_component,not_mspa_component,False,0.04344538736044902
+Zone1,Compact,142,75,B2_score,GCORE_Pct,0.00010795182411172089,not_mspa_component,green_mspa,False,0.036154352374690564
+Zone1,Compact,142,76,GCORE_Pct,BBRDG_Pct,7.794927185661114e-05,green_mspa,grey_mspa,False,0.026106140079095543
+Zone1,Compact,142,77,CanopyHeight_Mean,GCORE_Pct,6.363743494859378e-05,not_mspa_component,green_mspa,False,0.021312935342081923
+Zone1,Compact,142,78,CanopyHeight_Mean,BCORE_Pct,4.957134797521632e-05,not_mspa_component,grey_mspa,False,0.016602035186821674
+Zone1,Compact,142,79,B3_score,GBRDG_Pct,4.0639915750205844e-05,not_mspa_component,green_mspa,False,0.013610792097316199
+Zone1,Compact,142,80,CanopyHeight_Mean,GISLET_Pct,2.5494813342058566e-05,not_mspa_component,green_mspa,False,0.00853851681414681
+Zone1,Compact,142,81,BBRDG_Pct,BISLET_Pct,2.453434487493978e-05,grey_mspa,grey_mspa,True,0.008216844478447748
+Zone1,Compact,142,82,B2_score,GBRDG_Pct,2.2356917403454553e-06,not_mspa_component,green_mspa,False,0.0007487598069485391
+Zone1,Compact,142,83,GCORE_Pct,GEDGE_Pct,0.0,green_mspa,green_mspa,True,0.0
+Zone1,Compact,142,84,G2_score,BISLET_Pct,0.0,not_mspa_component,grey_mspa,False,0.0
+Zone1,Compact,142,85,GEDGE_Pct,BISLET_Pct,0.0,green_mspa,grey_mspa,False,0.0
+Zone1,Compact,142,86,GISLET_Pct,BISLET_Pct,0.0,green_mspa,grey_mspa,False,0.0
+Zone1,Compact,142,87,B2_score,BISLET_Pct,0.0,not_mspa_component,grey_mspa,False,0.0
+Zone1,Compact,142,88,BCORE_Pct,BISLET_Pct,0.0,grey_mspa,grey_mspa,True,0.0
+Zone1,Compact,142,89,GCORE_Pct,BISLET_Pct,0.0,green_mspa,grey_mspa,False,0.0
+Zone1,Compact,142,90,BuildHeight_Mean,BISLET_Pct,0.0,not_mspa_component,grey_mspa,False,0.0
+Zone1,Compact,142,91,GCORE_Pct,GISLET_Pct,0.0,green_mspa,green_mspa,True,0.0
+Zone1,Compact,242,1,GISLET_Pct,BCORE_Pct,0.03931525601337927,green_mspa,grey_mspa,False,14.406903869571531
+Zone1,Compact,242,2,BuildHeight_Mean,BCORE_Pct,0.024303618877418165,not_mspa_component,grey_mspa,False,8.905954999517547
+Zone1,Compact,242,3,G3_score,GISLET_Pct,0.018001101175449345,not_mspa_component,green_mspa,False,6.596424911817297
+Zone1,Compact,242,4,BCORE_Pct,BBRDG_Pct,0.015392407660917424,grey_mspa,grey_mspa,True,5.640480566033404
+Zone1,Compact,242,5,GISLET_Pct,BBRDG_Pct,0.015111633174537197,green_mspa,grey_mspa,False,5.5375919816901735
+Zone1,Compact,242,6,BuildHeight_Mean,BEDGE_Pct,0.010578040508129443,not_mspa_component,grey_mspa,False,3.8762767480693174
+Zone1,Compact,242,7,B3_score,BEDGE_Pct,0.00864348287695741,not_mspa_component,grey_mspa,False,3.167366552674512
+Zone1,Compact,242,8,G3_score,BEDGE_Pct,0.008228762380076766,not_mspa_component,grey_mspa,False,3.0153940377488277
+Zone1,Compact,242,9,BuildHeight_Mean,GISLET_Pct,0.007673291998477364,not_mspa_component,green_mspa,False,2.811844342247075
+Zone1,Compact,242,10,B3_score,BCORE_Pct,0.007258809447974939,not_mspa_component,grey_mspa,False,2.659959021732536
+Zone1,Compact,242,11,BuildHeight_Mean,B3_score,0.006575708320150582,not_mspa_component,not_mspa_component,False,2.4096395966622195
+Zone1,Compact,242,12,BuildHeight_Mean,BBRDG_Pct,0.006309591783465979,not_mspa_component,grey_mspa,False,2.3121223539711466
+Zone1,Compact,242,13,G3_score,BCORE_Pct,0.005894741537618832,not_mspa_component,grey_mspa,False,2.160102293103323
+Zone1,Compact,242,14,GBRDG_Pct,BCORE_Pct,0.005607317704683767,green_mspa,grey_mspa,False,2.054777084753921
+Zone1,Compact,242,15,B2_score,BCORE_Pct,0.0054967452253446795,not_mspa_component,grey_mspa,False,2.0142582825892776
+Zone1,Compact,242,16,BEDGE_Pct,BBRDG_Pct,0.0053370680201827005,grey_mspa,grey_mspa,True,1.9557452680956768
+Zone1,Compact,242,17,BuildHeight_Mean,G3_score,0.005106746094160205,not_mspa_component,not_mspa_component,False,1.8713448041604697
+Zone1,Compact,242,18,CanopyHeight_Mean,GBRDG_Pct,0.004711166596747762,not_mspa_component,green_mspa,False,1.7263864248978482
+Zone1,Compact,242,19,B3_score,GISLET_Pct,0.0043301548550245435,not_mspa_component,green_mspa,False,1.5867663360876314
+Zone1,Compact,242,20,G3_score,B2_score,0.00424033675144382,not_mspa_component,not_mspa_component,False,1.5538528842816877
+Zone1,Compact,242,21,BCORE_Pct,BEDGE_Pct,0.004087568971944761,grey_mspa,grey_mspa,True,1.4978717986476058
+Zone1,Compact,242,22,BuildHeight_Mean,B2_score,0.003873083226912734,not_mspa_component,not_mspa_component,False,1.4192744340770107
+Zone1,Compact,242,23,GISLET_Pct,BEDGE_Pct,0.0038625662917543923,green_mspa,grey_mspa,False,1.4154205491175136
+Zone1,Compact,242,24,B2_score,GISLET_Pct,0.003696389147954669,not_mspa_component,green_mspa,False,1.354525660496469
+Zone1,Compact,242,25,BuildHeight_Mean,GCORE_Pct,0.0031947445773628587,not_mspa_component,green_mspa,False,1.1707001983718106
+Zone1,Compact,242,26,GBRDG_Pct,BBRDG_Pct,0.0029778960195221997,green_mspa,grey_mspa,False,1.0912369913663054
+Zone1,Compact,242,27,B2_score,BEDGE_Pct,0.0028322336657728873,not_mspa_component,grey_mspa,False,1.0378596579675932
+Zone1,Compact,242,28,B3_score,BBRDG_Pct,0.002756976630002247,not_mspa_component,grey_mspa,False,1.0102820458699497
+Zone1,Compact,242,29,G2_score,GISLET_Pct,0.002699006752458111,not_mspa_component,green_mspa,False,0.989039237408395
+Zone1,Compact,242,30,GBRDG_Pct,BEDGE_Pct,0.0025657914444863128,green_mspa,grey_mspa,False,0.9402230695764486
+Zone1,Compact,242,31,G3_score,BBRDG_Pct,0.0021244616018395446,not_mspa_component,grey_mspa,False,0.7784996761023891
+Zone1,Compact,242,32,G2_score,BCORE_Pct,0.0019367307958346105,not_mspa_component,grey_mspa,False,0.7097065420948205
+Zone1,Compact,242,33,BuildHeight_Mean,G2_score,0.0017496884710382203,not_mspa_component,not_mspa_component,False,0.6411656990194061
+Zone1,Compact,242,34,G3_score,GBRDG_Pct,0.0016778791329088688,not_mspa_component,green_mspa,False,0.6148514806657203
+Zone1,Compact,242,35,CanopyHeight_Mean,BBRDG_Pct,0.0014287971646423992,not_mspa_component,grey_mspa,False,0.5235764811785618
+Zone1,Compact,242,36,G2_score,BBRDG_Pct,0.0014045575439871915,not_mspa_component,grey_mspa,False,0.514693978048082
+Zone1,Compact,242,37,CanopyHeight_Mean,BCORE_Pct,0.0013158265159177419,not_mspa_component,grey_mspa,False,0.4821788803157975
+Zone1,Compact,242,38,GEDGE_Pct,BCORE_Pct,0.001232043096547114,green_mspa,grey_mspa,False,0.4514768121841322
+Zone1,Compact,242,39,CanopyHeight_Mean,G3_score,0.0011400895687315269,not_mspa_component,not_mspa_component,False,0.41778084349309
+Zone1,Compact,242,40,G3_score,B3_score,0.0009601178686697609,not_mspa_component,not_mspa_component,False,0.3518309999730361
+Zone1,Compact,242,41,G2_score,G3_score,0.000918208983051,not_mspa_component,not_mspa_component,False,0.3364736718614021
+Zone1,Compact,242,42,GEDGE_Pct,BEDGE_Pct,0.0009122155330968241,green_mspa,grey_mspa,False,0.3342773983001282
+Zone1,Compact,242,43,B2_score,BBRDG_Pct,0.0008799483798694568,not_mspa_component,grey_mspa,False,0.32245324091620536
+Zone1,Compact,242,44,BuildHeight_Mean,CanopyHeight_Mean,0.0008440173085070132,not_mspa_component,not_mspa_component,False,0.30928645673264876
+Zone1,Compact,242,45,CanopyHeight_Mean,BEDGE_Pct,0.0007825972187789402,not_mspa_component,grey_mspa,False,0.28677933308396447
+Zone1,Compact,242,46,BuildHeight_Mean,GEDGE_Pct,0.0007750121430902846,not_mspa_component,green_mspa,False,0.2839998152231957
+Zone1,Compact,242,47,G2_score,B2_score,0.0007309010161881775,not_mspa_component,not_mspa_component,False,0.26783548541084856
+Zone1,Compact,242,48,CanopyHeight_Mean,B3_score,0.0006773101144408932,not_mspa_component,not_mspa_component,False,0.24819733350630455
+Zone1,Compact,242,49,B2_score,B3_score,0.0006297534250012525,not_mspa_component,not_mspa_component,False,0.2307703923494465
+Zone1,Compact,242,50,GCORE_Pct,BEDGE_Pct,0.0006083673550149181,green_mspa,grey_mspa,False,0.22293356039962536
+Zone1,Compact,242,51,GEDGE_Pct,GBRDG_Pct,0.0005998553969504736,green_mspa,green_mspa,True,0.21981439054010457
+Zone1,Compact,242,52,G2_score,BEDGE_Pct,0.0005829723797258337,not_mspa_component,grey_mspa,False,0.21362768260919515
+Zone1,Compact,242,53,GCORE_Pct,BCORE_Pct,0.0005720300082230678,green_mspa,grey_mspa,False,0.20961789835923783
+Zone1,Compact,242,54,G2_score,GBRDG_Pct,0.0005514492296903491,not_mspa_component,green_mspa,False,0.20207616194574693
+Zone1,Compact,242,55,B2_score,GEDGE_Pct,0.0005419983584219979,not_mspa_component,green_mspa,False,0.19861293144305112
+Zone1,Compact,242,56,GBRDG_Pct,BISLET_Pct,0.0004494944676437485,green_mspa,grey_mspa,False,0.16471528464787166
+Zone1,Compact,242,57,G2_score,B3_score,0.0004388010404531619,not_mspa_component,not_mspa_component,False,0.16079672495392958
+Zone1,Compact,242,58,CanopyHeight_Mean,G2_score,0.00043044408018528136,not_mspa_component,not_mspa_component,False,0.15773435336005742
+Zone1,Compact,242,59,CanopyHeight_Mean,GISLET_Pct,0.00039761935081027627,not_mspa_component,green_mspa,False,0.1457058746318643
+Zone1,Compact,242,60,G3_score,GEDGE_Pct,0.0003954084756861567,not_mspa_component,green_mspa,False,0.1448957090979052
+Zone1,Compact,242,61,G3_score,GCORE_Pct,0.000393411467145153,not_mspa_component,green_mspa,False,0.14416391403933654
+Zone1,Compact,242,62,BBRDG_Pct,BISLET_Pct,0.0003555466444829869,grey_mspa,grey_mspa,True,0.13028851513702344
+Zone1,Compact,242,63,BuildHeight_Mean,GBRDG_Pct,0.0003350564762037298,not_mspa_component,green_mspa,False,0.12277998245520289
+Zone1,Compact,242,64,B2_score,GBRDG_Pct,0.0003267564766716906,not_mspa_component,green_mspa,False,0.1197384838742224
+Zone1,Compact,242,65,GCORE_Pct,BBRDG_Pct,0.0002984001711514471,green_mspa,grey_mspa,False,0.1093474395532259
+Zone1,Compact,242,66,GBRDG_Pct,GISLET_Pct,0.0002848201067683789,green_mspa,green_mspa,True,0.10437108426654339
+Zone1,Compact,242,67,GEDGE_Pct,BBRDG_Pct,0.0002615179058458249,green_mspa,grey_mspa,False,0.0958320945032202
+Zone1,Compact,242,68,GCORE_Pct,GEDGE_Pct,0.0002153655325805931,green_mspa,green_mspa,True,0.07891975887558234
+Zone1,Compact,242,69,G3_score,BISLET_Pct,0.00020103758226814748,not_mspa_component,grey_mspa,False,0.07366934405622684
+Zone1,Compact,242,70,GCORE_Pct,GISLET_Pct,0.00019749289751205075,green_mspa,green_mspa,True,0.07237040980760737
+Zone1,Compact,242,71,B3_score,GEDGE_Pct,0.00018723322516603393,not_mspa_component,green_mspa,False,0.06861079768217532
+Zone1,Compact,242,72,CanopyHeight_Mean,B2_score,0.0001619111952329788,not_mspa_component,not_mspa_component,False,0.059331650398897054
+Zone1,Compact,242,73,GEDGE_Pct,BISLET_Pct,0.00012012074261239002,green_mspa,grey_mspa,False,0.044017721542225816
+Zone1,Compact,242,74,G2_score,GCORE_Pct,0.00011593483808444976,not_mspa_component,green_mspa,False,0.04248381510853206
+Zone1,Compact,242,75,G2_score,GEDGE_Pct,0.0001120566108243571,not_mspa_component,green_mspa,False,0.041062655665961144
+Zone1,Compact,242,76,CanopyHeight_Mean,GEDGE_Pct,0.00011205301514974456,not_mspa_component,green_mspa,False,0.04106133804670232
+Zone1,Compact,242,77,GEDGE_Pct,GISLET_Pct,0.0001111830127233643,green_mspa,green_mspa,True,0.04074252945700652
+Zone1,Compact,242,78,BEDGE_Pct,BISLET_Pct,0.00010979465925995731,grey_mspa,grey_mspa,True,0.04023377339352103
+Zone1,Compact,242,79,B2_score,BISLET_Pct,0.00010291127958115008,not_mspa_component,grey_mspa,False,0.037711388971133186
+Zone1,Compact,242,80,BuildHeight_Mean,BISLET_Pct,8.399522601925575e-05,not_mspa_component,grey_mspa,False,0.030779683753058642
+Zone1,Compact,242,81,CanopyHeight_Mean,BISLET_Pct,7.791669967837046e-05,not_mspa_component,grey_mspa,False,0.028552234321418388
+Zone1,Compact,242,82,B3_score,GCORE_Pct,7.181538937128694e-05,not_mspa_component,green_mspa,False,0.026316435804866315
+Zone1,Compact,242,83,GISLET_Pct,BISLET_Pct,6.196628776636409e-05,green_mspa,grey_mspa,False,0.022707275534474634
+Zone1,Compact,242,84,CanopyHeight_Mean,GCORE_Pct,6.0242833641143275e-05,not_mspa_component,green_mspa,False,0.022075723296910082
+Zone1,Compact,242,85,B3_score,GBRDG_Pct,4.530288791903482e-05,not_mspa_component,green_mspa,False,0.016601045432373587
+Zone1,Compact,242,86,GCORE_Pct,GBRDG_Pct,4.183645763146802e-05,green_mspa,green_mspa,True,0.015330787191996088
+Zone1,Compact,242,87,BCORE_Pct,BISLET_Pct,3.7133121473671676e-05,grey_mspa,grey_mspa,True,0.0136072701972551
+Zone1,Compact,242,88,B2_score,GCORE_Pct,3.432634474492538e-05,not_mspa_component,green_mspa,False,0.01257873912268605
+Zone1,Compact,242,89,GCORE_Pct,BISLET_Pct,1.6466294709649494e-05,green_mspa,grey_mspa,False,0.0060340017851905625
+Zone1,Compact,242,90,B3_score,BISLET_Pct,7.338091744686658e-06,not_mspa_component,grey_mspa,False,0.0026890116731230268
+Zone1,Compact,242,91,G2_score,BISLET_Pct,0.0,not_mspa_component,grey_mspa,False,0.0
+Zone2,Open mid-/high-rise,42,1,BCORE_Pct,BEDGE_Pct,0.07141856898211447,grey_mspa,grey_mspa,True,17.773348872171656
+Zone2,Open mid-/high-rise,42,2,GCORE_Pct,BCORE_Pct,0.035393860265116824,green_mspa,grey_mspa,False,8.808177416469297
+Zone2,Open mid-/high-rise,42,3,B2_score,BCORE_Pct,0.027777792374689483,not_mspa_component,grey_mspa,False,6.912829559743004
+Zone2,Open mid-/high-rise,42,4,CanopyHeight_Mean,GCORE_Pct,0.018265704345675555,not_mspa_component,green_mspa,False,4.545634844810943
+Zone2,Open mid-/high-rise,42,5,GBRDG_Pct,BCORE_Pct,0.01414697774345661,green_mspa,grey_mspa,False,3.520641403278055
+Zone2,Open mid-/high-rise,42,6,G2_score,GCORE_Pct,0.013282249059978877,not_mspa_component,green_mspa,False,3.3054435242072437
+Zone2,Open mid-/high-rise,42,7,CanopyHeight_Mean,BCORE_Pct,0.013224634644958955,not_mspa_component,grey_mspa,False,3.2911055010179022
+Zone2,Open mid-/high-rise,42,8,G2_score,BCORE_Pct,0.011551569799123135,not_mspa_component,grey_mspa,False,2.874743683431597
+Zone2,Open mid-/high-rise,42,9,G2_score,BEDGE_Pct,0.011455082982074143,not_mspa_component,grey_mspa,False,2.850731806892785
+Zone2,Open mid-/high-rise,42,10,GBRDG_Pct,BEDGE_Pct,0.010512759348775292,green_mspa,grey_mspa,False,2.616223514108213
+Zone2,Open mid-/high-rise,42,11,G2_score,GBRDG_Pct,0.007892995758145721,not_mspa_component,green_mspa,False,1.9642646059069993
+Zone2,Open mid-/high-rise,42,12,CanopyHeight_Mean,B2_score,0.007450377629177154,not_mspa_component,not_mspa_component,False,1.8541138911079347
+Zone2,Open mid-/high-rise,42,13,G3_score,BCORE_Pct,0.007039573394275477,not_mspa_component,grey_mspa,False,1.7518804371318186
+Zone2,Open mid-/high-rise,42,14,G3_score,BEDGE_Pct,0.006559802551784153,not_mspa_component,grey_mspa,False,1.6324838336458332
+Zone2,Open mid-/high-rise,42,15,GEDGE_Pct,BCORE_Pct,0.006240023069201559,green_mspa,grey_mspa,False,1.552902957312028
+Zone2,Open mid-/high-rise,42,16,B3_score,GCORE_Pct,0.006206967161155869,not_mspa_component,green_mspa,False,1.5446766067374371
+Zone2,Open mid-/high-rise,42,17,GCORE_Pct,GBRDG_Pct,0.0058719605243871854,green_mspa,green_mspa,True,1.4613062744184877
+Zone2,Open mid-/high-rise,42,18,GISLET_Pct,BCORE_Pct,0.0058046907059876255,green_mspa,grey_mspa,False,1.4445653908076381
+Zone2,Open mid-/high-rise,42,19,BCORE_Pct,BBRDG_Pct,0.005612831311455048,grey_mspa,grey_mspa,True,1.396818929319659
+Zone2,Open mid-/high-rise,42,20,GCORE_Pct,BEDGE_Pct,0.005254659702170228,green_mspa,grey_mspa,False,1.3076837217867203
+Zone2,Open mid-/high-rise,42,21,GEDGE_Pct,GBRDG_Pct,0.004861663315928208,green_mspa,green_mspa,True,1.2098819598957562
+Zone2,Open mid-/high-rise,42,22,G2_score,GEDGE_Pct,0.004772990849160032,not_mspa_component,green_mspa,False,1.187814776113041
+Zone2,Open mid-/high-rise,42,23,BCORE_Pct,BISLET_Pct,0.004417563007931868,grey_mspa,grey_mspa,True,1.0993623874546656
+Zone2,Open mid-/high-rise,42,24,B3_score,GBRDG_Pct,0.004363600836514589,not_mspa_component,green_mspa,False,1.0859332679389915
+Zone2,Open mid-/high-rise,42,25,G2_score,GISLET_Pct,0.004302715061272514,not_mspa_component,green_mspa,False,1.0707811283742654
+Zone2,Open mid-/high-rise,42,26,CanopyHeight_Mean,G2_score,0.0041083170508965225,not_mspa_component,not_mspa_component,False,1.0224029025471164
+Zone2,Open mid-/high-rise,42,27,G3_score,GEDGE_Pct,0.0039258849060554366,not_mspa_component,green_mspa,False,0.9770025227583367
+Zone2,Open mid-/high-rise,42,28,CanopyHeight_Mean,BEDGE_Pct,0.003896943639414847,not_mspa_component,grey_mspa,False,0.9698001489760425
+Zone2,Open mid-/high-rise,42,29,B3_score,GEDGE_Pct,0.003859937954285418,not_mspa_component,green_mspa,False,0.9605908500299408
+Zone2,Open mid-/high-rise,42,30,GEDGE_Pct,BEDGE_Pct,0.003710820973272967,green_mspa,grey_mspa,False,0.9234813396592834
+Zone2,Open mid-/high-rise,42,31,B3_score,BCORE_Pct,0.0034006839806631967,not_mspa_component,grey_mspa,False,0.8463001100941825
+Zone2,Open mid-/high-rise,42,32,CanopyHeight_Mean,GEDGE_Pct,0.0032251545599718797,not_mspa_component,green_mspa,False,0.8026175542023353
+Zone2,Open mid-/high-rise,42,33,B2_score,GCORE_Pct,0.0029885961265994675,not_mspa_component,green_mspa,False,0.7437472124284028
+Zone2,Open mid-/high-rise,42,34,G2_score,G3_score,0.002729802436890406,not_mspa_component,not_mspa_component,False,0.6793433662204567
+Zone2,Open mid-/high-rise,42,35,BuildHeight_Mean,BCORE_Pct,0.002682551486028049,not_mspa_component,grey_mspa,False,0.6675844126851538
+Zone2,Open mid-/high-rise,42,36,BuildHeight_Mean,GBRDG_Pct,0.00258018915555252,not_mspa_component,green_mspa,False,0.6421103456905362
+Zone2,Open mid-/high-rise,42,37,BEDGE_Pct,BBRDG_Pct,0.002564984092554942,grey_mspa,grey_mspa,True,0.6383263873568571
+Zone2,Open mid-/high-rise,42,38,B2_score,GBRDG_Pct,0.0025548897900086053,not_mspa_component,green_mspa,False,0.635814301727947
+Zone2,Open mid-/high-rise,42,39,B3_score,BEDGE_Pct,0.0023211035396911257,not_mspa_component,grey_mspa,False,0.5776338502343024
+Zone2,Open mid-/high-rise,42,40,G2_score,B3_score,0.002238216550032957,not_mspa_component,not_mspa_component,False,0.5570064503135949
+Zone2,Open mid-/high-rise,42,41,G3_score,GCORE_Pct,0.002191954573190977,not_mspa_component,green_mspa,False,0.5454936145672675
+Zone2,Open mid-/high-rise,42,42,BuildHeight_Mean,GEDGE_Pct,0.0020161213049819837,not_mspa_component,green_mspa,False,0.5017354426554891
+Zone2,Open mid-/high-rise,42,43,GCORE_Pct,BBRDG_Pct,0.0020115706027312038,green_mspa,grey_mspa,False,0.5006029470052789
+Zone2,Open mid-/high-rise,42,44,BuildHeight_Mean,B3_score,0.0019967704288354994,not_mspa_component,not_mspa_component,False,0.49691975007531736
+Zone2,Open mid-/high-rise,42,45,B2_score,BEDGE_Pct,0.001956165793586402,not_mspa_component,grey_mspa,False,0.48681481016409883
+Zone2,Open mid-/high-rise,42,46,G3_score,GBRDG_Pct,0.0017966320105995864,not_mspa_component,green_mspa,False,0.4471129563978593
+Zone2,Open mid-/high-rise,42,47,BuildHeight_Mean,GCORE_Pct,0.0016636203692407454,not_mspa_component,green_mspa,False,0.4140114487700196
+Zone2,Open mid-/high-rise,42,48,GEDGE_Pct,BBRDG_Pct,0.001642605507015572,green_mspa,grey_mspa,False,0.40878165372999065
+Zone2,Open mid-/high-rise,42,49,B2_score,GEDGE_Pct,0.0016180382572685988,not_mspa_component,green_mspa,False,0.40266780537366087
+Zone2,Open mid-/high-rise,42,50,G2_score,B2_score,0.0016157716608442762,not_mspa_component,not_mspa_component,False,0.40210373625863854
+Zone2,Open mid-/high-rise,42,51,BuildHeight_Mean,BEDGE_Pct,0.0015700008938837216,not_mspa_component,grey_mspa,False,0.3907131438548544
+Zone2,Open mid-/high-rise,42,52,CanopyHeight_Mean,GBRDG_Pct,0.001269586999670195,not_mspa_component,green_mspa,False,0.31595162141043487
+Zone2,Open mid-/high-rise,42,53,BuildHeight_Mean,G2_score,0.0011808995586384727,not_mspa_component,not_mspa_component,False,0.2938807111065375
+Zone2,Open mid-/high-rise,42,54,BuildHeight_Mean,CanopyHeight_Mean,0.0011616813714246765,not_mspa_component,not_mspa_component,False,0.2890980397241545
+Zone2,Open mid-/high-rise,42,55,B3_score,BBRDG_Pct,0.001042105412898555,not_mspa_component,grey_mspa,False,0.25934015941516475
+Zone2,Open mid-/high-rise,42,56,GEDGE_Pct,BISLET_Pct,0.0009351962120199012,green_mspa,grey_mspa,False,0.23273455037058635
+Zone2,Open mid-/high-rise,42,57,BuildHeight_Mean,B2_score,0.0009263996963318047,not_mspa_component,not_mspa_component,False,0.2305454342287714
+Zone2,Open mid-/high-rise,42,58,B2_score,B3_score,0.0008819194633104812,not_mspa_component,not_mspa_component,False,0.2194760063380858
+Zone2,Open mid-/high-rise,42,59,GCORE_Pct,BISLET_Pct,0.0008594635160147193,green_mspa,grey_mspa,False,0.2138875803694469
+Zone2,Open mid-/high-rise,42,60,GCORE_Pct,GEDGE_Pct,0.0008227327689966354,green_mspa,green_mspa,True,0.2047467029983059
+Zone2,Open mid-/high-rise,42,61,B2_score,BBRDG_Pct,0.0007879128202672006,not_mspa_component,grey_mspa,False,0.19608135020141132
+Zone2,Open mid-/high-rise,42,62,GBRDG_Pct,BISLET_Pct,0.0007095865374143825,green_mspa,grey_mspa,False,0.17658893568170617
+Zone2,Open mid-/high-rise,42,63,G3_score,B2_score,0.0007030599893239958,not_mspa_component,not_mspa_component,False,0.1749647276109662
+Zone2,Open mid-/high-rise,42,64,B2_score,BISLET_Pct,0.0006846643656432364,not_mspa_component,grey_mspa,False,0.17038676081522713
+Zone2,Open mid-/high-rise,42,65,BuildHeight_Mean,G3_score,0.0006771568663312256,not_mspa_component,not_mspa_component,False,0.1685184315231158
+Zone2,Open mid-/high-rise,42,66,GISLET_Pct,BEDGE_Pct,0.0006684293425479568,green_mspa,grey_mspa,False,0.16634648482632527
+Zone2,Open mid-/high-rise,42,67,BEDGE_Pct,BISLET_Pct,0.0006557094042101549,grey_mspa,grey_mspa,True,0.1631809789231353
+Zone2,Open mid-/high-rise,42,68,G3_score,BBRDG_Pct,0.0006406783395799074,not_mspa_component,grey_mspa,False,0.15944032212475484
+Zone2,Open mid-/high-rise,42,69,GBRDG_Pct,BBRDG_Pct,0.000531853881457777,green_mspa,grey_mspa,False,0.13235807884270254
+Zone2,Open mid-/high-rise,42,70,CanopyHeight_Mean,BBRDG_Pct,0.0005161313754208062,not_mspa_component,grey_mspa,False,0.12844534873731656
+Zone2,Open mid-/high-rise,42,71,BuildHeight_Mean,BBRDG_Pct,0.0004907447738790168,not_mspa_component,grey_mspa,False,0.12212759507308353
+Zone2,Open mid-/high-rise,42,72,G3_score,GISLET_Pct,0.00045907331047585374,not_mspa_component,green_mspa,False,0.11424577979199597
+Zone2,Open mid-/high-rise,42,73,B2_score,GISLET_Pct,0.0004457782868588563,not_mspa_component,green_mspa,False,0.11093715716938597
+Zone2,Open mid-/high-rise,42,74,G2_score,BISLET_Pct,0.00042203083772203247,not_mspa_component,grey_mspa,False,0.10502732581392123
+Zone2,Open mid-/high-rise,42,75,G3_score,BISLET_Pct,0.0003635784326337305,not_mspa_component,grey_mspa,False,0.09048075896361
+Zone2,Open mid-/high-rise,42,76,CanopyHeight_Mean,G3_score,0.00031767317328812336,not_mspa_component,not_mspa_component,False,0.07905669655175573
+Zone2,Open mid-/high-rise,42,77,BuildHeight_Mean,GISLET_Pct,0.000294247298580228,not_mspa_component,green_mspa,False,0.07322689276608377
+Zone2,Open mid-/high-rise,42,78,B3_score,BISLET_Pct,0.00027907546293897616,not_mspa_component,grey_mspa,False,0.0694512034498956
+Zone2,Open mid-/high-rise,42,79,G3_score,B3_score,0.00026037444358503433,not_mspa_component,not_mspa_component,False,0.06479723535756261
+Zone2,Open mid-/high-rise,42,80,CanopyHeight_Mean,B3_score,0.000260234988922252,not_mspa_component,not_mspa_component,False,0.06476253042845515
+Zone2,Open mid-/high-rise,42,81,GCORE_Pct,GISLET_Pct,0.00025862552260204043,green_mspa,green_mspa,True,0.06436199585019589
+Zone2,Open mid-/high-rise,42,82,CanopyHeight_Mean,GISLET_Pct,0.00024062239021794684,not_mspa_component,green_mspa,False,0.05988170511888035
+Zone2,Open mid-/high-rise,42,83,GBRDG_Pct,GISLET_Pct,0.0002167861946409981,green_mspa,green_mspa,True,0.05394978817049512
+Zone2,Open mid-/high-rise,42,84,BuildHeight_Mean,BISLET_Pct,0.00021654221305864417,not_mspa_component,grey_mspa,False,0.05388907049099853
+Zone2,Open mid-/high-rise,42,85,B3_score,GISLET_Pct,0.00020865118162809743,not_mspa_component,green_mspa,False,0.051925294731062735
+Zone2,Open mid-/high-rise,42,86,G2_score,BBRDG_Pct,0.00020797856695664932,not_mspa_component,grey_mspa,False,0.05175790667803156
+Zone2,Open mid-/high-rise,42,87,GISLET_Pct,BISLET_Pct,0.00019017070617051259,green_mspa,grey_mspa,False,0.0473262115750628
+Zone2,Open mid-/high-rise,42,88,BBRDG_Pct,BISLET_Pct,0.0001585029962190094,grey_mspa,grey_mspa,True,0.03944533038446149
+Zone2,Open mid-/high-rise,42,89,CanopyHeight_Mean,BISLET_Pct,0.0001312931671104729,not_mspa_component,grey_mspa,False,0.032673845147627605
+Zone2,Open mid-/high-rise,42,90,GISLET_Pct,BBRDG_Pct,0.00011223803190765743,green_mspa,grey_mspa,False,0.027931751171327776
+Zone2,Open mid-/high-rise,42,91,GEDGE_Pct,GISLET_Pct,9.122472105692869e-05,green_mspa,green_mspa,True,0.022702342209032233
+Zone2,Open mid-/high-rise,142,1,BCORE_Pct,BEDGE_Pct,0.06565086137720391,grey_mspa,grey_mspa,True,16.906306647857217
+Zone2,Open mid-/high-rise,142,2,GCORE_Pct,BCORE_Pct,0.029978996535022357,green_mspa,grey_mspa,False,7.720144074029256
+Zone2,Open mid-/high-rise,142,3,B2_score,BCORE_Pct,0.02423585061352761,not_mspa_component,grey_mspa,False,6.241178162000944
+Zone2,Open mid-/high-rise,142,4,CanopyHeight_Mean,GCORE_Pct,0.018921759931317898,not_mspa_component,green_mspa,False,4.872701880909009
+Zone2,Open mid-/high-rise,142,5,GBRDG_Pct,BCORE_Pct,0.012524951899615035,green_mspa,grey_mspa,False,3.225405929526466
+Zone2,Open mid-/high-rise,142,6,G2_score,BCORE_Pct,0.012327401695713282,not_mspa_component,grey_mspa,False,3.1745331114788806
+Zone2,Open mid-/high-rise,142,7,CanopyHeight_Mean,BCORE_Pct,0.011970920665372788,not_mspa_component,grey_mspa,False,3.0827326767754726
+Zone2,Open mid-/high-rise,142,8,G2_score,BEDGE_Pct,0.01166602023198769,not_mspa_component,grey_mspa,False,3.0042151963382255
+Zone2,Open mid-/high-rise,142,9,G2_score,GCORE_Pct,0.010728547530473134,not_mspa_component,green_mspa,False,2.7627986995349776
+Zone2,Open mid-/high-rise,142,10,GISLET_Pct,BCORE_Pct,0.009947392125709865,green_mspa,grey_mspa,False,2.561636787329747
+Zone2,Open mid-/high-rise,142,11,G2_score,GBRDG_Pct,0.008895376289714875,not_mspa_component,green_mspa,False,2.2907233225460404
+Zone2,Open mid-/high-rise,142,12,GBRDG_Pct,BEDGE_Pct,0.008434525377229036,green_mspa,grey_mspa,False,2.1720457198156704
+Zone2,Open mid-/high-rise,142,13,BCORE_Pct,BBRDG_Pct,0.0077656287422028835,grey_mspa,grey_mspa,True,1.9997925095722069
+Zone2,Open mid-/high-rise,142,14,GCORE_Pct,BEDGE_Pct,0.007618491289356376,green_mspa,grey_mspa,False,1.9619019039499104
+Zone2,Open mid-/high-rise,142,15,CanopyHeight_Mean,B2_score,0.007348378055369912,not_mspa_component,not_mspa_component,False,1.8923427684317702
+Zone2,Open mid-/high-rise,142,16,B3_score,GCORE_Pct,0.007177852593629183,not_mspa_component,green_mspa,False,1.848429319514598
+Zone2,Open mid-/high-rise,142,17,B2_score,GCORE_Pct,0.005971568940373164,not_mspa_component,green_mspa,False,1.5377890488703332
+Zone2,Open mid-/high-rise,142,18,GEDGE_Pct,BCORE_Pct,0.005948886911998143,green_mspa,grey_mspa,False,1.531948008569274
+Zone2,Open mid-/high-rise,142,19,BCORE_Pct,BISLET_Pct,0.005523108597990913,grey_mspa,grey_mspa,True,1.4223022462805652
+Zone2,Open mid-/high-rise,142,20,GCORE_Pct,GBRDG_Pct,0.00540912230925446,green_mspa,green_mspa,True,1.3929486763409815
+Zone2,Open mid-/high-rise,142,21,G3_score,BCORE_Pct,0.004490838179249047,not_mspa_component,grey_mspa,False,1.156473590316855
+Zone2,Open mid-/high-rise,142,22,G3_score,BEDGE_Pct,0.004374372192389422,not_mspa_component,grey_mspa,False,1.1264814524135764
+Zone2,Open mid-/high-rise,142,23,G2_score,GEDGE_Pct,0.0042126778207366026,not_mspa_component,green_mspa,False,1.0848421719372907
+Zone2,Open mid-/high-rise,142,24,G3_score,GCORE_Pct,0.004105295242274398,not_mspa_component,green_mspa,False,1.0571891790894312
+Zone2,Open mid-/high-rise,142,25,G2_score,GISLET_Pct,0.0040971866959574384,not_mspa_component,green_mspa,False,1.0551010789849218
+Zone2,Open mid-/high-rise,142,26,B3_score,GBRDG_Pct,0.0039585827771021235,not_mspa_component,green_mspa,False,1.0194080156251115
+Zone2,Open mid-/high-rise,142,27,B3_score,BCORE_Pct,0.003760720489599281,not_mspa_component,grey_mspa,False,0.9684548302990302
+Zone2,Open mid-/high-rise,142,28,CanopyHeight_Mean,G2_score,0.003749759737083308,not_mspa_component,not_mspa_component,False,0.9656322345365524
+Zone2,Open mid-/high-rise,142,29,G2_score,G3_score,0.003500172597469219,not_mspa_component,not_mspa_component,False,0.9013589465832809
+Zone2,Open mid-/high-rise,142,30,G3_score,GEDGE_Pct,0.003217481194067613,not_mspa_component,green_mspa,False,0.8285607006446499
+Zone2,Open mid-/high-rise,142,31,BuildHeight_Mean,BCORE_Pct,0.002975644130897671,not_mspa_component,grey_mspa,False,0.7662832001975965
+Zone2,Open mid-/high-rise,142,32,B3_score,BEDGE_Pct,0.002850441727483152,not_mspa_component,grey_mspa,False,0.7340412740328688
+Zone2,Open mid-/high-rise,142,33,BuildHeight_Mean,B3_score,0.002843476910918471,not_mspa_component,not_mspa_component,False,0.7322477054167309
+Zone2,Open mid-/high-rise,142,34,CanopyHeight_Mean,BEDGE_Pct,0.0027854600641357597,not_mspa_component,grey_mspa,False,0.7173072982099665
+Zone2,Open mid-/high-rise,142,35,GEDGE_Pct,BEDGE_Pct,0.0027766614477563413,green_mspa,grey_mspa,False,0.7150414923474564
+Zone2,Open mid-/high-rise,142,36,B2_score,BEDGE_Pct,0.0025097804746772347,not_mspa_component,grey_mspa,False,0.6463147235785001
+Zone2,Open mid-/high-rise,142,37,CanopyHeight_Mean,GEDGE_Pct,0.0023563152048444247,not_mspa_component,green_mspa,False,0.6067945884704093
+Zone2,Open mid-/high-rise,142,38,G3_score,GBRDG_Pct,0.002313827636450346,not_mspa_component,green_mspa,False,0.5958532566291561
+Zone2,Open mid-/high-rise,142,39,GEDGE_Pct,GBRDG_Pct,0.0021100442697466284,green_mspa,green_mspa,True,0.5433752842925726
+Zone2,Open mid-/high-rise,142,40,BuildHeight_Mean,GCORE_Pct,0.00193601169002852,not_mspa_component,green_mspa,False,0.49855868786549756
+Zone2,Open mid-/high-rise,142,41,G2_score,B3_score,0.001914805118657415,not_mspa_component,not_mspa_component,False,0.4930976049333235
+Zone2,Open mid-/high-rise,142,42,GCORE_Pct,BBRDG_Pct,0.0018974146098829697,green_mspa,grey_mspa,False,0.4886192284438855
+Zone2,Open mid-/high-rise,142,43,BEDGE_Pct,BBRDG_Pct,0.001882883367896256,grey_mspa,grey_mspa,True,0.48487716584412643
+Zone2,Open mid-/high-rise,142,44,B3_score,GEDGE_Pct,0.0018561465850276257,not_mspa_component,green_mspa,False,0.4779919515381464
+Zone2,Open mid-/high-rise,142,45,B2_score,GEDGE_Pct,0.0018156733090064264,not_mspa_component,green_mspa,False,0.467569337103184
+Zone2,Open mid-/high-rise,142,46,G2_score,B2_score,0.0017499875668892802,not_mspa_component,not_mspa_component,False,0.4506540480219939
+Zone2,Open mid-/high-rise,142,47,BuildHeight_Mean,G2_score,0.0017320035251549056,not_mspa_component,not_mspa_component,False,0.4460228258574851
+Zone2,Open mid-/high-rise,142,48,GEDGE_Pct,BBRDG_Pct,0.0017127570822628657,green_mspa,grey_mspa,False,0.4410665121307884
+Zone2,Open mid-/high-rise,142,49,BuildHeight_Mean,GBRDG_Pct,0.0017025321134451039,not_mspa_component,green_mspa,False,0.4384333942299487
+Zone2,Open mid-/high-rise,142,50,B2_score,GBRDG_Pct,0.001549541873123771,not_mspa_component,green_mspa,False,0.39903558797511807
+Zone2,Open mid-/high-rise,142,51,BuildHeight_Mean,B2_score,0.0014015260800132017,not_mspa_component,not_mspa_component,False,0.3609187935483813
+Zone2,Open mid-/high-rise,142,52,BuildHeight_Mean,BEDGE_Pct,0.001380980647922397,not_mspa_component,grey_mspa,False,0.3556279661646528
+Zone2,Open mid-/high-rise,142,53,BuildHeight_Mean,CanopyHeight_Mean,0.0013744168404520854,not_mspa_component,not_mspa_component,False,0.3539376647802887
+Zone2,Open mid-/high-rise,142,54,BuildHeight_Mean,GEDGE_Pct,0.0013018015396744857,not_mspa_component,green_mspa,False,0.3352378866430476
+Zone2,Open mid-/high-rise,142,55,CanopyHeight_Mean,GBRDG_Pct,0.0012990974920423699,not_mspa_component,green_mspa,False,0.3345415445463872
+Zone2,Open mid-/high-rise,142,56,G3_score,B2_score,0.0012528353627868716,not_mspa_component,not_mspa_component,False,0.32262819372403473
+Zone2,Open mid-/high-rise,142,57,BEDGE_Pct,BISLET_Pct,0.0011168555225999285,grey_mspa,grey_mspa,True,0.28761087897901705
+Zone2,Open mid-/high-rise,142,58,GCORE_Pct,BISLET_Pct,0.0010554390961127378,green_mspa,grey_mspa,False,0.27179501734938477
+Zone2,Open mid-/high-rise,142,59,GCORE_Pct,GISLET_Pct,0.001005328439361813,green_mspa,green_mspa,True,0.2588905997745862
+Zone2,Open mid-/high-rise,142,60,B2_score,B3_score,0.0009829478126141824,not_mspa_component,not_mspa_component,False,0.25312717594694306
+Zone2,Open mid-/high-rise,142,61,GBRDG_Pct,BISLET_Pct,0.0008895993599118333,green_mspa,grey_mspa,False,0.22908822910934826
+Zone2,Open mid-/high-rise,142,62,CanopyHeight_Mean,G3_score,0.0008585682603977405,not_mspa_component,not_mspa_component,False,0.22109714912958742
+Zone2,Open mid-/high-rise,142,63,G3_score,BBRDG_Pct,0.0008508274154325386,not_mspa_component,grey_mspa,False,0.21910373889931944
+Zone2,Open mid-/high-rise,142,64,GBRDG_Pct,BBRDG_Pct,0.0008263434011565629,green_mspa,grey_mspa,False,0.21279865402096795
+Zone2,Open mid-/high-rise,142,65,B2_score,BBRDG_Pct,0.0008216412432054932,not_mspa_component,grey_mspa,False,0.21158776169511265
+Zone2,Open mid-/high-rise,142,66,BuildHeight_Mean,BBRDG_Pct,0.0008091072049923681,not_mspa_component,grey_mspa,False,0.20836001587241074
+Zone2,Open mid-/high-rise,142,67,GISLET_Pct,BEDGE_Pct,0.0007159980118565271,green_mspa,grey_mspa,False,0.18438268278237332
+Zone2,Open mid-/high-rise,142,68,BuildHeight_Mean,G3_score,0.0006084415223874429,not_mspa_component,not_mspa_component,False,0.15668490464533333
+Zone2,Open mid-/high-rise,142,69,B3_score,BBRDG_Pct,0.000599778361741845,not_mspa_component,grey_mspa,False,0.1544539811305204
+Zone2,Open mid-/high-rise,142,70,B2_score,GISLET_Pct,0.0005941843566104961,not_mspa_component,green_mspa,False,0.15301342172038737
+Zone2,Open mid-/high-rise,142,71,BuildHeight_Mean,GISLET_Pct,0.0005874028739651227,not_mspa_component,green_mspa,False,0.15126706496703005
+Zone2,Open mid-/high-rise,142,72,CanopyHeight_Mean,BBRDG_Pct,0.000581028238231015,not_mspa_component,grey_mspa,False,0.14962547879087923
+Zone2,Open mid-/high-rise,142,73,G3_score,B3_score,0.0005458663261486417,not_mspa_component,not_mspa_component,False,0.1405706384503378
+Zone2,Open mid-/high-rise,142,74,GEDGE_Pct,BISLET_Pct,0.0005223425363389951,green_mspa,grey_mspa,False,0.13451282906750892
+Zone2,Open mid-/high-rise,142,75,GCORE_Pct,GEDGE_Pct,0.0005216729660624912,green_mspa,green_mspa,True,0.13434040238217076
+Zone2,Open mid-/high-rise,142,76,BuildHeight_Mean,BISLET_Pct,0.0004701613124534078,not_mspa_component,grey_mspa,False,0.12107520229820416
+Zone2,Open mid-/high-rise,142,77,CanopyHeight_Mean,B3_score,0.0004688667410128416,not_mspa_component,not_mspa_component,False,0.12074182629532097
+Zone2,Open mid-/high-rise,142,78,G2_score,BBRDG_Pct,0.00043163491038684796,not_mspa_component,grey_mspa,False,0.1111539437844192
+Zone2,Open mid-/high-rise,142,79,B2_score,BISLET_Pct,0.00043015324257288004,not_mspa_component,grey_mspa,False,0.11077238701749002
+Zone2,Open mid-/high-rise,142,80,B3_score,GISLET_Pct,0.00040313217226862016,not_mspa_component,green_mspa,False,0.10381396345786022
+Zone2,Open mid-/high-rise,142,81,GISLET_Pct,BBRDG_Pct,0.0003769135424691908,green_mspa,grey_mspa,False,0.09706218311595423
+Zone2,Open mid-/high-rise,142,82,G2_score,BISLET_Pct,0.00036387662437213143,not_mspa_component,grey_mspa,False,0.09370493645584542
+Zone2,Open mid-/high-rise,142,83,G3_score,GISLET_Pct,0.00030370700593660273,not_mspa_component,green_mspa,False,0.07821015087624857
+Zone2,Open mid-/high-rise,142,84,GISLET_Pct,BISLET_Pct,0.0003003351025900446,green_mspa,grey_mspa,False,0.0773418236255776
+Zone2,Open mid-/high-rise,142,85,BBRDG_Pct,BISLET_Pct,0.0002883120014043424,grey_mspa,grey_mspa,True,0.07424565350321151
+Zone2,Open mid-/high-rise,142,86,CanopyHeight_Mean,GISLET_Pct,0.00026207219675839877,not_mspa_component,green_mspa,False,0.06748842024810864
+Zone2,Open mid-/high-rise,142,87,CanopyHeight_Mean,BISLET_Pct,0.00022235718697544108,not_mspa_component,grey_mspa,False,0.0572610733431604
+Zone2,Open mid-/high-rise,142,88,G3_score,BISLET_Pct,0.0002209071987853798,not_mspa_component,grey_mspa,False,0.056887674663193354
+Zone2,Open mid-/high-rise,142,89,B3_score,BISLET_Pct,0.00021975736646866117,not_mspa_component,grey_mspa,False,0.05659157165201776
+Zone2,Open mid-/high-rise,142,90,GEDGE_Pct,GISLET_Pct,0.00014236070713789613,green_mspa,green_mspa,True,0.03666050557433788
+Zone2,Open mid-/high-rise,142,91,GBRDG_Pct,GISLET_Pct,0.000129008059534882,green_mspa,green_mspa,True,0.03322195274804217
+Zone2,Open mid-/high-rise,242,1,BCORE_Pct,BEDGE_Pct,0.06286426160465347,grey_mspa,grey_mspa,True,16.716800373395245
+Zone2,Open mid-/high-rise,242,2,GCORE_Pct,BCORE_Pct,0.029104849897038473,green_mspa,grey_mspa,False,7.739532020374666
+Zone2,Open mid-/high-rise,242,3,B2_score,BCORE_Pct,0.022956328006030435,not_mspa_component,grey_mspa,False,6.104523345814436
+Zone2,Open mid-/high-rise,242,4,CanopyHeight_Mean,GCORE_Pct,0.01908148466334041,not_mspa_component,green_mspa,False,5.074128953444229
+Zone2,Open mid-/high-rise,242,5,G2_score,GCORE_Pct,0.013386777152794264,not_mspa_component,green_mspa,False,3.559798136399723
+Zone2,Open mid-/high-rise,242,6,G2_score,BCORE_Pct,0.012486178272191568,not_mspa_component,grey_mspa,False,3.320311799978266
+Zone2,Open mid-/high-rise,242,7,CanopyHeight_Mean,BCORE_Pct,0.012423711760206983,not_mspa_component,grey_mspa,False,3.3037007687784454
+Zone2,Open mid-/high-rise,242,8,GBRDG_Pct,BCORE_Pct,0.011154929669598896,green_mspa,grey_mspa,False,2.9663075284120555
+Zone2,Open mid-/high-rise,242,9,G2_score,BEDGE_Pct,0.009838467945716753,not_mspa_component,grey_mspa,False,2.6162353685614654
+Zone2,Open mid-/high-rise,242,10,GCORE_Pct,BEDGE_Pct,0.00869787987832007,green_mspa,grey_mspa,False,2.3129313521895365
+Zone2,Open mid-/high-rise,242,11,G2_score,GBRDG_Pct,0.008461141325629164,not_mspa_component,green_mspa,False,2.2499780775466443
+Zone2,Open mid-/high-rise,242,12,GBRDG_Pct,BEDGE_Pct,0.00845002317282801,green_mspa,grey_mspa,False,2.247021549685605
+Zone2,Open mid-/high-rise,242,13,GISLET_Pct,BCORE_Pct,0.007090396877131929,green_mspa,grey_mspa,False,1.885471110892449
+Zone2,Open mid-/high-rise,242,14,CanopyHeight_Mean,B2_score,0.0070319762373167085,not_mspa_component,not_mspa_component,False,1.8699359538962712
+Zone2,Open mid-/high-rise,242,15,BCORE_Pct,BBRDG_Pct,0.0067245320953995555,grey_mspa,grey_mspa,True,1.7881807210308878
+Zone2,Open mid-/high-rise,242,16,B3_score,GCORE_Pct,0.006297358129138845,not_mspa_component,green_mspa,False,1.6745870553070994
+Zone2,Open mid-/high-rise,242,17,BCORE_Pct,BISLET_Pct,0.006066216969292924,grey_mspa,grey_mspa,True,1.6131222336645705
+Zone2,Open mid-/high-rise,242,18,G3_score,BCORE_Pct,0.005778588056561847,not_mspa_component,grey_mspa,False,1.5366362463482697
+Zone2,Open mid-/high-rise,242,19,GEDGE_Pct,BCORE_Pct,0.005348583379940239,green_mspa,grey_mspa,False,1.4222898410104285
+Zone2,Open mid-/high-rise,242,20,GCORE_Pct,GBRDG_Pct,0.0051427487655110096,green_mspa,green_mspa,True,1.3675545101321684
+Zone2,Open mid-/high-rise,242,21,CanopyHeight_Mean,G2_score,0.004261389436045959,not_mspa_component,not_mspa_component,False,1.133184335539899
+Zone2,Open mid-/high-rise,242,22,G3_score,BEDGE_Pct,0.004002721792115223,not_mspa_component,grey_mspa,False,1.06439969930508
+Zone2,Open mid-/high-rise,242,23,B3_score,GBRDG_Pct,0.003977647205068721,not_mspa_component,green_mspa,False,1.0577318906741953
+Zone2,Open mid-/high-rise,242,24,B3_score,BCORE_Pct,0.003942208113669952,not_mspa_component,grey_mspa,False,1.0483079636096664
+Zone2,Open mid-/high-rise,242,25,B2_score,GCORE_Pct,0.0038973930928706763,not_mspa_component,green_mspa,False,1.0363907989550893
+Zone2,Open mid-/high-rise,242,26,B3_score,GEDGE_Pct,0.003847633935921223,not_mspa_component,green_mspa,False,1.02315889465462
+Zone2,Open mid-/high-rise,242,27,G3_score,GCORE_Pct,0.0037544259075038967,not_mspa_component,green_mspa,False,0.9983731107373734
+Zone2,Open mid-/high-rise,242,28,G3_score,GEDGE_Pct,0.003636411783845116,not_mspa_component,green_mspa,False,0.9669909152563885
+Zone2,Open mid-/high-rise,242,29,B3_score,BEDGE_Pct,0.003418765580046924,not_mspa_component,grey_mspa,False,0.9091146585717422
+Zone2,Open mid-/high-rise,242,30,CanopyHeight_Mean,BEDGE_Pct,0.0033239622460751062,not_mspa_component,grey_mspa,False,0.8839046526274127
+Zone2,Open mid-/high-rise,242,31,GEDGE_Pct,BEDGE_Pct,0.0032151326774705587,green_mspa,grey_mspa,False,0.854964804665367
+Zone2,Open mid-/high-rise,242,32,G2_score,GEDGE_Pct,0.003120279263302737,not_mspa_component,green_mspa,False,0.8297414814463588
+Zone2,Open mid-/high-rise,242,33,BuildHeight_Mean,GCORE_Pct,0.003014385675388164,not_mspa_component,green_mspa,False,0.8015823664769808
+Zone2,Open mid-/high-rise,242,34,CanopyHeight_Mean,GEDGE_Pct,0.0029208437490573775,not_mspa_component,green_mspa,False,0.7767077927669024
+Zone2,Open mid-/high-rise,242,35,GEDGE_Pct,GBRDG_Pct,0.002828179525615877,green_mspa,green_mspa,True,0.7520666169145707
+Zone2,Open mid-/high-rise,242,36,B2_score,GBRDG_Pct,0.0026409896683976366,not_mspa_component,green_mspa,False,0.7022892808707468
+Zone2,Open mid-/high-rise,242,37,BuildHeight_Mean,BCORE_Pct,0.002564322970247099,not_mspa_component,grey_mspa,False,0.6819021506387899
+Zone2,Open mid-/high-rise,242,38,BuildHeight_Mean,GBRDG_Pct,0.002294456479864395,not_mspa_component,green_mspa,False,0.610139528569552
+Zone2,Open mid-/high-rise,242,39,G2_score,GISLET_Pct,0.002290461251710247,not_mspa_component,green_mspa,False,0.6090771215708174
+Zone2,Open mid-/high-rise,242,40,G2_score,G3_score,0.00227013604187366,not_mspa_component,not_mspa_component,False,0.6036722624869332
+Zone2,Open mid-/high-rise,242,41,BuildHeight_Mean,G2_score,0.002175882788298422,not_mspa_component,not_mspa_component,False,0.5786085333610091
+Zone2,Open mid-/high-rise,242,42,G2_score,B3_score,0.002036352867846633,not_mspa_component,not_mspa_component,False,0.5415048791261583
+Zone2,Open mid-/high-rise,242,43,BuildHeight_Mean,B3_score,0.001996993715076403,not_mspa_component,not_mspa_component,False,0.5310385333371352
+Zone2,Open mid-/high-rise,242,44,BEDGE_Pct,BISLET_Pct,0.0018985371421708641,grey_mspa,grey_mspa,True,0.504857061819005
+Zone2,Open mid-/high-rise,242,45,GCORE_Pct,BISLET_Pct,0.0018280188475722728,green_mspa,grey_mspa,False,0.4861049087930055
+Zone2,Open mid-/high-rise,242,46,BuildHeight_Mean,B2_score,0.0016712761917256102,not_mspa_component,not_mspa_component,False,0.4444240615055144
+Zone2,Open mid-/high-rise,242,47,GCORE_Pct,BBRDG_Pct,0.0016682167028209455,green_mspa,grey_mspa,False,0.44361048533427827
+Zone2,Open mid-/high-rise,242,48,BuildHeight_Mean,GEDGE_Pct,0.0015558373948298498,not_mspa_component,green_mspa,False,0.4137266942925271
+Zone2,Open mid-/high-rise,242,49,G3_score,B2_score,0.0015311627799990829,not_mspa_component,not_mspa_component,False,0.40716524586559105
+Zone2,Open mid-/high-rise,242,50,B2_score,BBRDG_Pct,0.0014968141373333788,not_mspa_component,grey_mspa,False,0.3980312898167514
+Zone2,Open mid-/high-rise,242,51,B2_score,GEDGE_Pct,0.0014572242586757,not_mspa_component,green_mspa,False,0.38750358963489856
+Zone2,Open mid-/high-rise,242,52,G3_score,GBRDG_Pct,0.0012723636033340124,not_mspa_component,green_mspa,False,0.3383456325801185
+Zone2,Open mid-/high-rise,242,53,G2_score,B2_score,0.0012311054640751463,not_mspa_component,not_mspa_component,False,0.3273743102395225
+Zone2,Open mid-/high-rise,242,54,BuildHeight_Mean,BEDGE_Pct,0.0012278426691415063,not_mspa_component,grey_mspa,False,0.3265066711362749
+Zone2,Open mid-/high-rise,242,55,BEDGE_Pct,BBRDG_Pct,0.0011926868528955314,grey_mspa,grey_mspa,True,0.31715807231165716
+Zone2,Open mid-/high-rise,242,56,B2_score,BEDGE_Pct,0.0011778885000194507,not_mspa_component,grey_mspa,False,0.3132229093976273
+Zone2,Open mid-/high-rise,242,57,G2_score,BISLET_Pct,0.0010755610992598844,not_mspa_component,grey_mspa,False,0.28601211128177934
+Zone2,Open mid-/high-rise,242,58,BuildHeight_Mean,CanopyHeight_Mean,0.0010202742913971857,not_mspa_component,not_mspa_component,False,0.2713102996843521
+Zone2,Open mid-/high-rise,242,59,B2_score,B3_score,0.000928631275569993,not_mspa_component,not_mspa_component,False,0.24694068231998176
+Zone2,Open mid-/high-rise,242,60,G3_score,BBRDG_Pct,0.0008659625365808923,not_mspa_component,grey_mspa,False,0.23027587512123376
+Zone2,Open mid-/high-rise,242,61,CanopyHeight_Mean,GBRDG_Pct,0.0008636885399331914,not_mspa_component,green_mspa,False,0.22967117625038005
+Zone2,Open mid-/high-rise,242,62,GEDGE_Pct,BISLET_Pct,0.0008239291664385926,green_mspa,grey_mspa,False,0.21909840417424592
+Zone2,Open mid-/high-rise,242,63,BuildHeight_Mean,BBRDG_Pct,0.000772404349518481,not_mspa_component,grey_mspa,False,0.20539697737397497
+Zone2,Open mid-/high-rise,242,64,CanopyHeight_Mean,BBRDG_Pct,0.0007532596216611886,not_mspa_component,grey_mspa,False,0.20030603085485377
+Zone2,Open mid-/high-rise,242,65,GBRDG_Pct,BBRDG_Pct,0.0006826164742679683,green_mspa,grey_mspa,False,0.18152067710095898
+Zone2,Open mid-/high-rise,242,66,BuildHeight_Mean,GISLET_Pct,0.0006739760526526578,not_mspa_component,green_mspa,False,0.17922302499150636
+Zone2,Open mid-/high-rise,242,67,GEDGE_Pct,BBRDG_Pct,0.0006680993356624593,green_mspa,grey_mspa,False,0.17766029439914038
+Zone2,Open mid-/high-rise,242,68,B3_score,BISLET_Pct,0.0006324442776063282,not_mspa_component,grey_mspa,False,0.16817893770120315
+Zone2,Open mid-/high-rise,242,69,GISLET_Pct,BEDGE_Pct,0.0006012601932271357,green_mspa,grey_mspa,False,0.1598864977665315
+Zone2,Open mid-/high-rise,242,70,B3_score,BBRDG_Pct,0.0005986276549560292,not_mspa_component,grey_mspa,False,0.15918645587261457
+Zone2,Open mid-/high-rise,242,71,GBRDG_Pct,BISLET_Pct,0.0005976914528388934,green_mspa,grey_mspa,False,0.15893750195982176
+Zone2,Open mid-/high-rise,242,72,GCORE_Pct,GEDGE_Pct,0.0005970780845806495,green_mspa,green_mspa,True,0.15877439569774673
+Zone2,Open mid-/high-rise,242,73,BuildHeight_Mean,G3_score,0.0004459649698467734,not_mspa_component,not_mspa_component,False,0.1185905502452268
+Zone2,Open mid-/high-rise,242,74,G3_score,B3_score,0.0004086920728606508,not_mspa_component,not_mspa_component,False,0.10867897946796004
+Zone2,Open mid-/high-rise,242,75,B3_score,GISLET_Pct,0.000407071950807648,not_mspa_component,green_mspa,False,0.10824815826288638
+Zone2,Open mid-/high-rise,242,76,CanopyHeight_Mean,G3_score,0.00036663902781382756,not_mspa_component,not_mspa_component,False,0.09749627659041438
+Zone2,Open mid-/high-rise,242,77,CanopyHeight_Mean,GISLET_Pct,0.000361524169529088,not_mspa_component,green_mspa,False,0.09613613868850242
+Zone2,Open mid-/high-rise,242,78,CanopyHeight_Mean,B3_score,0.00034251304727480676,not_mspa_component,not_mspa_component,False,0.09108072043516043
+Zone2,Open mid-/high-rise,242,79,G2_score,BBRDG_Pct,0.00033496330630926124,not_mspa_component,grey_mspa,False,0.08907310101244972
+Zone2,Open mid-/high-rise,242,80,B2_score,GISLET_Pct,0.0003242023102402431,not_mspa_component,green_mspa,False,0.0862115479055991
+Zone2,Open mid-/high-rise,242,81,BuildHeight_Mean,BISLET_Pct,0.0003007408478454072,not_mspa_component,grey_mspa,False,0.07997269973795658
+Zone2,Open mid-/high-rise,242,82,G3_score,BISLET_Pct,0.0002870559957510608,not_mspa_component,grey_mspa,False,0.07633363781690326
+Zone2,Open mid-/high-rise,242,83,G3_score,GISLET_Pct,0.00027797754012264816,not_mspa_component,green_mspa,False,0.07391950414913954
+Zone2,Open mid-/high-rise,242,84,GCORE_Pct,GISLET_Pct,0.0002716018550504263,green_mspa,green_mspa,True,0.07222408847296019
+Zone2,Open mid-/high-rise,242,85,B2_score,BISLET_Pct,0.00018507606598173286,not_mspa_component,grey_mspa,False,0.04921523883263003
+Zone2,Open mid-/high-rise,242,86,BBRDG_Pct,BISLET_Pct,0.00018334733460551457,grey_mspa,grey_mspa,True,0.0487555363470237
+Zone2,Open mid-/high-rise,242,87,GISLET_Pct,BISLET_Pct,0.00014525059373999828,green_mspa,grey_mspa,False,0.03862488984502673
+Zone2,Open mid-/high-rise,242,88,GISLET_Pct,BBRDG_Pct,9.333320819720781e-05,green_mspa,grey_mspa,False,0.024819071596726822
+Zone2,Open mid-/high-rise,242,89,CanopyHeight_Mean,BISLET_Pct,7.119692382887286e-05,not_mspa_component,grey_mspa,False,0.01893261341924347
+Zone2,Open mid-/high-rise,242,90,GEDGE_Pct,GISLET_Pct,6.534980248817948e-05,green_mspa,green_mspa,True,0.017377752871829442
+Zone2,Open mid-/high-rise,242,91,GBRDG_Pct,GISLET_Pct,0.0,green_mspa,green_mspa,True,0.0
+Zone3,Open low-rise,42,1,BuildHeight_Mean,BCORE_Pct,0.01826849304831754,not_mspa_component,grey_mspa,False,6.050802982039057
+Zone3,Open low-rise,42,2,BuildHeight_Mean,BEDGE_Pct,0.013657583156759938,not_mspa_component,grey_mspa,False,4.523599438322593
+Zone3,Open low-rise,42,3,BuildHeight_Mean,G3_score,0.010947888783916197,not_mspa_component,not_mspa_component,False,3.6261074148561394
+Zone3,Open low-rise,42,4,BuildHeight_Mean,GISLET_Pct,0.010611248718697713,not_mspa_component,green_mspa,False,3.514607100894259
+Zone3,Open low-rise,42,5,BuildHeight_Mean,G2_score,0.009352241186295927,not_mspa_component,not_mspa_component,False,3.097604641451227
+Zone3,Open low-rise,42,6,BuildHeight_Mean,GBRDG_Pct,0.00923641550288651,not_mspa_component,green_mspa,False,3.059241411998376
+Zone3,Open low-rise,42,7,BuildHeight_Mean,GCORE_Pct,0.008790748636359862,not_mspa_component,green_mspa,False,2.911629761828698
+Zone3,Open low-rise,42,8,BuildHeight_Mean,CanopyHeight_Mean,0.008750773786855185,not_mspa_component,not_mspa_component,False,2.8983894831724495
+Zone3,Open low-rise,42,9,GISLET_Pct,BEDGE_Pct,0.00751106684091203,green_mspa,grey_mspa,False,2.487779671759559
+Zone3,Open low-rise,42,10,GISLET_Pct,BCORE_Pct,0.006881891046531153,green_mspa,grey_mspa,False,2.2793870712972444
+Zone3,Open low-rise,42,11,B3_score,BCORE_Pct,0.006447371889540032,not_mspa_component,grey_mspa,False,2.1354677122170433
+Zone3,Open low-rise,42,12,BuildHeight_Mean,B2_score,0.006272038727640828,not_mspa_component,not_mspa_component,False,2.077394700060863
+Zone3,Open low-rise,42,13,BCORE_Pct,BEDGE_Pct,0.0060967574817431605,grey_mspa,grey_mspa,True,2.019338883274661
+Zone3,Open low-rise,42,14,BuildHeight_Mean,B3_score,0.005836088259781615,not_mspa_component,not_mspa_component,False,1.9330012690336231
+Zone3,Open low-rise,42,15,BuildHeight_Mean,GEDGE_Pct,0.0052228793473033264,not_mspa_component,green_mspa,False,1.7298971429065766
+Zone3,Open low-rise,42,16,GCORE_Pct,BEDGE_Pct,0.005179768614227254,green_mspa,grey_mspa,False,1.7156182118768157
+Zone3,Open low-rise,42,17,GBRDG_Pct,GISLET_Pct,0.005046185328794906,green_mspa,green_mspa,True,1.6713733943263578
+Zone3,Open low-rise,42,18,BuildHeight_Mean,BBRDG_Pct,0.0049797046312572354,not_mspa_component,grey_mspa,False,1.6493539753274808
+Zone3,Open low-rise,42,19,B2_score,BCORE_Pct,0.004590490240169963,not_mspa_component,grey_mspa,False,1.5204402443473397
+Zone3,Open low-rise,42,20,G2_score,GISLET_Pct,0.004576426683584525,not_mspa_component,green_mspa,False,1.5157821803296794
+Zone3,Open low-rise,42,21,G3_score,GISLET_Pct,0.004442931094444317,not_mspa_component,green_mspa,False,1.4715664091260978
+Zone3,Open low-rise,42,22,BuildHeight_Mean,BISLET_Pct,0.004349651934513206,not_mspa_component,grey_mspa,False,1.4406709314542137
+Zone3,Open low-rise,42,23,G3_score,GEDGE_Pct,0.004298117529323678,not_mspa_component,green_mspa,False,1.423601951994678
+Zone3,Open low-rise,42,24,G2_score,BCORE_Pct,0.00429380854961193,not_mspa_component,grey_mspa,False,1.4221747523225194
+Zone3,Open low-rise,42,25,G3_score,BCORE_Pct,0.004151089765925203,not_mspa_component,grey_mspa,False,1.3749041186889384
+Zone3,Open low-rise,42,26,G3_score,BEDGE_Pct,0.004065397421850117,not_mspa_component,grey_mspa,False,1.3465215099156767
+Zone3,Open low-rise,42,27,CanopyHeight_Mean,BCORE_Pct,0.004027733758622215,not_mspa_component,grey_mspa,False,1.3340467313353555
+Zone3,Open low-rise,42,28,B2_score,BEDGE_Pct,0.004023046662408284,not_mspa_component,grey_mspa,False,1.3324942937219548
+Zone3,Open low-rise,42,29,G3_score,B2_score,0.003964486528276613,not_mspa_component,not_mspa_component,False,1.313098285890583
+Zone3,Open low-rise,42,30,G3_score,B3_score,0.003857504935182241,not_mspa_component,not_mspa_component,False,1.277664353775513
+Zone3,Open low-rise,42,31,GCORE_Pct,GISLET_Pct,0.003636293295052698,green_mspa,green_mspa,True,1.2043956912636449
+Zone3,Open low-rise,42,32,BCORE_Pct,BBRDG_Pct,0.0035542482770466676,grey_mspa,grey_mspa,True,1.1772211324043382
+Zone3,Open low-rise,42,33,CanopyHeight_Mean,G3_score,0.0033769516023944733,not_mspa_component,not_mspa_component,False,1.1184977749356222
+Zone3,Open low-rise,42,34,GBRDG_Pct,BEDGE_Pct,0.0030690743507471334,green_mspa,grey_mspa,False,1.016524142658313
+Zone3,Open low-rise,42,35,GCORE_Pct,BCORE_Pct,0.0029885832222464087,green_mspa,grey_mspa,False,0.9898642556565918
+Zone3,Open low-rise,42,36,G3_score,GCORE_Pct,0.0029731236683707674,not_mspa_component,green_mspa,False,0.9847438160864358
+Zone3,Open low-rise,42,37,B2_score,B3_score,0.002903945458362952,not_mspa_component,not_mspa_component,False,0.9618309398957002
+Zone3,Open low-rise,42,38,B2_score,GISLET_Pct,0.00279695477321228,not_mspa_component,green_mspa,False,0.9263939963531835
+Zone3,Open low-rise,42,39,G2_score,G3_score,0.002769289973328398,not_mspa_component,not_mspa_component,False,0.9172309935158848
+Zone3,Open low-rise,42,40,G2_score,BEDGE_Pct,0.0027601210847846658,not_mspa_component,grey_mspa,False,0.9141941180606589
+Zone3,Open low-rise,42,41,B3_score,GCORE_Pct,0.0027293098796997064,not_mspa_component,green_mspa,False,0.903988977925936
+Zone3,Open low-rise,42,42,GEDGE_Pct,BCORE_Pct,0.002640935691979256,green_mspa,grey_mspa,False,0.8747181017140951
+Zone3,Open low-rise,42,43,B2_score,GBRDG_Pct,0.002558447286779475,not_mspa_component,green_mspa,False,0.8473966862669438
+Zone3,Open low-rise,42,44,GISLET_Pct,BISLET_Pct,0.002557146315596371,green_mspa,grey_mspa,False,0.8469657848076141
+Zone3,Open low-rise,42,45,CanopyHeight_Mean,GEDGE_Pct,0.0024077753696751096,not_mspa_component,green_mspa,False,0.7974918537822194
+Zone3,Open low-rise,42,46,G2_score,B2_score,0.0023892350676639547,not_mspa_component,not_mspa_component,False,0.7913510235341914
+Zone3,Open low-rise,42,47,G3_score,GBRDG_Pct,0.002294904894823135,not_mspa_component,green_mspa,False,0.7601074343880105
+Zone3,Open low-rise,42,48,BEDGE_Pct,BISLET_Pct,0.002292390879331691,grey_mspa,grey_mspa,True,0.759274754188703
+Zone3,Open low-rise,42,49,GCORE_Pct,GBRDG_Pct,0.0022321712587541763,green_mspa,green_mspa,True,0.7393290991856352
+Zone3,Open low-rise,42,50,GEDGE_Pct,GBRDG_Pct,0.002222156298674076,green_mspa,green_mspa,True,0.7360119919585968
+Zone3,Open low-rise,42,51,GEDGE_Pct,BEDGE_Pct,0.0021701054423610435,green_mspa,grey_mspa,False,0.7187719560254968
+Zone3,Open low-rise,42,52,G2_score,B3_score,0.0021085157968909847,not_mspa_component,not_mspa_component,False,0.6983725279233917
+Zone3,Open low-rise,42,53,B3_score,GISLET_Pct,0.0020552495389498356,not_mspa_component,green_mspa,False,0.6807299324701204
+Zone3,Open low-rise,42,54,GBRDG_Pct,BCORE_Pct,0.001989476189234479,green_mspa,grey_mspa,False,0.6589447978372979
+Zone3,Open low-rise,42,55,CanopyHeight_Mean,GCORE_Pct,0.0018258304031062164,not_mspa_component,green_mspa,False,0.6047428224426055
+Zone3,Open low-rise,42,56,B3_score,BEDGE_Pct,0.0017216307557047317,not_mspa_component,grey_mspa,False,0.5702303130880154
+Zone3,Open low-rise,42,57,GCORE_Pct,GEDGE_Pct,0.0017048974574996707,green_mspa,green_mspa,True,0.5646879900069195
+Zone3,Open low-rise,42,58,CanopyHeight_Mean,GBRDG_Pct,0.0015919370959618262,not_mspa_component,green_mspa,False,0.5272737987740883
+Zone3,Open low-rise,42,59,G2_score,GCORE_Pct,0.0015820497303568376,not_mspa_component,green_mspa,False,0.5239989527794602
+Zone3,Open low-rise,42,60,CanopyHeight_Mean,G2_score,0.0014602830175293262,not_mspa_component,not_mspa_component,False,0.4836679639485202
+Zone3,Open low-rise,42,61,BCORE_Pct,BISLET_Pct,0.0014283527568672491,grey_mspa,grey_mspa,True,0.4730921755723041
+Zone3,Open low-rise,42,62,B2_score,BBRDG_Pct,0.0014264147073565362,not_mspa_component,grey_mspa,False,0.47245026407321405
+Zone3,Open low-rise,42,63,CanopyHeight_Mean,B3_score,0.0012952264033559376,not_mspa_component,not_mspa_component,False,0.42899870082954666
+Zone3,Open low-rise,42,64,GEDGE_Pct,GISLET_Pct,0.0012683671883915342,green_mspa,green_mspa,True,0.4201025199802561
+Zone3,Open low-rise,42,65,G2_score,GBRDG_Pct,0.0012398288064100307,not_mspa_component,green_mspa,False,0.41065017345448973
+Zone3,Open low-rise,42,66,G2_score,GEDGE_Pct,0.0012019864005722314,not_mspa_component,green_mspa,False,0.39811619260093617
+Zone3,Open low-rise,42,67,B2_score,GCORE_Pct,0.0011743216380364324,not_mspa_component,green_mspa,False,0.388953202133891
+Zone3,Open low-rise,42,68,CanopyHeight_Mean,GISLET_Pct,0.0011669924797456177,not_mspa_component,green_mspa,False,0.3865256733429499
+Zone3,Open low-rise,42,69,B2_score,GEDGE_Pct,0.001164911877731395,not_mspa_component,green_mspa,False,0.38583654628475206
+Zone3,Open low-rise,42,70,B2_score,BISLET_Pct,0.001143534312835,not_mspa_component,grey_mspa,False,0.3787559713800938
+Zone3,Open low-rise,42,71,GEDGE_Pct,BBRDG_Pct,0.0011259459145707142,green_mspa,grey_mspa,False,0.37293042614298233
+Zone3,Open low-rise,42,72,B3_score,GEDGE_Pct,0.0010945086397415285,not_mspa_component,green_mspa,False,0.36251792217888895
+Zone3,Open low-rise,42,73,BEDGE_Pct,BBRDG_Pct,0.0010330084078231316,grey_mspa,grey_mspa,True,0.34214810920615446
+Zone3,Open low-rise,42,74,CanopyHeight_Mean,B2_score,0.000986694266093275,not_mspa_component,not_mspa_component,False,0.3268081604677222
+Zone3,Open low-rise,42,75,CanopyHeight_Mean,BISLET_Pct,0.0009727520897110989,not_mspa_component,grey_mspa,False,0.3221902994210414
+Zone3,Open low-rise,42,76,CanopyHeight_Mean,BBRDG_Pct,0.0009320519554853846,not_mspa_component,grey_mspa,False,0.3087097954248444
+Zone3,Open low-rise,42,77,G2_score,BISLET_Pct,0.0009086651256576954,not_mspa_component,grey_mspa,False,0.30096372138975286
+Zone3,Open low-rise,42,78,B3_score,GBRDG_Pct,0.0008787760598877224,not_mspa_component,green_mspa,False,0.2910640078330307
+Zone3,Open low-rise,42,79,G2_score,BBRDG_Pct,0.0008698414626108869,not_mspa_component,grey_mspa,False,0.2881047332118012
+Zone3,Open low-rise,42,80,B3_score,BISLET_Pct,0.000839205804279173,not_mspa_component,grey_mspa,False,0.27795773683393976
+Zone3,Open low-rise,42,81,GISLET_Pct,BBRDG_Pct,0.000814029348135454,green_mspa,grey_mspa,False,0.26961891132114685
+Zone3,Open low-rise,42,82,GCORE_Pct,BBRDG_Pct,0.0007778109885796065,green_mspa,grey_mspa,False,0.2576228393175358
+Zone3,Open low-rise,42,83,GBRDG_Pct,BISLET_Pct,0.0007562414676087767,green_mspa,grey_mspa,False,0.25047868563905434
+Zone3,Open low-rise,42,84,CanopyHeight_Mean,BEDGE_Pct,0.000750990148727653,not_mspa_component,grey_mspa,False,0.24873936888963763
+Zone3,Open low-rise,42,85,BBRDG_Pct,BISLET_Pct,0.0007384939733582331,grey_mspa,grey_mspa,True,0.24460044538952264
+Zone3,Open low-rise,42,86,B3_score,BBRDG_Pct,0.0006944990616997763,not_mspa_component,grey_mspa,False,0.23002866095424038
+Zone3,Open low-rise,42,87,G3_score,BBRDG_Pct,0.0006744998846842976,not_mspa_component,grey_mspa,False,0.22340462909767025
+Zone3,Open low-rise,42,88,G3_score,BISLET_Pct,0.0005057017621899666,not_mspa_component,grey_mspa,False,0.16749612146926707
+Zone3,Open low-rise,42,89,GBRDG_Pct,BBRDG_Pct,0.00039651464997688,green_mspa,grey_mspa,False,0.13133168784949334
+Zone3,Open low-rise,42,90,GCORE_Pct,BISLET_Pct,0.0003165158290767199,green_mspa,grey_mspa,False,0.10483486061902417
+Zone3,Open low-rise,42,91,GEDGE_Pct,BISLET_Pct,0.0002489432815001188,green_mspa,grey_mspa,False,0.0824538042670264
+Zone3,Open low-rise,142,1,BuildHeight_Mean,BCORE_Pct,0.01577928113850626,not_mspa_component,grey_mspa,False,9.496517038787621
+Zone3,Open low-rise,142,2,GISLET_Pct,BEDGE_Pct,0.00783330590039819,green_mspa,grey_mspa,False,4.714354367616587
+Zone3,Open low-rise,142,3,BuildHeight_Mean,BEDGE_Pct,0.007300777327677389,not_mspa_component,grey_mspa,False,4.393860257644535
+Zone3,Open low-rise,142,4,BuildHeight_Mean,G3_score,0.007095977744921604,not_mspa_component,not_mspa_component,False,4.270604786745371
+Zone3,Open low-rise,142,5,BuildHeight_Mean,GISLET_Pct,0.006586600692694492,not_mspa_component,green_mspa,False,3.9640440623890703
+Zone3,Open low-rise,142,6,BuildHeight_Mean,CanopyHeight_Mean,0.006442172344959474,not_mspa_component,not_mspa_component,False,3.877122088370716
+Zone3,Open low-rise,142,7,BuildHeight_Mean,GCORE_Pct,0.006307849173124511,not_mspa_component,green_mspa,False,3.7962817586473387
+Zone3,Open low-rise,142,8,BuildHeight_Mean,GBRDG_Pct,0.005585345931364694,not_mspa_component,green_mspa,False,3.361454323498356
+Zone3,Open low-rise,142,9,BuildHeight_Mean,G2_score,0.005575494397393254,not_mspa_component,not_mspa_component,False,3.3555253296869916
+Zone3,Open low-rise,142,10,GBRDG_Pct,GISLET_Pct,0.005335983364872648,green_mspa,green_mspa,True,3.21137930799282
+Zone3,Open low-rise,142,11,GISLET_Pct,BCORE_Pct,0.005279903222071101,green_mspa,grey_mspa,False,3.1776283387960738
+Zone3,Open low-rise,142,12,B2_score,BCORE_Pct,0.004164552885242641,not_mspa_component,grey_mspa,False,2.5063719371301314
+Zone3,Open low-rise,142,13,BCORE_Pct,BEDGE_Pct,0.0034558968400754285,grey_mspa,grey_mspa,True,2.0798782237284734
+Zone3,Open low-rise,142,14,G3_score,BEDGE_Pct,0.0034351758089088556,not_mspa_component,grey_mspa,False,2.067407590636424
+Zone3,Open low-rise,142,15,B2_score,BEDGE_Pct,0.003308076873421031,not_mspa_component,grey_mspa,False,1.9909150561618048
+Zone3,Open low-rise,142,16,BuildHeight_Mean,B2_score,0.003217301009516449,not_mspa_component,not_mspa_component,False,1.936283002222614
+Zone3,Open low-rise,142,17,BuildHeight_Mean,BBRDG_Pct,0.0031341329730519662,not_mspa_component,grey_mspa,False,1.886229601916557
+Zone3,Open low-rise,142,18,G3_score,GISLET_Pct,0.002766467844095513,not_mspa_component,green_mspa,False,1.6649560134016412
+Zone3,Open low-rise,142,19,B3_score,BCORE_Pct,0.0027087692633431916,not_mspa_component,grey_mspa,False,1.6302310122803192
+Zone3,Open low-rise,142,20,G3_score,B2_score,0.0026176286644256906,not_mspa_component,not_mspa_component,False,1.575379448197769
+Zone3,Open low-rise,142,21,BuildHeight_Mean,B3_score,0.002557264550036925,not_mspa_component,not_mspa_component,False,1.5390502367595282
+Zone3,Open low-rise,142,22,G2_score,B2_score,0.002400419999292594,not_mspa_component,not_mspa_component,False,1.4446557624162228
+Zone3,Open low-rise,142,23,GCORE_Pct,GBRDG_Pct,0.0023952193124761106,green_mspa,green_mspa,True,1.4415258092496233
+Zone3,Open low-rise,142,24,GCORE_Pct,BCORE_Pct,0.0023851073774151244,green_mspa,grey_mspa,False,1.4354400970578662
+Zone3,Open low-rise,142,25,BCORE_Pct,BBRDG_Pct,0.002323272796105784,grey_mspa,grey_mspa,True,1.3982259077778827
+Zone3,Open low-rise,142,26,GBRDG_Pct,BEDGE_Pct,0.0023084972837207935,green_mspa,grey_mspa,False,1.3893334934854173
+Zone3,Open low-rise,142,27,G2_score,BCORE_Pct,0.002259823352359336,not_mspa_component,grey_mspa,False,1.36003983844109
+Zone3,Open low-rise,142,28,BuildHeight_Mean,GEDGE_Pct,0.0021629365949968164,not_mspa_component,green_mspa,False,1.3017300375034064
+Zone3,Open low-rise,142,29,BuildHeight_Mean,BISLET_Pct,0.002141130232639642,not_mspa_component,grey_mspa,False,1.2886062145699564
+Zone3,Open low-rise,142,30,GCORE_Pct,BEDGE_Pct,0.0019021383810229283,green_mspa,grey_mspa,False,1.144772653897092
+Zone3,Open low-rise,142,31,G3_score,GEDGE_Pct,0.001710415975356021,not_mspa_component,green_mspa,False,1.0293874803805314
+Zone3,Open low-rise,142,32,CanopyHeight_Mean,BCORE_Pct,0.00160360594030049,not_mspa_component,grey_mspa,False,0.9651055077789343
+Zone3,Open low-rise,142,33,BEDGE_Pct,BISLET_Pct,0.0015798162649877183,grey_mspa,grey_mspa,True,0.950788058525581
+Zone3,Open low-rise,142,34,CanopyHeight_Mean,G3_score,0.0013332551181895879,not_mspa_component,not_mspa_component,False,0.8023990342653088
+Zone3,Open low-rise,142,35,B2_score,GBRDG_Pct,0.001291748179573306,not_mspa_component,green_mspa,False,0.7774187232905879
+Zone3,Open low-rise,142,36,GCORE_Pct,GISLET_Pct,0.001251638806472959,green_mspa,green_mspa,True,0.7532795155713575
+Zone3,Open low-rise,142,37,B2_score,GISLET_Pct,0.0012403461160374319,not_mspa_component,green_mspa,False,0.7464831839645244
+Zone3,Open low-rise,142,38,BCORE_Pct,BISLET_Pct,0.001162416329698085,grey_mspa,grey_mspa,True,0.6995823437231581
+Zone3,Open low-rise,142,39,CanopyHeight_Mean,B2_score,0.001060683013359453,not_mspa_component,not_mspa_component,False,0.6383557159989977
+Zone3,Open low-rise,142,40,GEDGE_Pct,BCORE_Pct,0.0010289194528423202,green_mspa,grey_mspa,False,0.6192393068916516
+Zone3,Open low-rise,142,41,B3_score,GISLET_Pct,0.0010255283102671277,not_mspa_component,green_mspa,False,0.6171984000237408
+Zone3,Open low-rise,142,42,B3_score,GCORE_Pct,0.0009930887380466913,not_mspa_component,green_mspa,False,0.5976751436967724
+Zone3,Open low-rise,142,43,G2_score,BEDGE_Pct,0.0009772945795509884,not_mspa_component,grey_mspa,False,0.5881696729499629
+Zone3,Open low-rise,142,44,G2_score,GISLET_Pct,0.0009642925631151985,not_mspa_component,green_mspa,False,0.5803446098474517
+Zone3,Open low-rise,142,45,G3_score,B3_score,0.0009608830540644475,not_mspa_component,not_mspa_component,False,0.5782926493994346
+Zone3,Open low-rise,142,46,B2_score,B3_score,0.0009000652577217251,not_mspa_component,not_mspa_component,False,0.5416903964729206
+Zone3,Open low-rise,142,47,G3_score,GBRDG_Pct,0.0008502820370498095,not_mspa_component,green_mspa,False,0.5117291327621882
+Zone3,Open low-rise,142,48,B2_score,GCORE_Pct,0.0008155781447434876,not_mspa_component,green_mspa,False,0.490843130307045
+Zone3,Open low-rise,142,49,B2_score,BISLET_Pct,0.0007891335445761258,not_mspa_component,grey_mspa,False,0.4749278554685456
+Zone3,Open low-rise,142,50,G3_score,BCORE_Pct,0.0007855019071664115,not_mspa_component,grey_mspa,False,0.4727422104928763
+Zone3,Open low-rise,142,51,B2_score,GEDGE_Pct,0.0007724659164817938,not_mspa_component,green_mspa,False,0.4648967005125866
+Zone3,Open low-rise,142,52,G2_score,G3_score,0.0007599433901967345,not_mspa_component,not_mspa_component,False,0.457360211163618
+Zone3,Open low-rise,142,53,CanopyHeight_Mean,GISLET_Pct,0.0007493415719414408,not_mspa_component,green_mspa,False,0.4509796703253009
+Zone3,Open low-rise,142,54,GBRDG_Pct,BISLET_Pct,0.0006074602565664384,green_mspa,grey_mspa,False,0.3655905884579213
+Zone3,Open low-rise,142,55,CanopyHeight_Mean,B3_score,0.0005951098365967368,not_mspa_component,not_mspa_component,False,0.3581576786409943
+Zone3,Open low-rise,142,56,GEDGE_Pct,BEDGE_Pct,0.0005671250534275475,green_mspa,grey_mspa,False,0.34131546841226257
+Zone3,Open low-rise,142,57,CanopyHeight_Mean,BEDGE_Pct,0.00048166523302381443,not_mspa_component,grey_mspa,False,0.28988279328137206
+Zone3,Open low-rise,142,58,CanopyHeight_Mean,GCORE_Pct,0.0004721560998957114,not_mspa_component,green_mspa,False,0.2841598681377949
+Zone3,Open low-rise,142,59,GEDGE_Pct,GISLET_Pct,0.0004579121908754807,green_mspa,green_mspa,True,0.275587391133157
+Zone3,Open low-rise,142,60,B2_score,BBRDG_Pct,0.0004534806363885487,not_mspa_component,grey_mspa,False,0.27292032839917946
+Zone3,Open low-rise,142,61,B3_score,BEDGE_Pct,0.00043959294398512747,not_mspa_component,grey_mspa,False,0.2645622348725553
+Zone3,Open low-rise,142,62,G2_score,B3_score,0.00043913613498929846,not_mspa_component,not_mspa_component,False,0.26428731142234974
+Zone3,Open low-rise,142,63,B3_score,GBRDG_Pct,0.0004171568507998892,not_mspa_component,green_mspa,False,0.2510594181506009
+Zone3,Open low-rise,142,64,CanopyHeight_Mean,G2_score,0.0004125874757262822,not_mspa_component,not_mspa_component,False,0.24830941022170813
+Zone3,Open low-rise,142,65,G2_score,BISLET_Pct,0.0004012670624921524,not_mspa_component,grey_mspa,False,0.2414963940760178
+Zone3,Open low-rise,142,66,CanopyHeight_Mean,GBRDG_Pct,0.0004011617977196179,not_mspa_component,green_mspa,False,0.24143304209583671
+Zone3,Open low-rise,142,67,G3_score,GCORE_Pct,0.0003763821409205971,not_mspa_component,green_mspa,False,0.2265197877503674
+Zone3,Open low-rise,142,68,G2_score,GBRDG_Pct,0.0003641634540336997,not_mspa_component,green_mspa,False,0.21916615945801945
+Zone3,Open low-rise,142,69,BEDGE_Pct,BBRDG_Pct,0.00035694325321761975,grey_mspa,grey_mspa,True,0.21482079293140072
+Zone3,Open low-rise,142,70,CanopyHeight_Mean,GEDGE_Pct,0.0003291642966219585,not_mspa_component,green_mspa,False,0.1981024562521284
+Zone3,Open low-rise,142,71,GISLET_Pct,BBRDG_Pct,0.0003148200435550382,green_mspa,grey_mspa,False,0.18946958873028227
+Zone3,Open low-rise,142,72,GBRDG_Pct,BCORE_Pct,0.0003060176053670527,green_mspa,grey_mspa,False,0.1841719770392726
+Zone3,Open low-rise,142,73,GISLET_Pct,BISLET_Pct,0.0003054646389276294,green_mspa,grey_mspa,False,0.18383918271437485
+Zone3,Open low-rise,142,74,GBRDG_Pct,BBRDG_Pct,0.0003053067713944786,green_mspa,grey_mspa,False,0.18374417257384443
+Zone3,Open low-rise,142,75,GCORE_Pct,GEDGE_Pct,0.0003046060169902341,green_mspa,green_mspa,True,0.1833224343411899
+Zone3,Open low-rise,142,76,G2_score,GCORE_Pct,0.0002775375507327194,not_mspa_component,green_mspa,False,0.1670316953162643
+Zone3,Open low-rise,142,77,G2_score,GEDGE_Pct,0.0002367180286968676,not_mspa_component,green_mspa,False,0.14246509541060282
+Zone3,Open low-rise,142,78,G3_score,BBRDG_Pct,0.00022846623601661546,not_mspa_component,grey_mspa,False,0.1374988812275418
+Zone3,Open low-rise,142,79,GCORE_Pct,BISLET_Pct,0.0002081494552771515,green_mspa,grey_mspa,False,0.12527154002155982
+Zone3,Open low-rise,142,80,G2_score,BBRDG_Pct,0.00014816430362947646,not_mspa_component,grey_mspa,False,0.08917040146548927
+Zone3,Open low-rise,142,81,B3_score,GEDGE_Pct,0.0001292642557305872,not_mspa_component,green_mspa,False,0.07779569907377468
+Zone3,Open low-rise,142,82,BBRDG_Pct,BISLET_Pct,0.00011192039417282799,grey_mspa,grey_mspa,True,0.06735756343528222
+Zone3,Open low-rise,142,83,CanopyHeight_Mean,BBRDG_Pct,8.723471144736695e-05,not_mspa_component,grey_mspa,False,0.05250086593691709
+Zone3,Open low-rise,142,84,GEDGE_Pct,BBRDG_Pct,8.178191478575554e-05,green_mspa,grey_mspa,False,0.049219184347527596
+Zone3,Open low-rise,142,85,B3_score,BISLET_Pct,4.797418925158166e-05,not_mspa_component,grey_mspa,False,0.028872526045428913
+Zone3,Open low-rise,142,86,GCORE_Pct,BBRDG_Pct,4.768477329759553e-05,green_mspa,grey_mspa,False,0.028698345516277986
+Zone3,Open low-rise,142,87,B3_score,BBRDG_Pct,4.4532061984159626e-05,not_mspa_component,grey_mspa,False,0.0268009348266769
+Zone3,Open low-rise,142,88,CanopyHeight_Mean,BISLET_Pct,2.7759351179137632e-05,not_mspa_component,grey_mspa,False,0.016706537461650486
+Zone3,Open low-rise,142,89,GEDGE_Pct,BISLET_Pct,0.0,green_mspa,grey_mspa,False,0.0
+Zone3,Open low-rise,142,90,GEDGE_Pct,GBRDG_Pct,0.0,green_mspa,green_mspa,True,0.0
+Zone3,Open low-rise,142,91,G3_score,BISLET_Pct,0.0,not_mspa_component,grey_mspa,False,0.0
+Zone3,Open low-rise,242,1,BuildHeight_Mean,BCORE_Pct,0.012736567146696673,not_mspa_component,grey_mspa,False,7.982526665417486
+Zone3,Open low-rise,242,2,BuildHeight_Mean,BEDGE_Pct,0.007648681521154704,not_mspa_component,grey_mspa,False,4.793741005302099
+Zone3,Open low-rise,242,3,BuildHeight_Mean,CanopyHeight_Mean,0.007022856255365854,not_mspa_component,not_mspa_component,False,4.401510758759793
+Zone3,Open low-rise,242,4,BuildHeight_Mean,GBRDG_Pct,0.0066577610147031075,not_mspa_component,green_mspa,False,4.172690664582119
+Zone3,Open low-rise,242,5,BuildHeight_Mean,G3_score,0.006475377697295404,not_mspa_component,not_mspa_component,False,4.058383592844042
+Zone3,Open low-rise,242,6,BuildHeight_Mean,GCORE_Pct,0.006010342776687815,not_mspa_component,green_mspa,False,3.7669272207035194
+Zone3,Open low-rise,242,7,GISLET_Pct,BEDGE_Pct,0.005962536559302218,green_mspa,grey_mspa,False,3.7369651123380607
+Zone3,Open low-rise,242,8,GBRDG_Pct,GISLET_Pct,0.005953091702065947,green_mspa,green_mspa,True,3.7310456346741634
+Zone3,Open low-rise,242,9,GISLET_Pct,BCORE_Pct,0.0052259700250072046,green_mspa,grey_mspa,False,3.2753287912522002
+Zone3,Open low-rise,242,10,BuildHeight_Mean,GISLET_Pct,0.004969367254567212,not_mspa_component,green_mspa,False,3.1145053579153377
+Zone3,Open low-rise,242,11,BuildHeight_Mean,B2_score,0.004428377080457106,not_mspa_component,not_mspa_component,False,2.7754447271485305
+Zone3,Open low-rise,242,12,B3_score,BCORE_Pct,0.004380714144341935,not_mspa_component,grey_mspa,False,2.7455724190054274
+Zone3,Open low-rise,242,13,BuildHeight_Mean,G2_score,0.004050913747322411,not_mspa_component,not_mspa_component,False,2.5388730444289416
+Zone3,Open low-rise,242,14,BCORE_Pct,BEDGE_Pct,0.003397372478265505,grey_mspa,grey_mspa,True,2.1292720469929423
+Zone3,Open low-rise,242,15,BuildHeight_Mean,B3_score,0.0033332671674452656,not_mspa_component,not_mspa_component,False,2.089094631279309
+Zone3,Open low-rise,242,16,G3_score,BEDGE_Pct,0.002875143675963324,not_mspa_component,grey_mspa,False,1.8019699339657769
+Zone3,Open low-rise,242,17,B2_score,BEDGE_Pct,0.0026519801612938953,not_mspa_component,grey_mspa,False,1.6621042475465737
+Zone3,Open low-rise,242,18,B2_score,BCORE_Pct,0.002624112299597173,not_mspa_component,grey_mspa,False,1.64463832077525
+Zone3,Open low-rise,242,19,G3_score,GISLET_Pct,0.002598818780541474,not_mspa_component,green_mspa,False,1.6287858396475758
+Zone3,Open low-rise,242,20,G3_score,B2_score,0.002407642517845359,not_mspa_component,not_mspa_component,False,1.508967870080918
+Zone3,Open low-rise,242,21,BuildHeight_Mean,GEDGE_Pct,0.002330363557500992,not_mspa_component,green_mspa,False,1.460533990329839
+Zone3,Open low-rise,242,22,G2_score,B2_score,0.0022821181114818256,not_mspa_component,not_mspa_component,False,1.430296599445998
+Zone3,Open low-rise,242,23,G3_score,GEDGE_Pct,0.0021318618187438714,not_mspa_component,green_mspa,False,1.3361248458162474
+Zone3,Open low-rise,242,24,G2_score,BEDGE_Pct,0.0020152713274479124,not_mspa_component,grey_mspa,False,1.2630528245263113
+Zone3,Open low-rise,242,25,B2_score,GBRDG_Pct,0.0019642232288562588,not_mspa_component,green_mspa,False,1.2310588968428677
+Zone3,Open low-rise,242,26,G2_score,GISLET_Pct,0.001951542517186976,not_mspa_component,green_mspa,False,1.2231113770857271
+Zone3,Open low-rise,242,27,G3_score,BCORE_Pct,0.0018967050405573772,not_mspa_component,grey_mspa,False,1.1887424914654354
+Zone3,Open low-rise,242,28,GCORE_Pct,BCORE_Pct,0.001893329581346231,green_mspa,grey_mspa,False,1.1866269533576659
+Zone3,Open low-rise,242,29,BuildHeight_Mean,BBRDG_Pct,0.0018312296787663435,not_mspa_component,grey_mspa,False,1.1477064088691655
+Zone3,Open low-rise,242,30,GCORE_Pct,BEDGE_Pct,0.0017351789649073465,green_mspa,grey_mspa,False,1.087507504738967
+Zone3,Open low-rise,242,31,BCORE_Pct,BBRDG_Pct,0.0016004640861448617,grey_mspa,grey_mspa,True,1.003076189804242
+Zone3,Open low-rise,242,32,CanopyHeight_Mean,BCORE_Pct,0.0015893229402395904,not_mspa_component,grey_mspa,False,0.9960935787719436
+Zone3,Open low-rise,242,33,CanopyHeight_Mean,G3_score,0.001573919621726444,not_mspa_component,not_mspa_component,False,0.9864396901415994
+Zone3,Open low-rise,242,34,GBRDG_Pct,BEDGE_Pct,0.0015716609683075638,green_mspa,grey_mspa,False,0.9850240998230714
+Zone3,Open low-rise,242,35,B2_score,B3_score,0.0015371802953649011,not_mspa_component,not_mspa_component,False,0.96341365424255
+Zone3,Open low-rise,242,36,GCORE_Pct,GBRDG_Pct,0.001488889441094423,green_mspa,green_mspa,True,0.9331478041535911
+Zone3,Open low-rise,242,37,GEDGE_Pct,BCORE_Pct,0.0012953362911221462,green_mspa,grey_mspa,False,0.8118401422825531
+Zone3,Open low-rise,242,38,B2_score,BISLET_Pct,0.0012771390169190008,not_mspa_component,grey_mspa,False,0.800435167543956
+Zone3,Open low-rise,242,39,BuildHeight_Mean,BISLET_Pct,0.0012620036113694876,not_mspa_component,grey_mspa,False,0.7909491909068186
+Zone3,Open low-rise,242,40,BCORE_Pct,BISLET_Pct,0.001244250793839407,grey_mspa,grey_mspa,True,0.7798227753124162
+Zone3,Open low-rise,242,41,G3_score,B3_score,0.001058769055316727,not_mspa_component,not_mspa_component,False,0.6635737965529163
+Zone3,Open low-rise,242,42,CanopyHeight_Mean,GBRDG_Pct,0.0010426866014917673,not_mspa_component,green_mspa,False,0.6534942660935348
+Zone3,Open low-rise,242,43,CanopyHeight_Mean,GCORE_Pct,0.0010324811099014528,not_mspa_component,green_mspa,False,0.6470980678232254
+Zone3,Open low-rise,242,44,G3_score,GCORE_Pct,0.0009319253279312806,not_mspa_component,green_mspa,False,0.5840756535656293
+Zone3,Open low-rise,242,45,GCORE_Pct,GISLET_Pct,0.0009215300247066719,green_mspa,green_mspa,True,0.5775604925940907
+Zone3,Open low-rise,242,46,B2_score,GISLET_Pct,0.000866849769283773,not_mspa_component,green_mspa,False,0.5432901439233867
+Zone3,Open low-rise,242,47,B2_score,GEDGE_Pct,0.0008446237188487891,not_mspa_component,green_mspa,False,0.5293601706251899
+Zone3,Open low-rise,242,48,G2_score,BCORE_Pct,0.0008388558802902028,not_mspa_component,grey_mspa,False,0.5257452306994284
+Zone3,Open low-rise,242,49,G3_score,GBRDG_Pct,0.0008359706820992055,not_mspa_component,green_mspa,False,0.5239369591903645
+Zone3,Open low-rise,242,50,BEDGE_Pct,BISLET_Pct,0.0008192347337206766,grey_mspa,grey_mspa,True,0.5134478570120506
+Zone3,Open low-rise,242,51,B3_score,GISLET_Pct,0.0007926937410850313,not_mspa_component,green_mspa,False,0.4968135332574244
+Zone3,Open low-rise,242,52,GCORE_Pct,GEDGE_Pct,0.000755978008870175,green_mspa,green_mspa,True,0.4738022847734535
+Zone3,Open low-rise,242,53,CanopyHeight_Mean,GISLET_Pct,0.000726393498737202,not_mspa_component,green_mspa,False,0.4552604643363021
+Zone3,Open low-rise,242,54,B3_score,BEDGE_Pct,0.0007219264254314345,not_mspa_component,grey_mspa,False,0.452460767104783
+Zone3,Open low-rise,242,55,G2_score,G3_score,0.0005993826547752735,not_mspa_component,not_mspa_component,False,0.3756575825671569
+Zone3,Open low-rise,242,56,B2_score,GCORE_Pct,0.0005588173442071658,not_mspa_component,green_mspa,False,0.3502336461507541
+Zone3,Open low-rise,242,57,CanopyHeight_Mean,B2_score,0.0005580179474225212,not_mspa_component,not_mspa_component,False,0.3497326315464124
+Zone3,Open low-rise,242,58,G2_score,GEDGE_Pct,0.0005468404499522548,not_mspa_component,green_mspa,False,0.3427272375040954
+Zone3,Open low-rise,242,59,G2_score,GCORE_Pct,0.0005445383965406111,not_mspa_component,green_mspa,False,0.3412844466380789
+Zone3,Open low-rise,242,60,GBRDG_Pct,BCORE_Pct,0.0005326245022299075,green_mspa,grey_mspa,False,0.33381752262874537
+Zone3,Open low-rise,242,61,G2_score,BISLET_Pct,0.000525133946200463,not_mspa_component,grey_mspa,False,0.3291228853253687
+Zone3,Open low-rise,242,62,GISLET_Pct,BISLET_Pct,0.0005226646699997965,green_mspa,grey_mspa,False,0.3275752891097578
+Zone3,Open low-rise,242,63,B3_score,GCORE_Pct,0.0004967880100906797,not_mspa_component,green_mspa,False,0.31135732979958075
+Zone3,Open low-rise,242,64,G2_score,B3_score,0.000496289764980356,not_mspa_component,not_mspa_component,False,0.3110450592455717
+Zone3,Open low-rise,242,65,GISLET_Pct,BBRDG_Pct,0.00048094027109923265,green_mspa,grey_mspa,False,0.3014249047097784
+Zone3,Open low-rise,242,66,GEDGE_Pct,GISLET_Pct,0.00045589328085717586,green_mspa,green_mspa,True,0.28572693325539594
+Zone3,Open low-rise,242,67,B2_score,BBRDG_Pct,0.00042648630335949693,not_mspa_component,grey_mspa,False,0.26729637976944853
+Zone3,Open low-rise,242,68,GBRDG_Pct,BBRDG_Pct,0.00038925930638593744,green_mspa,grey_mspa,False,0.24396470078623625
+Zone3,Open low-rise,242,69,GEDGE_Pct,BEDGE_Pct,0.00038505345246006643,green_mspa,grey_mspa,False,0.24132872040569675
+Zone3,Open low-rise,242,70,CanopyHeight_Mean,B3_score,0.00036133975896909023,not_mspa_component,not_mspa_component,False,0.22646638046378004
+Zone3,Open low-rise,242,71,B3_score,GBRDG_Pct,0.00034481298038952516,not_mspa_component,green_mspa,False,0.2161083735388886
+Zone3,Open low-rise,242,72,B3_score,GEDGE_Pct,0.00029783641815139117,not_mspa_component,green_mspa,False,0.18666624392919973
+Zone3,Open low-rise,242,73,CanopyHeight_Mean,G2_score,0.0002843286850898098,not_mspa_component,not_mspa_component,False,0.1782003960981866
+Zone3,Open low-rise,242,74,B3_score,BISLET_Pct,0.0002501386793278632,not_mspa_component,grey_mspa,False,0.15677212350777353
+Zone3,Open low-rise,242,75,CanopyHeight_Mean,GEDGE_Pct,0.00023107499033263955,not_mspa_component,green_mspa,False,0.14482413124322785
+Zone3,Open low-rise,242,76,G2_score,BBRDG_Pct,0.00023020793562936333,not_mspa_component,grey_mspa,False,0.14428071265880393
+Zone3,Open low-rise,242,77,GEDGE_Pct,BISLET_Pct,0.00022684504537564876,green_mspa,grey_mspa,False,0.14217305202984776
+Zone3,Open low-rise,242,78,G3_score,BBRDG_Pct,0.00021795512520400302,not_mspa_component,grey_mspa,False,0.13660137608245562
+Zone3,Open low-rise,242,79,CanopyHeight_Mean,BISLET_Pct,0.00019643722959770472,not_mspa_component,grey_mspa,False,0.12311523232938827
+Zone3,Open low-rise,242,80,CanopyHeight_Mean,BBRDG_Pct,0.00019584826680077414,not_mspa_component,grey_mspa,False,0.12274610529717564
+Zone3,Open low-rise,242,81,CanopyHeight_Mean,BEDGE_Pct,0.00019343947503886342,not_mspa_component,grey_mspa,False,0.12123641714891528
+Zone3,Open low-rise,242,82,BEDGE_Pct,BBRDG_Pct,0.00018926252597493455,grey_mspa,grey_mspa,True,0.11861855262554168
+Zone3,Open low-rise,242,83,G2_score,GBRDG_Pct,0.000169961314263287,not_mspa_component,green_mspa,False,0.10652169517655043
+Zone3,Open low-rise,242,84,B3_score,BBRDG_Pct,0.00015674546484327714,not_mspa_component,grey_mspa,False,0.09823878274133181
+Zone3,Open low-rise,242,85,GEDGE_Pct,GBRDG_Pct,0.0001393852037259533,green_mspa,green_mspa,True,0.08735839827889921
+Zone3,Open low-rise,242,86,GCORE_Pct,BBRDG_Pct,0.000126492436573282,green_mspa,grey_mspa,False,0.07927797469208449
+Zone3,Open low-rise,242,87,G3_score,BISLET_Pct,7.946822760592982e-05,not_mspa_component,grey_mspa,False,0.04980598293177657
+Zone3,Open low-rise,242,88,BBRDG_Pct,BISLET_Pct,7.247180961256188e-05,grey_mspa,grey_mspa,True,0.045421042111286246
+Zone3,Open low-rise,242,89,GBRDG_Pct,BISLET_Pct,0.0,green_mspa,grey_mspa,False,0.0
+Zone3,Open low-rise,242,90,GEDGE_Pct,BBRDG_Pct,0.0,green_mspa,grey_mspa,False,0.0
+Zone3,Open low-rise,242,91,GCORE_Pct,BISLET_Pct,0.0,green_mspa,grey_mspa,False,0.0
+Zone4,Green-space-dominated,42,1,CanopyHeight_Mean,GCORE_Pct,0.028575262091154973,not_mspa_component,green_mspa,False,16.093588141696227
+Zone4,Green-space-dominated,42,2,CanopyHeight_Mean,G3_score,0.011975517112929178,not_mspa_component,not_mspa_component,False,6.744611460938219
+Zone4,Green-space-dominated,42,3,CanopyHeight_Mean,GBRDG_Pct,0.011747399987977414,not_mspa_component,green_mspa,False,6.616135891918752
+Zone4,Green-space-dominated,42,4,BuildHeight_Mean,B2_score,0.007917255751355504,not_mspa_component,not_mspa_component,False,4.458998586551237
+Zone4,Green-space-dominated,42,5,CanopyHeight_Mean,B3_score,0.007024113460940764,not_mspa_component,not_mspa_component,False,3.955980831962899
+Zone4,Green-space-dominated,42,6,BuildHeight_Mean,BCORE_Pct,0.006725399264335583,not_mspa_component,grey_mspa,False,3.7877449908739904
+Zone4,Green-space-dominated,42,7,BCORE_Pct,BEDGE_Pct,0.006087193223189302,grey_mspa,grey_mspa,True,3.4283073366195462
+Zone4,Green-space-dominated,42,8,BuildHeight_Mean,B3_score,0.0059460578438107255,not_mspa_component,not_mspa_component,False,3.3488198883261524
+Zone4,Green-space-dominated,42,9,BuildHeight_Mean,G2_score,0.005429183569705898,not_mspa_component,not_mspa_component,False,3.05771628752817
+Zone4,Green-space-dominated,42,10,BEDGE_Pct,BISLET_Pct,0.004842429769438099,grey_mspa,grey_mspa,True,2.7272565362943233
+Zone4,Green-space-dominated,42,11,BuildHeight_Mean,CanopyHeight_Mean,0.004628829682468328,not_mspa_component,not_mspa_component,False,2.6069569633365637
+Zone4,Green-space-dominated,42,12,BuildHeight_Mean,G3_score,0.0044085981270195265,not_mspa_component,not_mspa_component,False,2.482922547207963
+Zone4,Green-space-dominated,42,13,BuildHeight_Mean,GCORE_Pct,0.0040500853270704655,not_mspa_component,green_mspa,False,2.281008131602569
+Zone4,Green-space-dominated,42,14,B3_score,BEDGE_Pct,0.0040324709366916026,not_mspa_component,grey_mspa,False,2.2710877066132835
+Zone4,Green-space-dominated,42,15,G3_score,B3_score,0.0035525118051804327,not_mspa_component,not_mspa_component,False,2.0007747148112625
+Zone4,Green-space-dominated,42,16,B3_score,BBRDG_Pct,0.003245926113253567,not_mspa_component,grey_mspa,False,1.8281056474106452
+Zone4,Green-space-dominated,42,17,G3_score,BBRDG_Pct,0.0031876323477832867,not_mspa_component,grey_mspa,False,1.7952745976125855
+Zone4,Green-space-dominated,42,18,CanopyHeight_Mean,BBRDG_Pct,0.00299692225275625,not_mspa_component,grey_mspa,False,1.6878666685430948
+Zone4,Green-space-dominated,42,19,BuildHeight_Mean,BBRDG_Pct,0.002961667069315076,not_mspa_component,grey_mspa,False,1.6680109485727141
+Zone4,Green-space-dominated,42,20,B3_score,GCORE_Pct,0.00277860243108793,not_mspa_component,green_mspa,False,1.56490894091525
+Zone4,Green-space-dominated,42,21,CanopyHeight_Mean,BEDGE_Pct,0.002459269980496241,not_mspa_component,grey_mspa,False,1.3850608987973105
+Zone4,Green-space-dominated,42,22,G3_score,GCORE_Pct,0.0023217247010583137,not_mspa_component,green_mspa,False,1.3075953948573236
+Zone4,Green-space-dominated,42,23,CanopyHeight_Mean,GISLET_Pct,0.002112819575713752,not_mspa_component,green_mspa,False,1.1899400243742837
+Zone4,Green-space-dominated,42,24,CanopyHeight_Mean,B2_score,0.0016207196731192542,not_mspa_component,not_mspa_component,False,0.9127893500721193
+Zone4,Green-space-dominated,42,25,GISLET_Pct,BEDGE_Pct,0.001476806071513425,green_mspa,grey_mspa,False,0.8317372069686172
+Zone4,Green-space-dominated,42,26,BuildHeight_Mean,GEDGE_Pct,0.0014254204107952673,not_mspa_component,green_mspa,False,0.8027968018955542
+Zone4,Green-space-dominated,42,27,BCORE_Pct,BBRDG_Pct,0.0013385488095681933,grey_mspa,grey_mspa,True,0.7538707144672624
+Zone4,Green-space-dominated,42,28,G2_score,GCORE_Pct,0.0013274291118422516,not_mspa_component,green_mspa,False,0.7476081005010075
+Zone4,Green-space-dominated,42,29,B3_score,BCORE_Pct,0.0012946639533684468,not_mspa_component,grey_mspa,False,0.7291547626386036
+Zone4,Green-space-dominated,42,30,BEDGE_Pct,BBRDG_Pct,0.0012769774963964035,grey_mspa,grey_mspa,True,0.7191937497426973
+Zone4,Green-space-dominated,42,31,BuildHeight_Mean,BEDGE_Pct,0.0012707343820448627,not_mspa_component,grey_mspa,False,0.7156776276236876
+Zone4,Green-space-dominated,42,32,BuildHeight_Mean,BISLET_Pct,0.0012640625681993559,not_mspa_component,grey_mspa,False,0.7119200619416955
+Zone4,Green-space-dominated,42,33,B2_score,B3_score,0.0011755797298125962,not_mspa_component,not_mspa_component,False,0.6620865257150739
+Zone4,Green-space-dominated,42,34,GCORE_Pct,GBRDG_Pct,0.0010865044682296674,green_mspa,green_mspa,True,0.6119193367333412
+Zone4,Green-space-dominated,42,35,GCORE_Pct,BEDGE_Pct,0.0010841630553965551,green_mspa,grey_mspa,False,0.6106006529821446
+Zone4,Green-space-dominated,42,36,G2_score,G3_score,0.0010270992276571326,not_mspa_component,not_mspa_component,False,0.5784623041370003
+Zone4,Green-space-dominated,42,37,CanopyHeight_Mean,BCORE_Pct,0.0009873658952955985,not_mspa_component,grey_mspa,False,0.5560844906113077
+Zone4,Green-space-dominated,42,38,G3_score,BCORE_Pct,0.0009665617142237384,not_mspa_component,grey_mspa,False,0.544367575444345
+Zone4,Green-space-dominated,42,39,GCORE_Pct,BBRDG_Pct,0.0009484960840618296,green_mspa,grey_mspa,False,0.5341930122008477
+Zone4,Green-space-dominated,42,40,G2_score,B3_score,0.0008620576204044311,not_mspa_component,not_mspa_component,False,0.4855108678598604
+Zone4,Green-space-dominated,42,41,B2_score,GCORE_Pct,0.0008190167022191725,not_mspa_component,green_mspa,False,0.461270221936672
+Zone4,Green-space-dominated,42,42,G3_score,BEDGE_Pct,0.0008143149368588317,not_mspa_component,grey_mspa,False,0.45862218759819995
+Zone4,Green-space-dominated,42,43,G3_score,B2_score,0.0007924359837183673,not_mspa_component,not_mspa_component,False,0.44629996078219125
+Zone4,Green-space-dominated,42,44,G2_score,BISLET_Pct,0.0007206356157925788,not_mspa_component,grey_mspa,False,0.40586199222974984
+Zone4,Green-space-dominated,42,45,G3_score,BISLET_Pct,0.0006627842861932657,not_mspa_component,grey_mspa,False,0.37328012232245505
+Zone4,Green-space-dominated,42,46,CanopyHeight_Mean,GEDGE_Pct,0.0006375088791435431,not_mspa_component,green_mspa,False,0.35904501260152366
+Zone4,Green-space-dominated,42,47,G3_score,GEDGE_Pct,0.0006092918956018835,not_mspa_component,green_mspa,False,0.343153206945573
+Zone4,Green-space-dominated,42,48,BCORE_Pct,BISLET_Pct,0.0006069389921185736,grey_mspa,grey_mspa,True,0.3418280516599711
+Zone4,Green-space-dominated,42,49,B3_score,BISLET_Pct,0.0005522561319189791,not_mspa_component,grey_mspa,False,0.3110306637775821
+Zone4,Green-space-dominated,42,50,B2_score,GEDGE_Pct,0.0005495193551366683,not_mspa_component,green_mspa,False,0.3094893110428367
+Zone4,Green-space-dominated,42,51,GCORE_Pct,GISLET_Pct,0.0004982581230954572,green_mspa,green_mspa,True,0.2806189842029464
+Zone4,Green-space-dominated,42,52,CanopyHeight_Mean,BISLET_Pct,0.00048004400794894847,not_mspa_component,grey_mspa,False,0.27036079421335824
+Zone4,Green-space-dominated,42,53,G2_score,B2_score,0.00047392772843386126,not_mspa_component,not_mspa_component,False,0.26691610547660033
+Zone4,Green-space-dominated,42,54,CanopyHeight_Mean,G2_score,0.0004405175778226227,not_mspa_component,not_mspa_component,False,0.2480995080303866
+Zone4,Green-space-dominated,42,55,G2_score,BEDGE_Pct,0.00043386709294830086,not_mspa_component,grey_mspa,False,0.24435395482536298
+Zone4,Green-space-dominated,42,56,B3_score,GISLET_Pct,0.00041743280954783564,not_mspa_component,green_mspa,False,0.23509816610827997
+Zone4,Green-space-dominated,42,57,GCORE_Pct,BISLET_Pct,0.0004136359505597279,green_mspa,grey_mspa,False,0.23295977505549528
+Zone4,Green-space-dominated,42,58,G2_score,GISLET_Pct,0.00041019345966589974,not_mspa_component,green_mspa,False,0.23102096412000575
+Zone4,Green-space-dominated,42,59,G3_score,GBRDG_Pct,0.0004067817210771699,not_mspa_component,green_mspa,False,0.22909947288332014
+Zone4,Green-space-dominated,42,60,GCORE_Pct,BCORE_Pct,0.00040598053573083243,green_mspa,grey_mspa,False,0.22864824528134797
+Zone4,Green-space-dominated,42,61,BuildHeight_Mean,GBRDG_Pct,0.00038895633362154145,not_mspa_component,green_mspa,False,0.21906021433647235
+Zone4,Green-space-dominated,42,62,GBRDG_Pct,BISLET_Pct,0.0003865074608339962,green_mspa,grey_mspa,False,0.21768100913693858
+Zone4,Green-space-dominated,42,63,BuildHeight_Mean,GISLET_Pct,0.0003801614515467196,not_mspa_component,green_mspa,False,0.21410693658820698
+Zone4,Green-space-dominated,42,64,GEDGE_Pct,BEDGE_Pct,0.000369487414749141,green_mspa,grey_mspa,False,0.20809531886510257
+Zone4,Green-space-dominated,42,65,G2_score,BBRDG_Pct,0.0003685188364658111,not_mspa_component,grey_mspa,False,0.20754981555790009
+Zone4,Green-space-dominated,42,66,B2_score,BEDGE_Pct,0.00035023169988275955,not_mspa_component,grey_mspa,False,0.19725049989389168
+Zone4,Green-space-dominated,42,67,BBRDG_Pct,BISLET_Pct,0.0003155835093780155,grey_mspa,grey_mspa,True,0.17773663835660833
+Zone4,Green-space-dominated,42,68,GCORE_Pct,GEDGE_Pct,0.00030611392391946253,green_mspa,green_mspa,True,0.17240336765006525
+Zone4,Green-space-dominated,42,69,B2_score,BCORE_Pct,0.000304798438298472,not_mspa_component,grey_mspa,False,0.17166248612383428
+Zone4,Green-space-dominated,42,70,B2_score,GISLET_Pct,0.00030020881846107864,not_mspa_component,green_mspa,False,0.16907761214597386
+Zone4,Green-space-dominated,42,71,GEDGE_Pct,BISLET_Pct,0.0002925077185586629,green_mspa,grey_mspa,False,0.16474035253756947
+Zone4,Green-space-dominated,42,72,B3_score,GEDGE_Pct,0.00028576260901454214,not_mspa_component,green_mspa,False,0.16094150671675356
+Zone4,Green-space-dominated,42,73,G2_score,BCORE_Pct,0.0002676683339748996,not_mspa_component,grey_mspa,False,0.1507508106775834
+Zone4,Green-space-dominated,42,74,GEDGE_Pct,GISLET_Pct,0.00023842679122182086,green_mspa,green_mspa,True,0.13428197325468821
+Zone4,Green-space-dominated,42,75,GEDGE_Pct,BCORE_Pct,0.00023177034714027829,green_mspa,grey_mspa,False,0.13053306382404692
+Zone4,Green-space-dominated,42,76,G3_score,GISLET_Pct,0.00022247522314989787,not_mspa_component,green_mspa,False,0.12529804981962644
+Zone4,Green-space-dominated,42,77,B2_score,BBRDG_Pct,0.00022105491688485912,not_mspa_component,grey_mspa,False,0.12449813330471615
+Zone4,Green-space-dominated,42,78,B2_score,BISLET_Pct,0.00018559955274558492,not_mspa_component,grey_mspa,False,0.10452967156143905
+Zone4,Green-space-dominated,42,79,B3_score,GBRDG_Pct,0.00018006247869899384,not_mspa_component,green_mspa,False,0.10141119135532065
+Zone4,Green-space-dominated,42,80,GBRDG_Pct,BCORE_Pct,0.000161891282141026,green_mspa,grey_mspa,False,0.09117717311559774
+Zone4,Green-space-dominated,42,81,GEDGE_Pct,BBRDG_Pct,0.00015898274733713784,green_mspa,grey_mspa,False,0.08953908625990258
+Zone4,Green-space-dominated,42,82,GBRDG_Pct,BEDGE_Pct,0.00014763368318746647,green_mspa,grey_mspa,False,0.08314729311953321
+Zone4,Green-space-dominated,42,83,B2_score,GBRDG_Pct,0.00013855479554626153,not_mspa_component,green_mspa,False,0.07803406343099381
+Zone4,Green-space-dominated,42,84,GISLET_Pct,BISLET_Pct,0.0001354649977493769,green_mspa,grey_mspa,False,0.07629388925426864
+Zone4,Green-space-dominated,42,85,GISLET_Pct,BCORE_Pct,0.00011307593686516449,green_mspa,grey_mspa,False,0.06368436974748493
+Zone4,Green-space-dominated,42,86,GBRDG_Pct,GISLET_Pct,0.00011093719717841368,green_mspa,green_mspa,True,0.062479831516092044
+Zone4,Green-space-dominated,42,87,GISLET_Pct,BBRDG_Pct,0.00011040335487413583,green_mspa,grey_mspa,False,0.062179171520384734
+Zone4,Green-space-dominated,42,88,G2_score,GEDGE_Pct,8.165856887596079e-05,not_mspa_component,green_mspa,False,0.04599010751109894
+Zone4,Green-space-dominated,42,89,GBRDG_Pct,BBRDG_Pct,8.130252179797478e-05,green_mspa,grey_mspa,False,0.045789581790149046
+Zone4,Green-space-dominated,42,90,GEDGE_Pct,GBRDG_Pct,7.420827916631477e-05,green_mspa,green_mspa,True,0.04179410420793154
+Zone4,Green-space-dominated,42,91,G2_score,GBRDG_Pct,6.139860739245707e-05,not_mspa_component,green_mspa,False,0.03457969682642974
+Zone4,Green-space-dominated,142,1,CanopyHeight_Mean,GCORE_Pct,0.02515455929643765,not_mspa_component,green_mspa,False,14.448309162114874
+Zone4,Green-space-dominated,142,2,CanopyHeight_Mean,GBRDG_Pct,0.013001704528517627,not_mspa_component,green_mspa,False,7.467936307240138
+Zone4,Green-space-dominated,142,3,CanopyHeight_Mean,G3_score,0.011317186761860607,not_mspa_component,not_mspa_component,False,6.500380756180149
+Zone4,Green-space-dominated,142,4,BuildHeight_Mean,B2_score,0.009700489865501394,not_mspa_component,not_mspa_component,False,5.571780246636041
+Zone4,Green-space-dominated,142,5,BCORE_Pct,BEDGE_Pct,0.007147402017156663,grey_mspa,grey_mspa,True,4.105334259003599
+Zone4,Green-space-dominated,142,6,CanopyHeight_Mean,B3_score,0.006571861596258935,not_mspa_component,not_mspa_component,False,3.774754588001303
+Zone4,Green-space-dominated,142,7,BuildHeight_Mean,BCORE_Pct,0.006484870054732208,not_mspa_component,grey_mspa,False,3.7247882708953184
+Zone4,Green-space-dominated,142,8,BuildHeight_Mean,G3_score,0.006233665418291017,not_mspa_component,not_mspa_component,False,3.5805010183345867
+Zone4,Green-space-dominated,142,9,BuildHeight_Mean,B3_score,0.005009795629777094,not_mspa_component,not_mspa_component,False,2.877533064484347
+Zone4,Green-space-dominated,142,10,BuildHeight_Mean,G2_score,0.00467454296294535,not_mspa_component,not_mspa_component,False,2.6849701926516243
+Zone4,Green-space-dominated,142,11,BuildHeight_Mean,CanopyHeight_Mean,0.004566565279464785,not_mspa_component,not_mspa_component,False,2.6229498274704657
+Zone4,Green-space-dominated,142,12,BuildHeight_Mean,GCORE_Pct,0.0037689839077656774,not_mspa_component,green_mspa,False,2.164833980380895
+Zone4,Green-space-dominated,142,13,B3_score,BEDGE_Pct,0.0033296186737674927,not_mspa_component,grey_mspa,False,1.9124707940065773
+Zone4,Green-space-dominated,142,14,CanopyHeight_Mean,BEDGE_Pct,0.0032381176594831773,not_mspa_component,grey_mspa,False,1.8599143199516293
+Zone4,Green-space-dominated,142,15,G3_score,B3_score,0.0031225446879311635,not_mspa_component,not_mspa_component,False,1.79353136312502
+Zone4,Green-space-dominated,142,16,G3_score,BBRDG_Pct,0.002831914774105685,not_mspa_component,grey_mspa,False,1.6265989674020709
+Zone4,Green-space-dominated,142,17,B3_score,BBRDG_Pct,0.0026906851664324537,not_mspa_component,grey_mspa,False,1.5454793178602078
+Zone4,Green-space-dominated,142,18,BEDGE_Pct,BISLET_Pct,0.0026266016279274974,grey_mspa,grey_mspa,True,1.508670929940924
+Zone4,Green-space-dominated,142,19,CanopyHeight_Mean,BBRDG_Pct,0.0024902262788306932,not_mspa_component,grey_mspa,False,1.4303394758843622
+Zone4,Green-space-dominated,142,20,BuildHeight_Mean,BBRDG_Pct,0.0024787081750445587,not_mspa_component,grey_mspa,False,1.4237236921410563
+Zone4,Green-space-dominated,142,21,B3_score,BCORE_Pct,0.002244655262381561,not_mspa_component,grey_mspa,False,1.2892880694534676
+Zone4,Green-space-dominated,142,22,CanopyHeight_Mean,GISLET_Pct,0.0020038336197371774,not_mspa_component,green_mspa,False,1.15096461465348
+Zone4,Green-space-dominated,142,23,B3_score,GCORE_Pct,0.0017913588215051554,not_mspa_component,green_mspa,False,1.0289230579783453
+Zone4,Green-space-dominated,142,24,G3_score,GCORE_Pct,0.001723878379609771,not_mspa_component,green_mspa,False,0.990163552180177
+Zone4,Green-space-dominated,142,25,BEDGE_Pct,BBRDG_Pct,0.0016190853125787814,grey_mspa,grey_mspa,True,0.9299723712229981
+Zone4,Green-space-dominated,142,26,GCORE_Pct,BBRDG_Pct,0.0015910129260648014,green_mspa,grey_mspa,False,0.9138481165901687
+Zone4,Green-space-dominated,142,27,CanopyHeight_Mean,B2_score,0.0015285614644653571,not_mspa_component,not_mspa_component,False,0.8779771631705038
+Zone4,Green-space-dominated,142,28,G3_score,B2_score,0.0014976219931356518,not_mspa_component,not_mspa_component,False,0.8602061085550775
+Zone4,Green-space-dominated,142,29,CanopyHeight_Mean,BCORE_Pct,0.0013705979035312581,not_mspa_component,grey_mspa,False,0.7872458433398419
+Zone4,Green-space-dominated,142,30,B2_score,GCORE_Pct,0.0013579680278185712,not_mspa_component,green_mspa,False,0.7799914785614525
+Zone4,Green-space-dominated,142,31,BuildHeight_Mean,GEDGE_Pct,0.0013345469081773398,not_mspa_component,green_mspa,False,0.7665388247696876
+Zone4,Green-space-dominated,142,32,G3_score,BCORE_Pct,0.001255875826232304,not_mspa_component,grey_mspa,False,0.7213516242838924
+Zone4,Green-space-dominated,142,33,B2_score,B3_score,0.0012352591338340132,not_mspa_component,not_mspa_component,False,0.7095097811348887
+Zone4,Green-space-dominated,142,34,G2_score,B3_score,0.0012006072750369596,not_mspa_component,not_mspa_component,False,0.689606400477662
+Zone4,Green-space-dominated,142,35,GCORE_Pct,GBRDG_Pct,0.0011592076333068581,green_mspa,green_mspa,True,0.6658272193014683
+Zone4,Green-space-dominated,142,36,G2_score,GCORE_Pct,0.0010321409295137455,not_mspa_component,green_mspa,False,0.5928424772919446
+Zone4,Green-space-dominated,142,37,BCORE_Pct,BBRDG_Pct,0.0009389630160290571,grey_mspa,grey_mspa,True,0.5393228236481526
+Zone4,Green-space-dominated,142,38,G3_score,BEDGE_Pct,0.000880517097133966,not_mspa_component,grey_mspa,False,0.5057525791644913
+Zone4,Green-space-dominated,142,39,GCORE_Pct,BEDGE_Pct,0.0008433034832257885,green_mspa,grey_mspa,False,0.484377774205731
+Zone4,Green-space-dominated,142,40,GCORE_Pct,GISLET_Pct,0.0007870366081395796,green_mspa,green_mspa,True,0.45205913179776097
+Zone4,Green-space-dominated,142,41,GEDGE_Pct,BEDGE_Pct,0.0006655937301626564,green_mspa,grey_mspa,False,0.3823046103263366
+Zone4,Green-space-dominated,142,42,B2_score,BBRDG_Pct,0.000659775064565673,not_mspa_component,grey_mspa,False,0.37896247745628936
+Zone4,Green-space-dominated,142,43,GCORE_Pct,BISLET_Pct,0.0006594402781331379,green_mspa,grey_mspa,False,0.3787701823807309
+Zone4,Green-space-dominated,142,44,G2_score,G3_score,0.0006354328079469071,not_mspa_component,not_mspa_component,False,0.36498073978453155
+Zone4,Green-space-dominated,142,45,CanopyHeight_Mean,G2_score,0.0006251207145029447,not_mspa_component,not_mspa_component,False,0.35905766586257715
+Zone4,Green-space-dominated,142,46,CanopyHeight_Mean,GEDGE_Pct,0.0006204556875316982,not_mspa_component,green_mspa,False,0.35637816147787027
+Zone4,Green-space-dominated,142,47,CanopyHeight_Mean,BISLET_Pct,0.0005966280587383442,not_mspa_component,grey_mspa,False,0.3426920164196564
+Zone4,Green-space-dominated,142,48,BuildHeight_Mean,BISLET_Pct,0.0005870567049608299,not_mspa_component,grey_mspa,False,0.3371944095306703
+Zone4,Green-space-dominated,142,49,GISLET_Pct,BBRDG_Pct,0.0005680350819558523,green_mspa,grey_mspa,False,0.3262687444573
+Zone4,Green-space-dominated,142,50,G2_score,B2_score,0.0005669666271876981,not_mspa_component,not_mspa_component,False,0.325655043989162
+Zone4,Green-space-dominated,142,51,G2_score,BISLET_Pct,0.0005643271285956573,not_mspa_component,grey_mspa,False,0.3241389652838526
+Zone4,Green-space-dominated,142,52,B3_score,GEDGE_Pct,0.0005509520811539504,not_mspa_component,green_mspa,False,0.31645658777851093
+Zone4,Green-space-dominated,142,53,BuildHeight_Mean,GISLET_Pct,0.0005467612303621777,not_mspa_component,green_mspa,False,0.3140494413372532
+Zone4,Green-space-dominated,142,54,B2_score,GEDGE_Pct,0.0005398822539149813,not_mspa_component,green_mspa,False,0.3100982857134663
+Zone4,Green-space-dominated,142,55,BCORE_Pct,BISLET_Pct,0.000535278539519997,grey_mspa,grey_mspa,True,0.3074539981277072
+Zone4,Green-space-dominated,142,56,GISLET_Pct,BEDGE_Pct,0.0005285444057117388,green_mspa,grey_mspa,False,0.3035860374111566
+Zone4,Green-space-dominated,142,57,G2_score,BEDGE_Pct,0.0005045748388594297,not_mspa_component,grey_mspa,False,0.28981836578221304
+Zone4,Green-space-dominated,142,58,G2_score,GBRDG_Pct,0.0005040947697376509,not_mspa_component,green_mspa,False,0.28954262304273964
+Zone4,Green-space-dominated,142,59,G3_score,GEDGE_Pct,0.0004909771083190393,not_mspa_component,green_mspa,False,0.2820080832630311
+Zone4,Green-space-dominated,142,60,BBRDG_Pct,BISLET_Pct,0.00048518419017868573,grey_mspa,grey_mspa,True,0.27868073925130343
+Zone4,Green-space-dominated,142,61,G2_score,BCORE_Pct,0.00047076038804678803,not_mspa_component,grey_mspa,False,0.2703959766347569
+Zone4,Green-space-dominated,142,62,GCORE_Pct,BCORE_Pct,0.0004491061243842397,green_mspa,grey_mspa,False,0.25795817192558207
+Zone4,Green-space-dominated,142,63,BuildHeight_Mean,BEDGE_Pct,0.0004356394066228696,not_mspa_component,grey_mspa,False,0.25022314070033724
+Zone4,Green-space-dominated,142,64,G2_score,GISLET_Pct,0.0004270311996161523,not_mspa_component,green_mspa,False,0.24527874733216765
+Zone4,Green-space-dominated,142,65,B3_score,GBRDG_Pct,0.0003985611935380091,not_mspa_component,green_mspa,False,0.22892610744622233
+Zone4,Green-space-dominated,142,66,GBRDG_Pct,BISLET_Pct,0.0003909099856062816,green_mspa,grey_mspa,False,0.22453139647719017
+Zone4,Green-space-dominated,142,67,B3_score,GISLET_Pct,0.0003781327758496792,not_mspa_component,green_mspa,False,0.2171924057750662
+Zone4,Green-space-dominated,142,68,GEDGE_Pct,BBRDG_Pct,0.0003751549983319246,green_mspa,grey_mspa,False,0.21548202597132995
+Zone4,Green-space-dominated,142,69,G2_score,BBRDG_Pct,0.00037461544056905424,not_mspa_component,grey_mspa,False,0.21517211406721345
+Zone4,Green-space-dominated,142,70,G3_score,BISLET_Pct,0.00036859323328755145,not_mspa_component,grey_mspa,False,0.21171307065420428
+Zone4,Green-space-dominated,142,71,GCORE_Pct,GEDGE_Pct,0.0003565269321467159,green_mspa,green_mspa,True,0.20478241258655686
+Zone4,Green-space-dominated,142,72,G2_score,GEDGE_Pct,0.00034596214616164204,not_mspa_component,green_mspa,False,0.1987141967873819
+Zone4,Green-space-dominated,142,73,GBRDG_Pct,BBRDG_Pct,0.0003408554967006494,green_mspa,grey_mspa,False,0.19578103269074765
+Zone4,Green-space-dominated,142,74,GEDGE_Pct,BCORE_Pct,0.0003282944172636372,green_mspa,grey_mspa,False,0.18856618320850932
+Zone4,Green-space-dominated,142,75,B2_score,BCORE_Pct,0.00032649529648204166,not_mspa_component,grey_mspa,False,0.18753280182559004
+Zone4,Green-space-dominated,142,76,BuildHeight_Mean,GBRDG_Pct,0.00032122573062680365,not_mspa_component,green_mspa,False,0.1845060615941527
+Zone4,Green-space-dominated,142,77,G3_score,GBRDG_Pct,0.0003163703400707474,not_mspa_component,green_mspa,False,0.18171721592088946
+Zone4,Green-space-dominated,142,78,B2_score,BISLET_Pct,0.00028894743764471535,not_mspa_component,grey_mspa,False,0.16596601282070508
+Zone4,Green-space-dominated,142,79,B3_score,BISLET_Pct,0.00026498578558280006,not_mspa_component,grey_mspa,False,0.15220288729957507
+Zone4,Green-space-dominated,142,80,G3_score,GISLET_Pct,0.00026058063784621807,not_mspa_component,green_mspa,False,0.14967265269467223
+Zone4,Green-space-dominated,142,81,GEDGE_Pct,BISLET_Pct,0.00024560882852921233,green_mspa,grey_mspa,False,0.14107312498364746
+Zone4,Green-space-dominated,142,82,B2_score,GBRDG_Pct,0.00023550693655535033,not_mspa_component,green_mspa,False,0.135270786861138
+Zone4,Green-space-dominated,142,83,GBRDG_Pct,BEDGE_Pct,0.00020834698368263967,green_mspa,grey_mspa,False,0.1196706170744637
+Zone4,Green-space-dominated,142,84,GISLET_Pct,BCORE_Pct,0.000162765605402107,green_mspa,grey_mspa,False,0.09348952450705345
+Zone4,Green-space-dominated,142,85,GBRDG_Pct,BCORE_Pct,0.00014902085856944458,green_mspa,grey_mspa,False,0.08559479857474782
+Zone4,Green-space-dominated,142,86,B2_score,BEDGE_Pct,0.00012333200360931047,not_mspa_component,grey_mspa,False,0.07083959996002558
+Zone4,Green-space-dominated,142,87,GEDGE_Pct,GISLET_Pct,0.00011588729756061858,green_mspa,green_mspa,True,0.0665634998167088
+Zone4,Green-space-dominated,142,88,GBRDG_Pct,GISLET_Pct,0.00011516502334972709,green_mspa,green_mspa,True,0.06614863899661641
+Zone4,Green-space-dominated,142,89,B2_score,GISLET_Pct,9.933912085460114e-05,not_mspa_component,green_mspa,False,0.05705853611210883
+Zone4,Green-space-dominated,142,90,GISLET_Pct,BISLET_Pct,9.78173906561455e-05,green_mspa,grey_mspa,False,0.056184482700577694
+Zone4,Green-space-dominated,142,91,GEDGE_Pct,GBRDG_Pct,5.767083686334259e-05,green_mspa,green_mspa,True,0.03312505183732112
+Zone4,Green-space-dominated,242,1,CanopyHeight_Mean,GCORE_Pct,0.024720142775613484,not_mspa_component,green_mspa,False,14.871736841311904
+Zone4,Green-space-dominated,242,2,CanopyHeight_Mean,G3_score,0.013180349410208458,not_mspa_component,not_mspa_component,False,7.929350962265882
+Zone4,Green-space-dominated,242,3,CanopyHeight_Mean,GBRDG_Pct,0.011247635188316663,not_mspa_component,green_mspa,False,6.766622350285914
+Zone4,Green-space-dominated,242,4,BuildHeight_Mean,B2_score,0.00816505055673164,not_mspa_component,not_mspa_component,False,4.912127097239498
+Zone4,Green-space-dominated,242,5,CanopyHeight_Mean,B3_score,0.00710435146067884,not_mspa_component,not_mspa_component,False,4.274006275385823
+Zone4,Green-space-dominated,242,6,BuildHeight_Mean,BCORE_Pct,0.0064829920836024435,not_mspa_component,grey_mspa,False,3.900193987016775
+Zone4,Green-space-dominated,242,7,BuildHeight_Mean,G3_score,0.0056167671361862384,not_mspa_component,not_mspa_component,False,3.3790695914060245
+Zone4,Green-space-dominated,242,8,BuildHeight_Mean,B3_score,0.004539459083068012,not_mspa_component,not_mspa_component,False,2.7309567545009905
+Zone4,Green-space-dominated,242,9,BuildHeight_Mean,G2_score,0.004400664642095985,not_mspa_component,not_mspa_component,False,2.6474574632586587
+Zone4,Green-space-dominated,242,10,CanopyHeight_Mean,BEDGE_Pct,0.004027578214664987,not_mspa_component,grey_mspa,False,2.4230071751602997
+Zone4,Green-space-dominated,242,11,BuildHeight_Mean,CanopyHeight_Mean,0.004005063678694512,not_mspa_component,not_mspa_component,False,2.4094623402013577
+Zone4,Green-space-dominated,242,12,BuildHeight_Mean,GCORE_Pct,0.0038448864668530103,not_mspa_component,green_mspa,False,2.3130990884149707
+Zone4,Green-space-dominated,242,13,G3_score,B3_score,0.0035140961467469297,not_mspa_component,not_mspa_component,False,2.1140943077822314
+Zone4,Green-space-dominated,242,14,CanopyHeight_Mean,BBRDG_Pct,0.0034075976715030104,not_mspa_component,grey_mspa,False,2.050024398793236
+Zone4,Green-space-dominated,242,15,B3_score,BCORE_Pct,0.0033290174707013187,not_mspa_component,grey_mspa,False,2.002750235457373
+Zone4,Green-space-dominated,242,16,G3_score,BBRDG_Pct,0.003137884156410606,not_mspa_component,grey_mspa,False,1.8877636685293142
+Zone4,Green-space-dominated,242,17,BCORE_Pct,BEDGE_Pct,0.002605753576383051,grey_mspa,grey_mspa,True,1.5676317816216316
+Zone4,Green-space-dominated,242,18,BuildHeight_Mean,BBRDG_Pct,0.002432125116589911,not_mspa_component,grey_mspa,False,1.4631762052261268
+Zone4,Green-space-dominated,242,19,B3_score,BEDGE_Pct,0.002427234801142708,not_mspa_component,grey_mspa,False,1.460234171878587
+Zone4,Green-space-dominated,242,20,BuildHeight_Mean,GEDGE_Pct,0.002317279642909035,not_mspa_component,green_mspa,False,1.394084708566864
+Zone4,Green-space-dominated,242,21,B3_score,BBRDG_Pct,0.0022084578274686965,not_mspa_component,grey_mspa,False,1.3286170688160508
+Zone4,Green-space-dominated,242,22,B3_score,GCORE_Pct,0.0018754876224696664,not_mspa_component,green_mspa,False,1.1283008607062714
+Zone4,Green-space-dominated,242,23,CanopyHeight_Mean,B2_score,0.0018185813623529013,not_mspa_component,not_mspa_component,False,1.094065826840907
+Zone4,Green-space-dominated,242,24,BCORE_Pct,BBRDG_Pct,0.0013832100120564576,grey_mspa,grey_mspa,True,0.8321446798383629
+Zone4,Green-space-dominated,242,25,G2_score,GCORE_Pct,0.0013589858370933344,not_mspa_component,green_mspa,False,0.8175713192182594
+Zone4,Green-space-dominated,242,26,CanopyHeight_Mean,GISLET_Pct,0.0013288122466832615,not_mspa_component,green_mspa,False,0.7994187664515005
+Zone4,Green-space-dominated,242,27,G3_score,BCORE_Pct,0.001316444465258678,not_mspa_component,grey_mspa,False,0.7919782596418588
+Zone4,Green-space-dominated,242,28,B2_score,GCORE_Pct,0.0012975926438663723,not_mspa_component,green_mspa,False,0.7806369284339192
+Zone4,Green-space-dominated,242,29,BEDGE_Pct,BISLET_Pct,0.001229236046414698,grey_mspa,grey_mspa,True,0.7395133257955212
+Zone4,Green-space-dominated,242,30,G3_score,GCORE_Pct,0.0012121504218423043,not_mspa_component,green_mspa,False,0.7292345456640102
+Zone4,Green-space-dominated,242,31,GCORE_Pct,BBRDG_Pct,0.001166975079077822,green_mspa,grey_mspa,False,0.7020568786332109
+Zone4,Green-space-dominated,242,32,BEDGE_Pct,BBRDG_Pct,0.0011375960716235873,grey_mspa,grey_mspa,True,0.6843823501531675
+Zone4,Green-space-dominated,242,33,CanopyHeight_Mean,BCORE_Pct,0.001118084722543531,not_mspa_component,grey_mspa,False,0.6726442444483808
+Zone4,Green-space-dominated,242,34,BCORE_Pct,BISLET_Pct,0.00106173263746921,grey_mspa,grey_mspa,True,0.6387426045067511
+Zone4,Green-space-dominated,242,35,GCORE_Pct,BEDGE_Pct,0.0010438064220290976,green_mspa,grey_mspa,False,0.6279581215445813
+Zone4,Green-space-dominated,242,36,GISLET_Pct,BEDGE_Pct,0.0009770338071067777,green_mspa,grey_mspa,False,0.5877874491360617
+Zone4,Green-space-dominated,242,37,GCORE_Pct,BISLET_Pct,0.0009210892369152858,green_mspa,grey_mspa,False,0.5541309717791052
+Zone4,Green-space-dominated,242,38,GCORE_Pct,GBRDG_Pct,0.0008886527073508507,green_mspa,green_mspa,True,0.5346170257591983
+Zone4,Green-space-dominated,242,39,B2_score,B3_score,0.0008752329926639833,not_mspa_component,not_mspa_component,False,0.5265436716883852
+Zone4,Green-space-dominated,242,40,G3_score,B2_score,0.000870845758662373,not_mspa_component,not_mspa_component,False,0.5239042941522016
+Zone4,Green-space-dominated,242,41,GCORE_Pct,GISLET_Pct,0.0008566464688238317,green_mspa,green_mspa,True,0.5153619445497302
+Zone4,Green-space-dominated,242,42,G2_score,B3_score,0.0008561590190314116,not_mspa_component,not_mspa_component,False,0.5150686928034913
+Zone4,Green-space-dominated,242,43,BuildHeight_Mean,BEDGE_Pct,0.0007356869436366512,not_mspa_component,grey_mspa,False,0.44259221003151417
+Zone4,Green-space-dominated,242,44,G3_score,GEDGE_Pct,0.0007246678110651644,not_mspa_component,green_mspa,False,0.43596305577014227
+Zone4,Green-space-dominated,242,45,CanopyHeight_Mean,GEDGE_Pct,0.0007244160510099439,not_mspa_component,green_mspa,False,0.4358115959131997
+Zone4,Green-space-dominated,242,46,G3_score,BEDGE_Pct,0.000723893355846931,not_mspa_component,grey_mspa,False,0.4354971404109353
+Zone4,Green-space-dominated,242,47,BuildHeight_Mean,GISLET_Pct,0.0007034664725683487,not_mspa_component,green_mspa,False,0.42320824566769966
+Zone4,Green-space-dominated,242,48,BuildHeight_Mean,BISLET_Pct,0.0007024478889472878,not_mspa_component,grey_mspa,False,0.42259546168417705
+Zone4,Green-space-dominated,242,49,CanopyHeight_Mean,G2_score,0.0006964198146348956,not_mspa_component,not_mspa_component,False,0.41896894804922313
+Zone4,Green-space-dominated,242,50,B2_score,GEDGE_Pct,0.0006704984765283628,not_mspa_component,green_mspa,False,0.40337456728879656
+Zone4,Green-space-dominated,242,51,G3_score,BISLET_Pct,0.0006473328887919719,not_mspa_component,grey_mspa,False,0.3894380569815102
+Zone4,Green-space-dominated,242,52,GISLET_Pct,BCORE_Pct,0.0005944471607825086,green_mspa,grey_mspa,False,0.3576217913249128
+Zone4,Green-space-dominated,242,53,B3_score,BISLET_Pct,0.000585599623831151,not_mspa_component,grey_mspa,False,0.3522990776808728
+Zone4,Green-space-dominated,242,54,G3_score,GBRDG_Pct,0.0005809413245952653,not_mspa_component,green_mspa,False,0.34949662621475436
+Zone4,Green-space-dominated,242,55,GBRDG_Pct,BISLET_Pct,0.0005806774765543602,green_mspa,grey_mspa,False,0.3493378941772393
+Zone4,Green-space-dominated,242,56,CanopyHeight_Mean,BISLET_Pct,0.0005279145337499493,not_mspa_component,grey_mspa,False,0.3175954965914746
+Zone4,Green-space-dominated,242,57,B3_score,GISLET_Pct,0.0004792284619158553,not_mspa_component,green_mspa,False,0.28830576089997495
+Zone4,Green-space-dominated,242,58,GEDGE_Pct,BISLET_Pct,0.00047125049605298454,green_mspa,grey_mspa,False,0.2835061847034075
+Zone4,Green-space-dominated,242,59,B3_score,GEDGE_Pct,0.0004675302216666007,not_mspa_component,green_mspa,False,0.2812680527413885
+Zone4,Green-space-dominated,242,60,G2_score,G3_score,0.000452329315462494,not_mspa_component,not_mspa_component,False,0.2721231267242154
+Zone4,Green-space-dominated,242,61,G3_score,GISLET_Pct,0.00044677821594879866,not_mspa_component,green_mspa,False,0.26878356303734824
+Zone4,Green-space-dominated,242,62,G2_score,B2_score,0.00044330590576861366,not_mspa_component,not_mspa_component,False,0.26669460733430667
+Zone4,Green-space-dominated,242,63,B2_score,BCORE_Pct,0.00042197308196474133,not_mspa_component,grey_mspa,False,0.25386069514484155
+Zone4,Green-space-dominated,242,64,G2_score,BEDGE_Pct,0.00038183440571835426,not_mspa_component,grey_mspa,False,0.2297131068516315
+Zone4,Green-space-dominated,242,65,GCORE_Pct,BCORE_Pct,0.0003726582288089472,green_mspa,grey_mspa,False,0.22419268209337936
+Zone4,Green-space-dominated,242,66,G2_score,GEDGE_Pct,0.00036917312081061123,not_mspa_component,green_mspa,False,0.22209602717171223
+Zone4,Green-space-dominated,242,67,GCORE_Pct,GEDGE_Pct,0.0003651343030670049,green_mspa,green_mspa,True,0.21966625825095226
+Zone4,Green-space-dominated,242,68,GBRDG_Pct,BEDGE_Pct,0.00036200331671538353,green_mspa,grey_mspa,False,0.21778264432939407
+Zone4,Green-space-dominated,242,69,G2_score,BBRDG_Pct,0.00035976653996796387,not_mspa_component,grey_mspa,False,0.21643699048498313
+Zone4,Green-space-dominated,242,70,GBRDG_Pct,BCORE_Pct,0.00032053868003382546,green_mspa,grey_mspa,False,0.1928373529309532
+Zone4,Green-space-dominated,242,71,BBRDG_Pct,BISLET_Pct,0.0002802132400393922,grey_mspa,grey_mspa,True,0.1685774068193579
+Zone4,Green-space-dominated,242,72,GEDGE_Pct,BBRDG_Pct,0.000277537373638977,green_mspa,grey_mspa,False,0.1669675948821574
+Zone4,Green-space-dominated,242,73,B2_score,GISLET_Pct,0.00026942168804069787,not_mspa_component,green_mspa,False,0.1620851659415164
+Zone4,Green-space-dominated,242,74,BuildHeight_Mean,GBRDG_Pct,0.00025869251904171416,not_mspa_component,green_mspa,False,0.15563045492600175
+Zone4,Green-space-dominated,242,75,G2_score,GBRDG_Pct,0.00024928462175495504,not_mspa_component,green_mspa,False,0.1499706262612257
+Zone4,Green-space-dominated,242,76,B2_score,BEDGE_Pct,0.0002429361017340801,not_mspa_component,grey_mspa,False,0.14615133120539814
+Zone4,Green-space-dominated,242,77,GISLET_Pct,BISLET_Pct,0.0002381490817421987,green_mspa,grey_mspa,False,0.14327144081724108
+Zone4,Green-space-dominated,242,78,GISLET_Pct,BBRDG_Pct,0.00022905918152964653,green_mspa,grey_mspa,False,0.1378029204651572
+Zone4,Green-space-dominated,242,79,GEDGE_Pct,GBRDG_Pct,0.00021267093030732904,green_mspa,green_mspa,True,0.12794368293243363
+Zone4,Green-space-dominated,242,80,G2_score,GISLET_Pct,0.00019015320475966775,not_mspa_component,green_mspa,False,0.11439692911108991
+Zone4,Green-space-dominated,242,81,B3_score,GBRDG_Pct,0.0001873261108977558,not_mspa_component,green_mspa,False,0.11269613812773366
+Zone4,Green-space-dominated,242,82,B2_score,BBRDG_Pct,0.00018500142903467062,not_mspa_component,grey_mspa,False,0.11129760021387991
+Zone4,Green-space-dominated,242,83,G2_score,BISLET_Pct,0.00018364487281522055,not_mspa_component,grey_mspa,False,0.11048149056236088
+Zone4,Green-space-dominated,242,84,B2_score,BISLET_Pct,0.00016454797139060475,not_mspa_component,grey_mspa,False,0.09899271822599996
+Zone4,Green-space-dominated,242,85,B2_score,GBRDG_Pct,0.0001607914792401528,not_mspa_component,green_mspa,False,0.09673279751214846
+Zone4,Green-space-dominated,242,86,G2_score,BCORE_Pct,0.00015041903852139253,not_mspa_component,grey_mspa,False,0.09049269565789521
+Zone4,Green-space-dominated,242,87,GEDGE_Pct,BEDGE_Pct,0.0001357197954305926,green_mspa,grey_mspa,False,0.08164957217769825
+Zone4,Green-space-dominated,242,88,GEDGE_Pct,BCORE_Pct,0.00012391816536131315,green_mspa,grey_mspa,False,0.07454966428954561
+Zone4,Green-space-dominated,242,89,GEDGE_Pct,GISLET_Pct,9.036394477675657e-05,green_mspa,green_mspa,True,0.05436331087814335
+Zone4,Green-space-dominated,242,90,GBRDG_Pct,GISLET_Pct,8.824222625078037e-05,green_mspa,green_mspa,True,0.05308687652029725
+Zone4,Green-space-dominated,242,91,GBRDG_Pct,BBRDG_Pct,8.354852510482718e-05,green_mspa,grey_mspa,False,0.05026312712337865

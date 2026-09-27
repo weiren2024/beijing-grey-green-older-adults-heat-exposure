@@ -1,0 +1,18 @@
+zone,zone_label,feature_a,feature_b,same_mspa_composition,mean_rank,min_rank,max_rank,mean_abs_shap_interaction,sd_abs_shap_interaction,seeds_in_top_k,n_seeds,stable_top_k,scientifically_eligible,screening_decision
+Zone1,Compact,GISLET_Pct,BCORE_Pct,False,1.0,1,1,0.0372988847039765,0.0057390569517225,3,3,True,True,eligible for conditional response analysis
+Zone1,Compact,BuildHeight_Mean,BCORE_Pct,False,2.0,2,2,0.0238268416381571,0.0022252837483203,3,3,True,True,eligible for conditional response analysis
+Zone1,Compact,G3_score,GISLET_Pct,False,3.0,3,3,0.0181503992350617,0.0024646334470191,3,3,True,True,eligible for conditional response analysis
+Zone1,Compact,GISLET_Pct,BBRDG_Pct,False,5.0,4,6,0.014346918114876,0.0049903310119282,2,3,True,True,eligible for conditional response analysis
+Zone2,Open mid-/high-rise,GCORE_Pct,BCORE_Pct,False,2.0,2,2,0.0314925688990592,0.0034067710266954,3,3,True,True,eligible for conditional response analysis
+Zone2,Open mid-/high-rise,B2_score,BCORE_Pct,False,3.0,3,3,0.0249899903314158,0.0024976338202656,3,3,True,True,eligible for conditional response analysis
+Zone2,Open mid-/high-rise,CanopyHeight_Mean,GCORE_Pct,False,4.0,4,4,0.0187563163134446,0.0004323228824542,3,3,True,True,eligible for conditional response analysis
+Zone2,Open mid-/high-rise,GBRDG_Pct,BCORE_Pct,False,6.0,5,8,0.0126089531042235,0.0014977917314669,2,3,True,True,eligible for conditional response analysis
+Zone3,Open low-rise,BuildHeight_Mean,BCORE_Pct,False,1.0,1,1,0.0155947804445068,0.0027705742048933,3,3,True,True,eligible for conditional response analysis
+Zone3,Open low-rise,BuildHeight_Mean,BEDGE_Pct,False,2.333333333333333,2,3,0.0095356806685306,0.0035739081442886,3,3,True,True,eligible for conditional response analysis
+Zone3,Open low-rise,BuildHeight_Mean,G3_score,False,4.0,3,5,0.008173081408711,0.0024230049694332,3,3,True,True,eligible for conditional response analysis
+Zone3,Open low-rise,BuildHeight_Mean,GISLET_Pct,False,6.333333333333333,4,10,0.0073890722219864,0.0029052843286532,2,3,True,True,eligible for conditional response analysis
+Zone4,Green-space-dominated,CanopyHeight_Mean,GCORE_Pct,False,1.0,1,1,0.026149988054402,0.0021115503885539,3,3,True,True,eligible for conditional response analysis
+Zone4,Green-space-dominated,CanopyHeight_Mean,G3_score,False,2.333333333333333,2,3,0.0121576844283327,0.0009448452051265,3,3,True,True,eligible for conditional response analysis
+Zone4,Green-space-dominated,CanopyHeight_Mean,GBRDG_Pct,False,2.6666666666666665,2,3,0.0119989132349372,0.0009036780386871,3,3,True,True,eligible for conditional response analysis
+Zone4,Green-space-dominated,BuildHeight_Mean,B2_score,False,4.0,4,4,0.0085942653911961,0.0009659968980575,3,3,True,True,eligible for conditional response analysis
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,False,5.333333333333333,5,6,0.0069001088392928,0.0002870874841751,2,3,True,True,eligible for conditional response analysis

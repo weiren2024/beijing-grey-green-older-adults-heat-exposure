@@ -1,0 +1,18 @@
+pair_id,zone,feature_a,feature_b,curve_available,figure_qualified,figure_screening_decision,pair_data_dir
+p01,Zone1,GISLET_Pct,BCORE_Pct,True,True,qualified for conditional-response figure,pairs/p01
+p02,Zone1,BuildHeight_Mean,BCORE_Pct,True,False,<60% of occupied 2D support cells have n >= 20,pairs/p02
+p03,Zone1,G3_score,GISLET_Pct,True,True,qualified for conditional-response figure,pairs/p03
+p04,Zone1,GISLET_Pct,BBRDG_Pct,False,False,The lower and upper BBRDG_Pct quartiles cannot define non-overlapping conditions.,
+p05,Zone2,GCORE_Pct,BCORE_Pct,True,False,two B conditions have <10% of A full range in common; <60% of occupied 2D support cells have n >= 20; fewer than five distinct A values in common-support curve,pairs/p05
+p06,Zone2,B2_score,BCORE_Pct,True,False,two B conditions have <10% of A full range in common; <60% of occupied 2D support cells have n >= 20,pairs/p06
+p07,Zone2,CanopyHeight_Mean,GCORE_Pct,True,False,<60% of occupied 2D support cells have n >= 20,pairs/p07
+p08,Zone2,GBRDG_Pct,BCORE_Pct,False,False,Insufficient common observed GBRDG_Pct range between the two BCORE_Pct conditions.,
+p09,Zone3,BuildHeight_Mean,BCORE_Pct,True,False,<60% of occupied 2D support cells have n >= 20,pairs/p09
+p10,Zone3,BuildHeight_Mean,BEDGE_Pct,True,False,<60% of occupied 2D support cells have n >= 20,pairs/p10
+p11,Zone3,BuildHeight_Mean,G3_score,True,False,<60% of occupied 2D support cells have n >= 20,pairs/p11
+p12,Zone3,BuildHeight_Mean,GISLET_Pct,True,False,<60% of occupied 2D support cells have n >= 20,pairs/p12
+p13,Zone4,CanopyHeight_Mean,GCORE_Pct,True,False,fewer than five distinct A values in common-support curve,pairs/p13
+p14,Zone4,CanopyHeight_Mean,G3_score,True,False,fewer than five distinct A values in common-support curve,pairs/p14
+p15,Zone4,CanopyHeight_Mean,GBRDG_Pct,True,False,fewer than five distinct A values in common-support curve,pairs/p15
+p16,Zone4,BuildHeight_Mean,B2_score,True,True,qualified for conditional-response figure,pairs/p16
+p17,Zone4,CanopyHeight_Mean,B3_score,True,False,two B conditions have <10% of A full range in common; fewer than five distinct A values in common-support curve,pairs/p17

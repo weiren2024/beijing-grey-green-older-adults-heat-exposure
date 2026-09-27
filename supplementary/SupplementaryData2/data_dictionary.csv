@@ -1,0 +1,658 @@
+file,field,definition
+01_pair_ranking_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+01_pair_ranking_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+01_pair_ranking_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+01_pair_ranking_by_seed.csv,interaction_rank,"Within-zone, within-seed rank of mean absolute pair-specific TreeSHAP attribution (1 is largest)."
+01_pair_ranking_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+01_pair_ranking_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+01_pair_ranking_by_seed.csv,mean_abs_shap_interaction,"Mean absolute off-diagonal TreeSHAP interaction attribution, in outcome units (degrees Celsius); averaged across seeds in summary files."
+01_pair_ranking_by_seed.csv,mspa_group_a,"MSPA composition group of A, or not_mspa_component."
+01_pair_ranking_by_seed.csv,mspa_group_b,"MSPA composition group of B, or not_mspa_component."
+01_pair_ranking_by_seed.csv,same_mspa_composition,Whether both predictors belong to the same grey or green MSPA composition.
+01_pair_ranking_by_seed.csv,share_of_all_pair_strength_pct,"Pair strength divided by the sum across the 91 pairs in this zone/seed, multiplied by 100."
+02_pair_ranking_summary.csv,zone,Urban-form type identifier; see Data_guide.txt.
+02_pair_ranking_summary.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+02_pair_ranking_summary.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+02_pair_ranking_summary.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+02_pair_ranking_summary.csv,same_mspa_composition,Whether both predictors belong to the same grey or green MSPA composition.
+02_pair_ranking_summary.csv,mean_rank,Mean within-zone rank over the three model seeds.
+02_pair_ranking_summary.csv,min_rank,Best (smallest) within-zone rank across seeds.
+02_pair_ranking_summary.csv,max_rank,Worst (largest) within-zone rank across seeds.
+02_pair_ranking_summary.csv,mean_abs_shap_interaction,"Mean absolute off-diagonal TreeSHAP interaction attribution, in outcome units (degrees Celsius); averaged across seeds in summary files."
+02_pair_ranking_summary.csv,sd_abs_shap_interaction,Sample standard deviation of mean absolute pair attribution across three seeds (divisor n-1).
+02_pair_ranking_summary.csv,seeds_in_top_k,Number of seeds for which the pair ranks in the first five.
+02_pair_ranking_summary.csv,n_seeds,Number of model seeds represented (three).
+02_pair_ranking_summary.csv,stable_top_k,True if the pair is in the first five in at least two seeds.
+02_pair_ranking_summary.csv,scientifically_eligible,Legacy field name: passes rank-stability and same-composition exclusion rules only; not proof of scientific validity or significance.
+02_pair_ranking_summary.csv,screening_decision,"Rank-stability/composition screening decision, before conditional-support screening."
+03_stable_candidates.csv,zone,Urban-form type identifier; see Data_guide.txt.
+03_stable_candidates.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+03_stable_candidates.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+03_stable_candidates.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+03_stable_candidates.csv,same_mspa_composition,Whether both predictors belong to the same grey or green MSPA composition.
+03_stable_candidates.csv,mean_rank,Mean within-zone rank over the three model seeds.
+03_stable_candidates.csv,min_rank,Best (smallest) within-zone rank across seeds.
+03_stable_candidates.csv,max_rank,Worst (largest) within-zone rank across seeds.
+03_stable_candidates.csv,mean_abs_shap_interaction,"Mean absolute off-diagonal TreeSHAP interaction attribution, in outcome units (degrees Celsius); averaged across seeds in summary files."
+03_stable_candidates.csv,sd_abs_shap_interaction,Sample standard deviation of mean absolute pair attribution across three seeds (divisor n-1).
+03_stable_candidates.csv,seeds_in_top_k,Number of seeds for which the pair ranks in the first five.
+03_stable_candidates.csv,n_seeds,Number of model seeds represented (three).
+03_stable_candidates.csv,stable_top_k,True if the pair is in the first five in at least two seeds.
+03_stable_candidates.csv,scientifically_eligible,Legacy field name: passes rank-stability and same-composition exclusion rules only; not proof of scientific validity or significance.
+03_stable_candidates.csv,screening_decision,"Rank-stability/composition screening decision, before conditional-support screening."
+04_complete_conditional_screen.csv,zone,Urban-form type identifier; see Data_guide.txt.
+04_complete_conditional_screen.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+04_complete_conditional_screen.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+04_complete_conditional_screen.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+04_complete_conditional_screen.csv,mean_rank,Mean within-zone rank over the three model seeds.
+04_complete_conditional_screen.csv,seeds_in_top_k,Number of seeds for which the pair ranks in the first five.
+04_complete_conditional_screen.csv,n_seeds,Number of model seeds represented (three).
+04_complete_conditional_screen.csv,mean_abs_shap_interaction,"Mean absolute off-diagonal TreeSHAP interaction attribution, in outcome units (degrees Celsius); averaged across seeds in summary files."
+04_complete_conditional_screen.csv,figure_qualified,"Passes the predefined conditional-curve range, support and resolution criteria; not a significance test. See Data_guide.txt for Figure 9 pair mapping."
+04_complete_conditional_screen.csv,figure_screening_decision,Pass or failure reason for the conditional-response support/resolution screen.
+04_complete_conditional_screen.csv,conditional_curve_change_lower_B,"Last minus first predicted PWP on the mean curve for B <= Q1, degrees Celsius."
+04_complete_conditional_screen.csv,conditional_curve_change_upper_B,"Last minus first predicted PWP on the mean curve for B >= Q3, degrees Celsius."
+04_complete_conditional_screen.csv,difference_in_curve_change,"Upper-condition curve change minus lower-condition curve change, degrees Celsius."
+04_complete_conditional_screen.csv,observed_support_cells,Number of occupied two-dimensional marginal-quantile bins containing complete observed A-B pairs.
+04_complete_conditional_screen.csv,support_cells_n_ge_20,Number of occupied bins containing at least 20 complete observed pairs.
+04_complete_conditional_screen.csv,support_cell_fraction_n_ge_20,"support_cells_n_ge_20 / observed_support_cells, a proportion between 0 and 1."
+04_complete_conditional_screen.csv,n_grid_points,Number of distinct A values actually used for each conditional curve.
+04_complete_conditional_screen.csv,a_common_support_fraction_of_full_range,"Intersection length of the condition-specific A 5th-95th percentile intervals, divided by the full observed A range."
+04_complete_conditional_screen.csv,n_complete_observed_pairs,"Number of observed analytical records with finite A and B, before model imputation."
+04_complete_conditional_screen.csv,n_analytical,Total outcome-eligible grid records in the zone; different from complete-pair support when a predictor is missing.
+04_complete_conditional_screen.csv,min_high_minus_low_prediction,"Minimum high-B minus low-B mean predicted PWP over the common A grid, degrees Celsius."
+04_complete_conditional_screen.csv,max_high_minus_low_prediction,"Maximum high-B minus low-B mean predicted PWP over the common A grid, degrees Celsius."
+04_complete_conditional_screen.csv,range_high_minus_low_prediction,"Maximum minus minimum of the high-B minus low-B prediction difference, degrees Celsius."
+04_complete_conditional_screen.csv,a_full_min,Minimum observed A in the analytical zone.
+04_complete_conditional_screen.csv,a_full_max,Maximum observed A in the analytical zone.
+04_complete_conditional_screen.csv,a_full_range,a_full_max minus a_full_min.
+04_complete_conditional_screen.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+04_complete_conditional_screen.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+04_complete_conditional_screen.csv,n_lower_condition,Number of observations retained in B <= Q1.
+04_complete_conditional_screen.csv,n_upper_condition,Number of observations retained in B >= Q3.
+04_complete_conditional_screen.csv,a_grid_min,First actual A curve node inside the common range.
+04_complete_conditional_screen.csv,a_grid_max,Last actual A curve node inside the common range.
+04_complete_conditional_screen.csv,a_common_support_lower,Lower endpoint of the intersection of the two condition-specific A 5th-95th percentile intervals.
+04_complete_conditional_screen.csv,a_common_support_upper,Upper endpoint of that interval intersection.
+04_complete_conditional_screen.csv,a_common_support_range,a_common_support_upper minus a_common_support_lower.
+04_complete_conditional_screen.csv,criterion_common_range,Whether common A support covers at least 10 percent of the full A range.
+04_complete_conditional_screen.csv,criterion_joint_support,Whether at least 60 percent of occupied bins contain at least 20 complete pairs.
+04_complete_conditional_screen.csv,criterion_curve_resolution,Whether the conditional curve has at least five distinct A nodes.
+04_complete_conditional_screen.csv,same_mspa_composition,Whether both predictors belong to the same grey or green MSPA composition.
+04_complete_conditional_screen.csv,min_rank,Best (smallest) within-zone rank across seeds.
+04_complete_conditional_screen.csv,max_rank,Worst (largest) within-zone rank across seeds.
+04_complete_conditional_screen.csv,sd_abs_shap_interaction,Sample standard deviation of mean absolute pair attribution across three seeds (divisor n-1).
+04_complete_conditional_screen.csv,stable_top_k,True if the pair is in the first five in at least two seeds.
+04_complete_conditional_screen.csv,scientifically_eligible,Legacy field name: passes rank-stability and same-composition exclusion rules only; not proof of scientific validity or significance.
+04_complete_conditional_screen.csv,screening_decision,"Rank-stability/composition screening decision, before conditional-support screening."
+05_qualified_pairs.csv,zone,Urban-form type identifier; see Data_guide.txt.
+05_qualified_pairs.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+05_qualified_pairs.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+05_qualified_pairs.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+05_qualified_pairs.csv,mean_rank,Mean within-zone rank over the three model seeds.
+05_qualified_pairs.csv,seeds_in_top_k,Number of seeds for which the pair ranks in the first five.
+05_qualified_pairs.csv,n_seeds,Number of model seeds represented (three).
+05_qualified_pairs.csv,mean_abs_shap_interaction,"Mean absolute off-diagonal TreeSHAP interaction attribution, in outcome units (degrees Celsius); averaged across seeds in summary files."
+05_qualified_pairs.csv,figure_qualified,"Passes the predefined conditional-curve range, support and resolution criteria; not a significance test. See Data_guide.txt for Figure 9 pair mapping."
+05_qualified_pairs.csv,figure_screening_decision,Pass or failure reason for the conditional-response support/resolution screen.
+05_qualified_pairs.csv,conditional_curve_change_lower_B,"Last minus first predicted PWP on the mean curve for B <= Q1, degrees Celsius."
+05_qualified_pairs.csv,conditional_curve_change_upper_B,"Last minus first predicted PWP on the mean curve for B >= Q3, degrees Celsius."
+05_qualified_pairs.csv,difference_in_curve_change,"Upper-condition curve change minus lower-condition curve change, degrees Celsius."
+05_qualified_pairs.csv,observed_support_cells,Number of occupied two-dimensional marginal-quantile bins containing complete observed A-B pairs.
+05_qualified_pairs.csv,support_cells_n_ge_20,Number of occupied bins containing at least 20 complete observed pairs.
+05_qualified_pairs.csv,support_cell_fraction_n_ge_20,"support_cells_n_ge_20 / observed_support_cells, a proportion between 0 and 1."
+05_qualified_pairs.csv,n_grid_points,Number of distinct A values actually used for each conditional curve.
+05_qualified_pairs.csv,a_common_support_fraction_of_full_range,"Intersection length of the condition-specific A 5th-95th percentile intervals, divided by the full observed A range."
+05_qualified_pairs.csv,n_complete_observed_pairs,"Number of observed analytical records with finite A and B, before model imputation."
+05_qualified_pairs.csv,n_analytical,Total outcome-eligible grid records in the zone; different from complete-pair support when a predictor is missing.
+05_qualified_pairs.csv,min_high_minus_low_prediction,"Minimum high-B minus low-B mean predicted PWP over the common A grid, degrees Celsius."
+05_qualified_pairs.csv,max_high_minus_low_prediction,"Maximum high-B minus low-B mean predicted PWP over the common A grid, degrees Celsius."
+05_qualified_pairs.csv,range_high_minus_low_prediction,"Maximum minus minimum of the high-B minus low-B prediction difference, degrees Celsius."
+05_qualified_pairs.csv,a_full_min,Minimum observed A in the analytical zone.
+05_qualified_pairs.csv,a_full_max,Maximum observed A in the analytical zone.
+05_qualified_pairs.csv,a_full_range,a_full_max minus a_full_min.
+05_qualified_pairs.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+05_qualified_pairs.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+05_qualified_pairs.csv,n_lower_condition,Number of observations retained in B <= Q1.
+05_qualified_pairs.csv,n_upper_condition,Number of observations retained in B >= Q3.
+05_qualified_pairs.csv,a_grid_min,First actual A curve node inside the common range.
+05_qualified_pairs.csv,a_grid_max,Last actual A curve node inside the common range.
+05_qualified_pairs.csv,a_common_support_lower,Lower endpoint of the intersection of the two condition-specific A 5th-95th percentile intervals.
+05_qualified_pairs.csv,a_common_support_upper,Upper endpoint of that interval intersection.
+05_qualified_pairs.csv,a_common_support_range,a_common_support_upper minus a_common_support_lower.
+05_qualified_pairs.csv,criterion_common_range,Whether common A support covers at least 10 percent of the full A range.
+05_qualified_pairs.csv,criterion_joint_support,Whether at least 60 percent of occupied bins contain at least 20 complete pairs.
+05_qualified_pairs.csv,criterion_curve_resolution,Whether the conditional curve has at least five distinct A nodes.
+05_qualified_pairs.csv,same_mspa_composition,Whether both predictors belong to the same grey or green MSPA composition.
+05_qualified_pairs.csv,min_rank,Best (smallest) within-zone rank across seeds.
+05_qualified_pairs.csv,max_rank,Worst (largest) within-zone rank across seeds.
+05_qualified_pairs.csv,sd_abs_shap_interaction,Sample standard deviation of mean absolute pair attribution across three seeds (divisor n-1).
+05_qualified_pairs.csv,stable_top_k,True if the pair is in the first five in at least two seeds.
+05_qualified_pairs.csv,scientifically_eligible,Legacy field name: passes rank-stability and same-composition exclusion rules only; not proof of scientific validity or significance.
+05_qualified_pairs.csv,screening_decision,"Rank-stability/composition screening decision, before conditional-support screening."
+06_curves_seed_aggregate_all_pairs.csv,zone,Urban-form type identifier; see Data_guide.txt.
+06_curves_seed_aggregate_all_pairs.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+06_curves_seed_aggregate_all_pairs.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+06_curves_seed_aggregate_all_pairs.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+06_curves_seed_aggregate_all_pairs.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+06_curves_seed_aggregate_all_pairs.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+06_curves_seed_aggregate_all_pairs.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+06_curves_seed_aggregate_all_pairs.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+06_curves_seed_aggregate_all_pairs.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+06_curves_seed_aggregate_all_pairs.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+06_curves_seed_aggregate_all_pairs.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+06_curves_seed_aggregate_all_pairs.csv,n_seeds,Number of model seeds represented (three).
+07_model_metrics.csv,model,Fitted algorithm name.
+07_model_metrics.csv,zone,Urban-form type identifier; see Data_guide.txt.
+07_model_metrics.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+07_model_metrics.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+07_model_metrics.csv,Train_R2,"R-squared on the 70 percent training split, before full-sample explanatory refitting."
+07_model_metrics.csv,Train_RMSE,"Training root mean squared error, degrees Celsius."
+07_model_metrics.csv,Train_MAE,"Training mean absolute error, degrees Celsius."
+07_model_metrics.csv,Test_R2,R-squared on the 30 percent held-out split; this split also participated in algorithm comparison.
+07_model_metrics.csv,Test_RMSE,"Held-out root mean squared error, degrees Celsius."
+07_model_metrics.csv,Test_MAE,"Held-out mean absolute error, degrees Celsius."
+07_model_metrics.csv,Overfitting_Score,Training R-squared minus test R-squared.
+09_pair_map.csv,pair_id,Short archive identifier mapping back to the exact source pair directory.
+09_pair_map.csv,zone,Urban-form type identifier; see Data_guide.txt.
+09_pair_map.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+09_pair_map.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+09_pair_map.csv,curve_available,Whether stored conditional curves exist; false for the two geometry-rejected candidates.
+09_pair_map.csv,figure_qualified,"Passes the predefined conditional-curve range, support and resolution criteria; not a significance test. See Data_guide.txt for Figure 9 pair mapping."
+09_pair_map.csv,figure_screening_decision,Pass or failure reason for the conditional-response support/resolution screen.
+09_pair_map.csv,pair_data_dir,Relative archive directory containing this pair data; blank if geometry prevented curve calculation.
+pairs/p01/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p01/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p01/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p01/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p01/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p01/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p01/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p01/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p01/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p01/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p01/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p01/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p01/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p01/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p01/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p01/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p01/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p01/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p01/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p01/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p01/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p01/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p01/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p01/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p01/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p01/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p01/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p01/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p01/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p01/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p01/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p01/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p01/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p02/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p02/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p02/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p02/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p02/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p02/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p02/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p02/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p02/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p02/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p02/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p02/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p02/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p02/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p02/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p02/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p02/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p02/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p02/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p02/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p02/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p02/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p02/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p02/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p02/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p02/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p02/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p02/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p02/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p02/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p02/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p02/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p02/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p03/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p03/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p03/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p03/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p03/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p03/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p03/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p03/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p03/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p03/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p03/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p03/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p03/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p03/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p03/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p03/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p03/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p03/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p03/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p03/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p03/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p03/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p03/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p03/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p03/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p03/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p03/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p03/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p03/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p03/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p03/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p03/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p03/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p05/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p05/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p05/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p05/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p05/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p05/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p05/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p05/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p05/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p05/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p05/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p05/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p05/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p05/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p05/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p05/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p05/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p05/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p05/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p05/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p05/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p05/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p05/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p05/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p05/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p05/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p05/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p05/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p05/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p05/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p05/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p05/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p05/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p06/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p06/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p06/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p06/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p06/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p06/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p06/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p06/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p06/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p06/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p06/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p06/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p06/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p06/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p06/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p06/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p06/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p06/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p06/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p06/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p06/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p06/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p06/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p06/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p06/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p06/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p06/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p06/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p06/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p06/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p06/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p06/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p06/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p07/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p07/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p07/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p07/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p07/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p07/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p07/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p07/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p07/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p07/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p07/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p07/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p07/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p07/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p07/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p07/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p07/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p07/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p07/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p07/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p07/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p07/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p07/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p07/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p07/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p07/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p07/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p07/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p07/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p07/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p07/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p07/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p07/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p09/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p09/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p09/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p09/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p09/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p09/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p09/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p09/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p09/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p09/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p09/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p09/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p09/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p09/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p09/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p09/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p09/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p09/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p09/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p09/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p09/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p09/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p09/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p09/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p09/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p09/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p09/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p09/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p09/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p09/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p09/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p09/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p09/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p10/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p10/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p10/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p10/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p10/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p10/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p10/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p10/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p10/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p10/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p10/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p10/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p10/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p10/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p10/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p10/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p10/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p10/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p10/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p10/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p10/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p10/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p10/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p10/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p10/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p10/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p10/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p10/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p10/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p10/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p10/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p10/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p10/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p11/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p11/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p11/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p11/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p11/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p11/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p11/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p11/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p11/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p11/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p11/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p11/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p11/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p11/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p11/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p11/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p11/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p11/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p11/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p11/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p11/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p11/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p11/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p11/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p11/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p11/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p11/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p11/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p11/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p11/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p11/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p11/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p11/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p12/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p12/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p12/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p12/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p12/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p12/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p12/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p12/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p12/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p12/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p12/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p12/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p12/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p12/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p12/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p12/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p12/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p12/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p12/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p12/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p12/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p12/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p12/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p12/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p12/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p12/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p12/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p12/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p12/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p12/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p12/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p12/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p12/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p13/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p13/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p13/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p13/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p13/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p13/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p13/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p13/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p13/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p13/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p13/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p13/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p13/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p13/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p13/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p13/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p13/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p13/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p13/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p13/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p13/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p13/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p13/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p13/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p13/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p13/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p13/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p13/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p13/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p13/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p13/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p13/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p13/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p14/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p14/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p14/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p14/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p14/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p14/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p14/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p14/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p14/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p14/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p14/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p14/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p14/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p14/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p14/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p14/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p14/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p14/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p14/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p14/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p14/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p14/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p14/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p14/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p14/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p14/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p14/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p14/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p14/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p14/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p14/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p14/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p14/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p15/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p15/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p15/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p15/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p15/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p15/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p15/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p15/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p15/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p15/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p15/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p15/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p15/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p15/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p15/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p15/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p15/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p15/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p15/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p15/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p15/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p15/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p15/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p15/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p15/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p15/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p15/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p15/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p15/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p15/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p15/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p15/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p15/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p16/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p16/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p16/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p16/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p16/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p16/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p16/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p16/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p16/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p16/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p16/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p16/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p16/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p16/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p16/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p16/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p16/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p16/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p16/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p16/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p16/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p16/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p16/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p16/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p16/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p16/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p16/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p16/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p16/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p16/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p16/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p16/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p16/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.
+pairs/p17/conditional_response_by_seed.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p17/conditional_response_by_seed.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p17/conditional_response_by_seed.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p17/conditional_response_by_seed.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p17/conditional_response_by_seed.csv,seed,"Model training random seed (42, 142 or 242), not an independent sample."
+pairs/p17/conditional_response_by_seed.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p17/conditional_response_by_seed.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p17/conditional_response_by_seed.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p17/conditional_response_by_seed.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p17/conditional_response_by_seed.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p17/conditional_response_by_seed.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p17/conditional_response_seed_aggregate.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p17/conditional_response_seed_aggregate.csv,zone_label,Urban-form label in English; zone is the language-independent key.
+pairs/p17/conditional_response_seed_aggregate.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p17/conditional_response_seed_aggregate.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p17/conditional_response_seed_aggregate.csv,condition,Observed B <= Q1 or B >= Q3 group; other predictors keep their group-specific observed values.
+pairs/p17/conditional_response_seed_aggregate.csv,feature_a_value,A value set for curve prediction; see predictor units in Data_guide.txt.
+pairs/p17/conditional_response_seed_aggregate.csv,predicted_pwp_mean,"Mean predicted PWP within a condition (per seed), or mean of those values across seeds in aggregate files, degrees Celsius."
+pairs/p17/conditional_response_seed_aggregate.csv,predicted_pwp_sd,Sample standard deviation of conditional mean predictions across three seeds (divisor n-1); not a confidence interval.
+pairs/p17/conditional_response_seed_aggregate.csv,b_lower_quartile_cut,Q1 threshold of B; all tied records at the threshold are included.
+pairs/p17/conditional_response_seed_aggregate.csv,b_upper_quartile_cut,Q3 threshold of B; all tied records at the threshold are included.
+pairs/p17/conditional_response_seed_aggregate.csv,n_condition,"Observed condition-group size, including all ties at its threshold."
+pairs/p17/conditional_response_seed_aggregate.csv,n_seeds,Number of model seeds represented (three).
+pairs/p17/observed_joint_support.csv,zone,Urban-form type identifier; see Data_guide.txt.
+pairs/p17/observed_joint_support.csv,feature_a,First predictor in rankings; varied horizontal-axis predictor in conditional curves.
+pairs/p17/observed_joint_support.csv,feature_b,Second predictor in rankings; grouping predictor in conditional curves.
+pairs/p17/observed_joint_support.csv,a_bin,Zero-based A marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p17/observed_joint_support.csv,b_bin,Zero-based B marginal-quantile bin index; tied edges may reduce the number of bins.
+pairs/p17/observed_joint_support.csv,n,Number of complete observed A-B pairs in this occupied support bin.
+pairs/p17/observed_joint_support.csv,a_lower,Lower A edge of the occupied support bin.
+pairs/p17/observed_joint_support.csv,a_upper,Upper A edge of the occupied support bin.
+pairs/p17/observed_joint_support.csv,b_lower,Lower B edge of the occupied support bin.
+pairs/p17/observed_joint_support.csv,b_upper,Upper B edge of the occupied support bin.

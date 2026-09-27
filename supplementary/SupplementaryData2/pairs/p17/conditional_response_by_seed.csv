@@ -1,0 +1,13 @@
+zone,zone_label,feature_a,feature_b,seed,condition,feature_a_value,predicted_pwp_mean,n_condition,b_lower_quartile_cut,b_upper_quartile_cut
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,42,B <= Q1 threshold,0.0,31.721421477117428,428,0.30312213020739814,0.4056590584966622
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,42,B <= Q1 threshold,54.03781094527363,31.437381430995128,428,0.30312213020739814,0.4056590584966622
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,42,B >= Q3 threshold,0.0,31.47829632315126,428,0.30312213020739814,0.4056590584966622
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,42,B >= Q3 threshold,54.03781094527363,31.282545014204985,428,0.30312213020739814,0.4056590584966622
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,142,B <= Q1 threshold,0.0,31.71661265054828,428,0.30312213020739814,0.4056590584966622
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,142,B <= Q1 threshold,54.03781094527363,31.419676283650798,428,0.30312213020739814,0.4056590584966622
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,142,B >= Q3 threshold,0.0,31.476857910264943,428,0.30312213020739814,0.4056590584966622
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,142,B >= Q3 threshold,54.03781094527363,31.288025178511955,428,0.30312213020739814,0.4056590584966622
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,242,B <= Q1 threshold,0.0,31.72064625676904,428,0.30312213020739814,0.4056590584966622
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,242,B <= Q1 threshold,54.03781094527363,31.409042158449555,428,0.30312213020739814,0.4056590584966622
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,242,B >= Q3 threshold,0.0,31.47875597606249,428,0.30312213020739814,0.4056590584966622
+Zone4,Green-space-dominated,CanopyHeight_Mean,B3_score,242,B >= Q3 threshold,54.03781094527363,31.286466825587727,428,0.30312213020739814,0.4056590584966622
